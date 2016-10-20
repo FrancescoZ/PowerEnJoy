@@ -1,16 +1,23 @@
+sig Coordinate{
+	long : Int ,
+	lat : Int
+}
+
 sig User{
-	position
-	payment
-	name
-	password
+	position: Coordinate,
+	payment: Int ,
+	name: String,
+	password:String,
 }
 
 sig Car{
-	position
-	state
-	battery
+	position:Coordinate,
+	state:String,
+	battery:Int  
 }
 
 sig Area{
-	position
+	position:Coordinate,
+	ncar:Int ,
+	nplace:Int
 }
