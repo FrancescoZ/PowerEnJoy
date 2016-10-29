@@ -1,0 +1,54 @@
+\subsection{Registration}
+\paragraph{Purpose}
+Visitors can register to PowEnJoy through mobile application. This operation requires the visitor to fill a registration form with personal data and accept PowEnJoy terms and conditions, including personal data policies, according to local law. The system requires the visitor personal information as name, surname, and birthday, payment information ( as a credit card or a paypal account) and proof of the possesion of a valid driver license
+If any of the previous requirements are not met or any input is invalid, the registration fails and the system asks the visitor to repeat the process. Other- wise, a verification email containing the password of the account is sent to the provided email address. To validate his account the visitor needs to login one time with the provided password.
+\paragraph{Scenario}
+Meg is a student. She has heard about PowEnJoy and, finding it an easy and ethical way to travel, wants to subscribe to it.
+Therefore, she download the mobile application from the store and clicks on Register in the main screen. She fulfil the form, accepts the term and conditions  and she click Confirm. However, the system cannot verify Meg's driver license because she forgot to put the photo that prove the possession of it. It therefore asks Meg to take the picture from her mobile's camera. Once she has enter everything correctly she click on Confirm, this time the application valid his credential and tell to meg to check her emails, she will find the confirmation of the correct registration and the given by the software. Meg read her emails and can finally open the application again and login with the given password and the email she gave before.
+\paragraph{User case description}
+\begin{description}
+	\item[Name:] User registration
+	\item[Actors:] Visitor
+	\item[Entry conditions:] There are no entry conditions
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The visitor arrive to the home page of the application, as is not logged in is redirect to the login/registration page
+			\item The visitor enter his personal information, his driver license, a photo of his driver license and some payment method
+			\item The visitor clicks on the confirm button
+			\item The application suggest the user to read his emails to receive the password
+			\item The visitor login after read the password
+		\end{itemize}
+	\item[Exit conditions:] The visitor is redirect to the home page of the application
+	\item [Exception:] The information furnished by the visitor are not correct or ambiguous as the following case:
+		\begin{itemize}
+			\item The Email has not the correct format
+			\item The Birthday is not at least eighteen years ago
+			\item The Payment method is not valid
+			\item The information's of the driver license don't correspond with the information furnished by the visitor
+			\item The Driver license is not valid
+		\end {itemize}
+		Also the visitor could had forgot to enter some requested camp or to accept the Terms and Conditions. In all this case, the system does not send any mail to the visitor but notifies him that an error has been made and allows to input the incorrect data again
+	\end{description}
+\paragraph{Diagrams}
+\paragraph{Functional Requirements}
+\begin{itemize}
+	\item Visitor can abort the registration process at any time.
+	\item The password in the email must be used within 1 day, otherwise the registration is deleted along with the visitor?s info.
+	\item Registration form contain the following information (fields):
+	\begin{itemize}
+		\item Email address.
+		\item First name.
+		\item Surname.
+		\item Address.
+		\item City.
+		\item Postal Code.
+		\item Credit card code.
+		\item Expiration date of the credit card.
+		\item Secure code of the credit card.
+		\item Driver license code.
+		\item Expiration of driver license.
+		\item Photo of a driver license.
+	\end{itemize}
+	\item Email address cannot be the same as ones from other PowEnJoy users.	\item Password must contain at leat 8 characters and at maximum 20 characters.
+	\item The photo of the driver license must be taken by the camera of the mobile.
+\end{itemize}
