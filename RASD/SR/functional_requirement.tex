@@ -1,5 +1,4 @@
 \subsection{Registration}
-\paragraph{Purpose}
 Visitors can register to PowEnJoy through mobile application. This operation requires the visitor to fill a registration form with personal data and accept PowEnJoy terms and conditions, including personal data policies, according to local law. The system requires the visitor personal information as name, surname, and birthday, payment information ( as a credit card or a paypal account) and proof of the possesion of a valid driver license
 If any of the previous requirements are not met or any input is invalid, the registration fails and the system asks the visitor to repeat the process. Other- wise, a verification email containing the password of the account is sent to the provided email address. To validate his account the visitor needs to login one time with the provided password.
 \paragraph{Scenario}
@@ -49,6 +48,106 @@ Therefore, she download the mobile application from the store and clicks on Regi
 		\item Expiration of driver license.
 		\item Photo of a driver license.
 	\end{itemize}
-	\item Email address cannot be the same as ones from other PowEnJoy users.	\item Password must contain at leat 8 characters and at maximum 20 characters.
+	\item Email address cannot be the same as ones from other PowerEnJoy users.
 	\item The photo of the driver license must be taken by the camera of the mobile.
 \end{itemize}
+
+\subsection{Login}
+Visitors on PowerEnJoy mobile application may access to an existing registered user account providing its corresponding email address and password. In case the submitted info do not match with any existing account info, the system notifies the visitor that the email address doesn?t exist, or that it exists, but the submitted password is wrong. In case a user forgets his/her password, the system allows him/her to retrieve it, automatically creating a new password, setting it as the user?s one and sending it to the provided email address.
+\paragraph{Scenario}
+\begin {enumerate}
+\item Freddy is user of PowerEnJoy. He already downloaded the application from the store and he has already done the registration from the application. He cannot remember the password given from the system during the registration time. Therefore he open the app on the home page and he is redirect to the login page. He click then on the forget password link and the application ask him his email address. He insert the email address and then the application show another message telling the user to check the emails. Once he has received the new password, Freddy can finally open again the application and login with the his email address and the new password.
+
+\item Eleonor is a lawyer familiar with the PowerEnJoy system, she have recently changed phone and she has already download the application again. She open the application and she is redirect in the login page. she fills both fields and clicks on ?Log in?. The system verifies her info: the operation ends successfully, and she gains access to the user homepage.
+\end{enumerate}
+\paragraph{User case description} 
+\begin{description}
+	\item[Name:] User Login
+	\item[Actors:] User
+	\item[Entry conditions:] There are no entry conditions
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user arrives at the Login page of the mobile application.
+			\item The user inputs his email address and his password.
+			\item The user clicks on the log in button.
+			\item The system redirects the user to the home page.
+		\end{itemize}
+	\item[Exit conditions:] The user is successfully redirected to the application home page.
+	\item [Exception:] The email and/or the password furnished by the user are not correct. In this case, the system does not redirect the user to the home page but notifies him that an error has been made and allows to input his email and password again. The user can also forget his/her password, in this case he/she can ask to generate another password and received it on his/her personal email address.
+\end{description}
+\paragraph{Diagrams}
+\paragraph{Functional Requirements}
+\begin{itemize}
+	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.	\item Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.	\item The system will ignore log in requests if at least one of the ?email? and ?password? fields are left blank.	\item The system allows visitors to retrieve their password if they forget it, by clicking ?Forgot password??.	\item The system requires visitors to submit an existing email address in order to retrieve their password.	\item The system will take care of assigning the user a new password, when he/she states to have lost the previous one.	\item The system will take care of sending to the email address submitted by the visitor the new assigned password, when he/she states to have lost the previous one.	\item The system allows visitors to retrieve their password once a day.
+	\item The system remember the user's credential until the user decide to logout.
+\end{itemize}
+
+\subsection{Reserve car}
+Logged user on PowerEnJoy can look for cars near his/her position, or next to a specify address, and reserve one for a rent. This operation is possible using the map on the home page of the application that indicate with a marker the position of the car, only the cars that are in a free state can be reserved and are visible on the map
+\paragraph{Scenario}
+Francis needs to go home from a dinner with his friends. It is late and there are public transport anymore. He is already registered and successfully logged-in in the PowerEnJoy application. He decided to reserve a car using the application. He opens the application and he is directly redirect to the application home page that contains the map with the markers of cars near him. He choose a marker and he click on it. The app show him the information of the car as its battery charge and its position. The car is really close to him therefore he click on the button reserve and he moves next to the car. Meanwhile the application shows him the  a timer, the vehicle registration plate, his position and the position of the car. Once the Francis arrives next to the car the app shows him a button to open the car. The rent start when Francis start the engine of the car.
+
+%Another scenario with a men who can't reach the car until in one hours?
+\paragraph{User case description} 
+\begin{description}
+	\item[Name:] Reserve a car
+	\item[Actors:] User, 
+	\item[Entry conditions:] There is at least a car not reserved neither used.
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user arrives at the home page of the application that shows the map with the markers of the cars.
+			\item The user choose a car.
+			\item The user clicks on the marker of the car chosen.
+			\item The user clicks on the "Reserve" button
+			\item The application shows to the user the time remained to start the engine and the position of both the actors.
+			\item The user arrives next to the car.
+			\item The user clicks on the button "Open the car"
+			\item The car is opened by the system
+			\item The user get into the car and start the engine.
+		\end{itemize}
+	\item[Exit conditions:] The user successfully start the engine of the car
+	\item [Exception:] Two users reserve the same car in a really small difference of time, the system in this case will delete the reservation that is requested later.
+\end{description}
+\paragraph{Diagrams}
+\paragraph{Functional Requirements}
+\begin{itemize}
+	\item A car change is state from \emph{"Reserved"} to \emph{"In use"} only when the engine starts
+	\item A car can be reserved and showed on the map only if its state is \emph{"Free"}
+	\item A car stays in the \emph{"Reserved"} state for at maximum one hour, if it's not picked-up it return to the state \emph{"Free"}
+	\item Each car have a precise position
+	\item An user can open the car through the app only if it is near to it
+	\item Each user can reserve only one car at the same time
+	\item A car can be reserved from only one user at the same time
+\end{itemize}
+
+\subsection{End a rent}
+Once the user has finish his/her ride he/she have to parks the car in a safe area or a parking and stop the engine. The payment of the rent as its end are automatically done by the system itself. The end of a rent can also provide some discount on the final payment or the add of some overtaxes.
+\paragraph{Scenario}
+\begin{enumerate}
+	\item Isa is an habitual user of PowerEnJoy. She picked-up a car to cross the city and be ecologic with the system. She has finished her ride and she wants to end the rent. She parks the car near a safe area near her destination and she stops the engine of the car. The safe area, as defined, has a plug to recharge the car so Isa plugs the car just after she has stopped the car. The system notify Isa of the correct end of her rent and show her the final bill, that contain a discount of 30\%, with a message on the application.
+
+	\item Laura took a car of PowerEnJoy to get home with her family, her husband and her tow child. She park the car in a parking but unfortunately the battery of the car is at 10\% and there are no safe area next to Laura's house, the most near is 3.2 Km away. Laura end her rent stopping the engine of the car and receive a message from the app that show her an overtaxes of 30\% due to the position of the parking and the state of the battery life of the car.
+	%Another scenario?
+\end{enumerate}
+\paragraph{User case description} 
+\begin{description}
+	\item[Name:] End a rent
+	\item[Actors:] User, Car 
+	\item[Entry conditions:] The car is in the state in use and it is stopped in the same position of a safe area or in a predefined parking.
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user stop the engine of the car.
+			\item The user get out of the car 
+			\item The system notify the user about the end of the rent with a message on the app
+		\end{itemize}
+	\item[Exit conditions:] The user successfully end the rent
+	\item [Exception:] The car is not parked in predefined area, in this case the system will not allow the user to stop the engine.
+\end{description}
+\paragraph{Diagrams}
+\paragraph{Functional Requirements}
+\begin{itemize}
+	\item If the system detects the user took at least two other passengers onto the car, the system applies a discount of 10\% on the last ride.	\item If a car is left with no more than 50\% of the battery empty, the system applies a discount of 20\% on the last ride.	\item If a car is left at special parking areas where they can be recharged and the user takes care of plugging the car into the power grid, the system applies a discount of 30\% on the last ride.	\item If a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty, the system charges 30\% more on the last ride to compensate for the cost required to re-­?charge the car on-­?site.	\item The car has to be in the same position of a safe area or a parking
+	\item The user has five minutes to plug the car if he/she wants a discount
+\end{itemize}
+
+\subsection{Report problems}
