@@ -5,6 +5,8 @@
 \usepackage{soul}
 \usepackage{titling}
 
+\renewcommand{\listfigurename}{Figure Contents}
+
 \title{{\Huge\textit{Power EnJoy}}\\{\LARGE Requirements Analysis and Specification Document}}
 \author{Redaelli Marco 877622, Zanoli Francesco 877471}
 
@@ -20,6 +22,7 @@
 
 \tableofcontents
 
+\listoffigures
 \chapter{Introduction}
 
 \input{Introduction/purpose.tex}
@@ -36,26 +39,36 @@
 \section{Overview}
 \input{introduction/overview.tex}
 
-\chapter{Overall Description}
+\chapter{Overall description}
 
 \section{Product perspective}
+
 \section{Product functions}
-\section{User characteristics Constraints}
-\section{Assumptions and Dependencies}
+\input{Overall/product_functions}
 
-\chapter{Specific Requirements}
-In this chapter are analysed all the requirements related to the system. Each section corresponds to a specific category of requirement. In particular the section \emph{"Functional Requirement"} explain for each situation the mandatory requirements that the system has to implement to guarantee its correct workings. 
-\section{External Interface Requirements }
+\section{User characteristics}
 
-\section{Functional Requirements}
+\section{Constraints}
+
+\section{Assumptions and dependencies}
+
+\section{Apportioning of requirements}
+
+\chapter{Specific requirements}
+In this chapter are analysed all the requirements related to the system. Each section corresponds to a specific category of requirement. %In particular the section \emph{"Functional Requirement"} explain for each situation the mandatory requirements that the system has to implement to guarantee its correct workings. 
+
+\section{External interface requirements}
+\input{SR/external_requirements.tex}
+
+\section{Use Cases}
+\input{SR/use_cases.tex}
+
+\section{Functional requirements}
 \input{SR/functional_requirement.tex}
-\section{Non-functional Requirements}
-\section{Performance Requirements}
-\section{Design Constraints}
-\section{Software System Attributes }
-\section{Other Requirements}
 
-\chapter{Annex}
+\input{SR/non_functional_requirements.tex}
+
+\appendix
 
 \chapter*{Revision}
 In the following are listed the differences between versions:
