@@ -1,6 +1,6 @@
 In this paragraph some use cases will be described. These use cases can be derived from the scenarios and the use case diagram.
 
-\begin{figure}[h]
+\begin{figure}
    \begin{center}
     \includegraphics[width=\textwidth]{Resources/UseCaseModel.png}
     \caption{Use cases diagram}
@@ -86,15 +86,24 @@ In this paragraph some use cases will be described. These use cases can be deriv
 \begin{description}
 	\item[Name:] End a rent
 	\item[Actors:] User, Car 
-	\item[Entry conditions:] The car is in the state in use and it is stopped in the same position of a safe area or in a predefined parking.
+	\item[Entry conditions:] The car is in the state In Use
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
-			\item The user stop the engine of the car.
-			\item The user get out of the car 
+			\item The user stop the engine of the car and get out of the vehicle.
+			\item The car check if all the doors are closed and there is no one into the it.
+			\item The system close the car
+			\item The system wait 5 minute
+			\item The system send the request for payment to the external system
+			\item The external system answer to the request
 			\item The system notify the user about the end of the rent with a message on the app
 		\end{itemize}
 	\item[Exit conditions:] The user successfully end the rent
-	\item [Exception:] The car is not parked in predefined area, in this case the system will not allow the user to stop the engine.
+	\item [Exception:] 
+		\begin{itemize}
+			\item The car is not parked in predefined area, in this case the system will not allow the user to end rent and close the car. 
+			\item The payment request failed, in this case the system block the user and he/her will not be able to use the system  again until he complete the payment
+			\item The car is stopped but the user still inside or a door is open, in this case the rent will not end and the user is charged as he/she would still driving.
+		\end{itemize}
 \end{description}
 
 \begin{center}

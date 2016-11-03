@@ -38,7 +38,14 @@ Visitors on PowerEnJoy mobile application may access to an existing registered u
 \paragraph{Diagrams}
 \paragraph{Special Requirements}
 \begin{itemize}
-	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.	\item Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.	\item The system will ignore log in requests if at least one of the ?email? and ?password? fields are left blank.	\item The system allows visitors to retrieve their password if they forget it, by clicking ?Forgot password??.	\item The system requires visitors to submit an existing email address in order to retrieve their password.	\item The system will take care of assigning the user a new password, when he/she states to have lost the previous one.	\item The system will take care of sending to the email address submitted by the visitor the new assigned password, when he/she states to have lost the previous one.	\item The system allows visitors to retrieve their password once a day.
+	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.
+	\item Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.
+	\item The system will ignore log in requests if at least one of the ?email? and ?password? fields are left blank.
+	\item The system allows visitors to retrieve their password if they forget it, by clicking ?Forgot password??.
+	\item The system requires visitors to submit an existing email address in order to retrieve their password.
+	\item The system will take care of assigning the user a new password, when he/she states to have lost the previous one.
+	\item The system will take care of sending to the email address submitted by the visitor the new assigned password, when he/she states to have lost the previous one.
+	\item The system allows visitors to retrieve their password once a day.
 	\item The system remember the user's credential until the user decide to logout.
 \end{itemize}
 
@@ -60,22 +67,30 @@ Francis needs to go home from a dinner with his friends. It is late and there ar
 \end{itemize}
 
 \subsection{End a rent}
-Once the user has finish his/her ride he/she have to parks the car in a safe area or a parking and stop the engine. The payment of the rent as its end are automatically done by the system itself. The end of a rent can also provide some discount on the final payment or the add of some overtaxes.
+Once the user has finish his/her ride he/she have to parks the car in a safe area or a parking, stop the engine and get off the vehicle. The system check if all the requirements to end the rent are respected and close the car. The system wait 5 minute to let the user plug the car if he/she wants to. After the wait time the system send the payment request to the external payment system. The end of a rent can also provide some discount on the final payment or the add some overtaxes.
 \paragraph{Scenario}
 \begin{enumerate}
 	\item Isa is an habitual user of PowerEnJoy. She picked-up a car to cross the city and be ecologic with the system. She has finished her ride and she wants to end the rent. She parks the car near a safe area near her destination and she stops the engine of the car. The safe area, as defined, has a plug to recharge the car so Isa plugs the car just after she has stopped the car. The system notify Isa of the correct end of her rent and show her the final bill, that contain a discount of 30\%, with a message on the application.
 	\item Laura took a car of PowerEnJoy to get home with her family, her husband and her tow child. She park the car in a parking but unfortunately the battery of the car is at 10\% and there are no safe area next to Laura's house, the most near is 3.2 Km away. Laura end her rent stopping the engine of the car and receive a message from the app that show her an overtaxes of 30\% due to the position of the parking and the state of the battery life of the car.
-	%Another scenario?
+	\item Mary rented a car to go home from her university, once she arrives next to her destination she park the car into a parking, she stop the engine and get off the car. Unfortunately the chosen area is not an allowed parking area and the system does not let the her close the car even if nobody is into it. Therefore she moves the car into another parking area and this time, once she followed the procedure, the system close the vehicle and wait 5 minute before charging Mary for her rent. Once the payment is successfully ended the system send a notification to Mary with the resuming of her rent and the bill.
 \end{enumerate}
 \paragraph{Diagrams}
 \paragraph{Special Requirements}
 \begin{itemize}
-	\item If the system detects the user took at least two other passengers onto the car, the system applies a discount of 10\% on the last ride.	\item If a car is left with no more than 50\% of the battery empty, the system applies a discount of 20\% on the last ride.	\item If a car is left at special parking areas where they can be recharged and the user takes care of plugging the car into the power grid, the system applies a discount of 30\% on the last ride.	\item If a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty, the system charges 30\% more on the last ride to compensate for the cost required to re-­?charge the car on-­?site.	\item The car has to be in the same position of a safe area or a parking
+	\item If the system detects the user took at least two other passengers into the car, the system applies a discount of 10\% on the last ride.
+	\item If a car is left with no more than 50\% of the battery empty, the system applies a discount of 20\% on the last ride.
+	\item If a car is left at special parking areas where they can be recharged and the user takes care of plugging the car into the power grid, the system applies a discount of 30\% on the last ride.
+	\item If a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty, the system charges 30\% more on the last ride to compensate for the cost required to re-charge the car on-site.
 	\item The user has five minutes to plug the car if he/she wants a discount
+	\item The rent end-up only if the car is closed, parked in a parking/safe area and there is anybody in the vehicle.
+	\item The car can be closed only if it is turned off, there is no one in it and if it is parked into a safe/parking area
+	\item The discount can be apply only if there are not any overtaxes
+	\item Only one discount can be apply to the rent, the one who is the most convenient for the user.
+	\item The user has 2 minute before the check of the requirements condition 
 \end{itemize}
 
 \subsection{Report problems}
-Every logged in user can report a problem to the PowerEnJoy team during the all time of use of the system. In particular the user has a button to immediately contact the customer service during:
+Every logged-in user can report a problem to the PowerEnJoy team during the all time of use of the system. In particular the user has a button to immediately contact the customer service during:
 \begin{itemize}
 	\item The reservation of a car, in case the car is not opened by the system.
 	\item The rent of a car, in case of accident or problem due to the system.
@@ -104,6 +119,12 @@ The system allows logged in users to view and modify their profiles at any momen
 \paragraph{Diagrams}
 \paragraph{Special Requirements}
 \begin{itemize}
-	\item Account settings are accessible from the start screen of both apps, through the ?Profile? button.	\item The system allows users to view all their profile info, submitted during registration	\item The system allows users to modify all their profile info, submitted during registration.
-	\item Modifying the password requires to write the old one, and the new one twice; if the former password is not correct or if the two new passwords submitted do not match, the system asks for all passwords again and notifies the user.	\item Modifying the email address, the driver license requires that the new one doesn?t match with the one of another registered user.	\item Modifying the email address requires confirmation through an email sent to the submitted email address.	\item The system allows users to abort modifications at any time.	\item The system allows users to delete their account: confirmation is required to proceed.
+	\item Account settings are accessible from the start screen of both apps, through the ?Profile? button.
+	\item The system allows users to view all their profile info, submitted during registration
+	\item The system allows users to modify all their profile info, submitted during registration.
+	\item Modifying the password requires to write the old one, and the new one twice; if the former password is not correct or if the two new passwords submitted do not match, the system asks for all passwords again and notifies the user.
+	\item Modifying the email address, the driver license requires that the new one doesn?t match with the one of another registered user.
+	\item Modifying the email address requires confirmation through an email sent to the submitted email address.
+	\item The system allows users to abort modifications at any time.
+	\item The system allows users to delete their account: confirmation is required to proceed.
 \end{itemize}
