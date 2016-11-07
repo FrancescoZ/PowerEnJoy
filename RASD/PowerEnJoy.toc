@@ -8,56 +8,53 @@
 \contentsline {chapter}{\numberline {2}Overall description}{7}
 \contentsline {section}{\numberline {2.1}Product perspective}{7}
 \contentsline {section}{\numberline {2.2}Product functions}{7}
-\contentsline {section}{\numberline {2.3}User characteristics}{7}
+\contentsline {subsection}{\numberline {2.2.1}Goals}{7}
+\contentsline {subsection}{\numberline {2.2.2}UML}{8}
+\contentsline {section}{\numberline {2.3}User characteristics}{9}
 \contentsline {section}{\numberline {2.4}Constraints}{9}
 \contentsline {subsection}{\numberline {2.4.1}Regulatory policies}{9}
 \contentsline {subsection}{\numberline {2.4.2}Hardware limitations}{9}
 \contentsline {subsection}{\numberline {2.4.3}Interfaces to other applications}{10}
 \contentsline {subsection}{\numberline {2.4.4}Parallel operation}{10}
-\contentsline {subsection}{\numberline {2.4.5}High-order language requirements}{10}
-\contentsline {subsection}{\numberline {2.4.6}Reliability requirements}{10}
-\contentsline {subsection}{\numberline {2.4.7}Criticality of the application}{10}
-\contentsline {subsection}{\numberline {2.4.8}Safety and security considerations}{10}
+\contentsline {subsection}{\numberline {2.4.5}Reliability requirements}{10}
+\contentsline {subsection}{\numberline {2.4.6}Criticality of the application}{10}
+\contentsline {subsection}{\numberline {2.4.7}Safety and security considerations}{10}
 \contentsline {section}{\numberline {2.5}Assumptions and dependencies}{11}
 \contentsline {section}{\numberline {2.6}Apportioning of requirements}{11}
 \contentsline {chapter}{\numberline {3}Specific requirements}{12}
 \contentsline {section}{\numberline {3.1}External interface requirements}{12}
 \contentsline {subsection}{\numberline {3.1.1}User interfaces}{12}
-\contentsline {paragraph}{Log in:}{12}
-\contentsline {paragraph}{Home Page:}{13}
-\contentsline {paragraph}{Registration Page:}{13}
-\contentsline {paragraph}{Car information Page:}{14}
-\contentsline {section}{\numberline {3.2}Use Cases}{14}
+\contentsline {section}{\numberline {3.2}Use Cases}{15}
 \contentsline {section}{\numberline {3.3}Functional requirements}{18}
 \contentsline {subsection}{\numberline {3.3.1}Registration}{18}
-\contentsline {paragraph}{Scenario}{18}
-\contentsline {paragraph}{Diagrams}{18}
-\contentsline {paragraph}{Special Requirements}{19}
-\contentsline {subsection}{\numberline {3.3.2}Login}{19}
 \contentsline {paragraph}{Scenario}{19}
-\contentsline {paragraph}{Diagrams}{20}
-\contentsline {paragraph}{Special Requirements}{20}
-\contentsline {subsection}{\numberline {3.3.3}Reserve car}{20}
-\contentsline {paragraph}{Scenario}{21}
 \contentsline {paragraph}{Diagrams}{21}
 \contentsline {paragraph}{Special Requirements}{21}
-\contentsline {subsection}{\numberline {3.3.4}End a rent}{21}
+\contentsline {subsection}{\numberline {3.3.2}Login}{21}
 \contentsline {paragraph}{Scenario}{21}
 \contentsline {paragraph}{Diagrams}{22}
 \contentsline {paragraph}{Special Requirements}{22}
-\contentsline {subsection}{\numberline {3.3.5}Report problems}{23}
+\contentsline {subsection}{\numberline {3.3.3}Reserve car}{22}
 \contentsline {paragraph}{Scenario}{23}
-\contentsline {paragraph}{Diagram}{24}
-\contentsline {paragraph}{Special Requirements}{24}
-\contentsline {subsection}{\numberline {3.3.6}Profile settings}{24}
-\contentsline {paragraph}{Scenario}{24}
-\contentsline {paragraph}{Diagrams}{24}
-\contentsline {paragraph}{Special Requirements}{24}
-\contentsline {section}{\numberline {3.4}Performance Requirements}{25}
-\contentsline {section}{\numberline {3.5}Design constraints}{25}
-\contentsline {section}{\numberline {3.6}Software system attributes}{25}
-\contentsline {paragraph}{Reliability}{25}
-\contentsline {paragraph}{Availability}{25}
-\contentsline {paragraph}{Security}{25}
-\contentsline {paragraph}{Maintainability}{26}
-\contentsline {paragraph}{Portability}{26}
+\contentsline {paragraph}{Diagrams}{25}
+\contentsline {paragraph}{Special Requirements}{25}
+\contentsline {subsection}{\numberline {3.3.4}End a rent}{25}
+\contentsline {paragraph}{Scenario}{25}
+\contentsline {paragraph}{Diagrams}{26}
+\contentsline {paragraph}{Special Requirements}{28}
+\contentsline {subsection}{\numberline {3.3.5}Report problems}{29}
+\contentsline {paragraph}{Scenario}{29}
+\contentsline {paragraph}{Diagram}{30}
+\contentsline {paragraph}{Special Requirements}{30}
+\contentsline {subsection}{\numberline {3.3.6}Profile settings}{30}
+\contentsline {paragraph}{Scenario}{30}
+\contentsline {paragraph}{Diagrams}{30}
+\contentsline {paragraph}{Special Requirements}{30}
+\contentsline {section}{\numberline {3.4}Performance Requirements}{31}
+\contentsline {section}{\numberline {3.5}Design constraints}{31}
+\contentsline {section}{\numberline {3.6}Software system attributes}{31}
+\contentsline {paragraph}{Reliability}{31}
+\contentsline {paragraph}{Availability}{31}
+\contentsline {paragraph}{Security}{31}
+\contentsline {paragraph}{Maintainability}{32}
+\contentsline {paragraph}{Portability}{32}

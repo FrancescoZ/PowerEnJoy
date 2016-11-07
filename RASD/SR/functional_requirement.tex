@@ -5,6 +5,13 @@ If any of the previous requirements are not met or any input is invalid, the reg
 Meg is a student. She has heard about PowEnJoy and, finding it an easy and ethical way to travel, wants to subscribe to it.
 Therefore, she download the mobile application from the store and clicks on Register in the main screen. She fulfil the form, accepts the term and conditions  and she click Confirm. However, the system cannot verify Meg's driver license because she forgot to put the photo that prove the possession of it. It therefore asks Meg to take the picture from her mobile's camera. Once she has enter everything correctly she click on Confirm, this time the application valid his credential and tell to meg to check her emails, she will find the confirmation of the correct registration and the given by the software. Meg read her emails and can finally open the application again and login with the given password and the email she gave before.
 \paragraph{Diagrams}
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/registerSequence.png}
+    \caption{Registration sequence}
+   \end{center}
+    \label{fig:regSequence}
+\end{figure}
 \paragraph{Special Requirements}
 \begin{itemize}
 	\item Visitor can abort the registration process at any time.
@@ -36,6 +43,7 @@ Visitors on PowerEnJoy mobile application may access to an existing registered u
 \item Eleonor is a lawyer familiar with the PowerEnJoy system, she have recently changed phone and she has already download the application again. She open the application and she is redirect in the login page. she fills both fields and clicks on ?Log in?. The system verifies her info: the operation ends successfully, and she gains access to the user homepage.
 \end{enumerate}
 \paragraph{Diagrams}
+%%here
 \paragraph{Special Requirements}
 \begin{itemize}
 	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.
@@ -55,6 +63,13 @@ Logged user on PowerEnJoy can look for cars near his/her position, or next to a 
 Francis needs to go home from a dinner with his friends. It is late and there are public transport anymore. He is already registered and successfully logged-in in the PowerEnJoy application. He decided to reserve a car using the application. He opens the application and he is directly redirect to the application home page that contains the map with the markers of cars near him. He choose a marker and he click on it. The app show him the information of the car as its battery charge and its position. The car is really close to him therefore he click on the button reserve and he moves next to the car. Meanwhile the application shows him the  a timer, the vehicle registration plate, his position and the position of the car. Once the Francis arrives next to the car the app shows him a button to open the car. The rent start when Francis start the engine of the car.
 %Another scenario with a men who can't reach the car until in one hours?
 \paragraph{Diagrams}
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/bookSequenceDiagram.png}
+    \caption{Registration sequence}
+   \end{center}
+    \label{fig:bookCarSequence}
+\end{figure}
 \paragraph{Special Requirements}
 \begin{itemize}
 	\item A car change is state from \emph{"Reserved"} to \emph{"In use"} only when the engine starts
@@ -74,7 +89,21 @@ Once the user has finish his/her ride he/she have to parks the car in a safe are
 	\item Laura took a car of PowerEnJoy to get home with her family, her husband and her tow child. She park the car in a parking but unfortunately the battery of the car is at 10\% and there are no safe area next to Laura's house, the most near is 3.2 Km away. Laura end her rent stopping the engine of the car and receive a message from the app that show her an overtaxes of 30\% due to the position of the parking and the state of the battery life of the car.
 	\item Mary rented a car to go home from her university, once she arrives next to her destination she park the car into a parking, she stop the engine and get off the car. Unfortunately the chosen area is not an allowed parking area and the system does not let the her close the car even if nobody is into it. Therefore she moves the car into another parking area and this time, once she followed the procedure, the system close the vehicle and wait 5 minute before charging Mary for her rent. Once the payment is successfully ended the system send a notification to Mary with the resuming of her rent and the bill.
 \end{enumerate}
-\paragraph{Diagrams}
+\paragraph{Diagrams}\
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/endRent.png}
+    \caption{Registration sequence}
+   \end{center}
+    \label{fig:endSequence}
+\end{figure}
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/Payment.png}
+    \caption{Registration sequence}
+   \end{center}
+    \label{fig:paymentSequence}
+\end{figure}
 \paragraph{Special Requirements}
 \begin{itemize}
 	\item If the system detects the user took at least two other passengers into the car, the system applies a discount of 10\% on the last ride.
@@ -104,6 +133,7 @@ Every logged-in user can report a problem to the PowerEnJoy team during the all 
 	\item Jack is using a PowerEnJoy's car and he wants to park it because he is near to his destination. The battery charge is under 20\% and he wants to plug the car in charge in order to let the next user able to use it for a longer period of time. Unfortunately the nearest safe area is broken and Jack cannot plug the car into charge. To not income in overtaxes he decides to call the Customer service. The employ answers to Jack's call and report the problem to the third-part agency. In plus the PowerEnJoy employ preserve Jack to receive overtaxes on his last rent but he also block every type of discount.
 \end{enumerate}
 \paragraph{Diagram}
+%herer
 \paragraph {Special Requirements}
 \begin{itemize}
 	\item The user must be able to contact the customer service 24h/24h
@@ -114,7 +144,7 @@ The system allows logged in users to view and modify their profiles at any momen
 \paragraph{Scenario}
 \begin{enumerate}
 	\item  Zac uses to periodically change his account password, in order to increase protection. To do so, every 3 months, he opens PoweEnJoy on his mobile phone, chooses ?Profile?, then ?Modify?. He selects the password field, writes down a new one, then writes it again in the ?Confirm password? field. Finally, he clicks ?Confirm?: the system informs him that his account password has successfully been updated.
-	\item Sailor is a user of PowerEnJoy ans she has recently change her credit card because it was expired. She needs so to open PoweEnJoy on his mobile phone, chooses ?Profile?, then ?Modify?. She selects the old credit card and she writes all the new information about her new payment method. Finally she clicks "Confirm" and the system informs her that the account payment has been successfully updated.
+	\item Sailor is a user of PowerEnJoy and she has recently change her credit card because it was expired. She needs so to open PoweEnJoy on his mobile phone, chooses ?Profile?, then ?Modify?. She selects the old credit card and she writes all the new information about her new payment method. Finally she clicks "Confirm" and the system informs her that the account payment has been successfully updated.
 \end{enumerate}
 \paragraph{Diagrams}
 \paragraph{Special Requirements}

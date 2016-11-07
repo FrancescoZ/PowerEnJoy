@@ -1,7 +1,7 @@
 \subsection{Regulatory policies}
-PowerEnJoy is a service provided by the public company responsible for public transportation in the city. The user, who reaches this service by web or mobile application, has to agree to License Agreement rather than Privacy policy and Terms of use at registration.\\
+PowerEnJoy is a service provided by a private company. The user, who reaches this service has to agree to License Agreement rather than Privacy policy and Terms of use at registration.\\
 The user access and use of the services constitutes his/her agreement to be bound by these Terms, which establishes a contractual relationship between him/her and PowerEnJoy. If user does not agree to these Terms, he/she may not access or use the services. PowerEnJoy may immediately terminate these Terms or any services with respect to him/her, or generally cease offering or deny access to the Services or any portion thereof, at any time for any reason.\\
-PowerEnJoy collects the information provided by the user, for example when creating or making changes to services on demand, through contact with customer service or during other communications. This information may include: name, email, phone number, mailing address, profile picture, payment method, products required (for service delivery), delivery receipts and other information user choose to provide. The personal data will be used only to provide the services requested.\\
+PowerEnJoy collects the information provided by the user, for example when creating or making changes to services on demand, through contact with customer service or during other communications. This information may include: name, email, phone number, mailing address, payment method, delivery receipts and other information user choose to provide. The personal data will be used only to provide the services requested.\\
 User is responsible for obtaining the data network access necessary to use the services. User mobile network's data and messaging rates and fees may apply if he/she accesses or uses the services from a wireless-enabled device. User is responsible for acquiring and updating compatible hardware or devices necessary to access and use the service and applications and any updates thereto.\\
 PowerEnJoy does not guarantee that the services, or any portion thereof, will function on any particular hardware or devices. In addition, the services may be subject to malfunctions and delays inherent in the use of the Internet and electronic communications.
 
@@ -9,41 +9,20 @@ PowerEnJoy does not guarantee that the services, or any portion thereof, will fu
 PowerEnJoy defines the minimum requirements for using web and mobile applications.
 \begin{itemize}
 	\item \textit{Web application}\\
-	Supported minimum version browsers: Chrome 25, Internet Explorer 10, Firefox 20, Safari 25. Other browsers may also work\\
-	Web access at the minimum speed of 1Mbps
+	See that the web application is a static web site used as advertisement it does not require a minimum access speed and it is built to Browse from Internet explorer 8 or more, intending all the different version of Chrome, Firefox and Safari exit during this time
 	\item \textit{Mobile application}\\
 	Operating system: Android, iOS, Windows Phone\\
 	Memory: 512MB RAM\\
-	Hard drive: 50MB of free space\\
-	GPS navigation system (only for taxi drivers)\\
+	Hard drive: 40MB of free space\\
+	GPS navigation system\\
 	Web access at the minimum speed of 1Mbps
 \end{itemize}
 
 \subsection{Interfaces to other applications}
-PowerEnJoy provides APIs to enable development of additional software on this platform.
+PowerEnJoy provides APIs to enable development of additional software on this platform. Furthermore PowerEnJoy manages the communication between itself and the payment management system, to do so the system use the API of the most common payment services used on the web. It is request a system that can work automatically without asking each time the permission to the user. The system sends a payment request with the information of the rent and the amount to pay and the external payment method has to answer with a code that indicate the result of the transaction. Related to the policy of the external system the money that PowerEnJoy earn from the users has to be returned from the payment system no more than a moth after the rent.
 
 \subsection{Parallel operation}
 PowerEnJoy supports parallel operations cause of the nature of service. Many users can access to the service at same time thus system and database have to work with parallel requests.
-
-%\subsection{Audit functions}
-%\subsection{Control functions}
-
-\subsection{High-order language requirements}
-PowerEnJoy requires the following high-order languages based on different platforms.
-\begin{itemize}
-	\item\textit{Web}\\
-	HTML 5 and CSS 3 standards.
-	\item\textit{Android}\\
-	Java 8
-	\item\textit{iOS}\\
-	Swift 2.0
-	\item\textit{Windows Phone}\\
-	C\# 6.0
-	\item \textit{Server}\\
-	MySQL 5.6.19 and PHP 5.6.7
-\end{itemize}
-
-%\subsection{Signal handshake protocols}
 
 \subsection{Reliability requirements}
 PowerEnJoy relies on network connections thus reliability issues are equivalent to performance issues.  However, the application should not corrupt server data as a result of its actions. The system has to guarantee whole-time availability.

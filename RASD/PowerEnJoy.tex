@@ -4,8 +4,12 @@
 \usepackage{listings}
 \usepackage{soul}
 \usepackage{titling}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
 
 \renewcommand{\listfigurename}{Figure Contents}
+\newcommand{\subscript}[2]{$#1 _ #2$}
 
 \title{{\Huge\textit{Power EnJoy}}\\{\LARGE Requirements Analysis and Specification Document}}
 \author{Redaelli Marco 877622, Zanoli Francesco 877471}
@@ -16,6 +20,12 @@
  
  }
 \posttitle{\end{center}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Chapter \thechapter}
+\lhead{Requirements Analysis and Specification Document}
+\fancyfoot[CE,CO]{\thepage}
 
 \begin{document}
 \maketitle
@@ -45,20 +55,17 @@
 \input{Overall/product_prespective.tex}
 
 \section{Product functions}
-\input{Overall/product_functions}
+\input{Overall/product_functions.tex}
 
 \section{User characteristics}
 \input{Overall/user_characteristics.tex}
 \section{Constraints}
 \input{Overall/constraints.tex}
 \section{Assumptions and dependencies}
-
+\input{Overall/assumptions.tex}
 \section{Apportioning of requirements}
 
 \chapter{Specific requirements}
-In this chapter are analysed all the requirements related to the system. Each section corresponds to a specific category of requirement. %In particular the section \emph{"Functional Requirement"} explain for each situation the mandatory requirements that the system has to implement to guarantee its correct workings. 
-
-\section{External interface requirements}
 \input{SR/external_requirements.tex}
 
 \section{Use Cases}

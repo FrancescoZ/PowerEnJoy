@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  3 NOV 2016 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  7 NOV 2016 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -120,35 +120,66 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip45
 \droptitle=\skip46
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip47
+\enit@outerparindent=\dimen112
+\enit@toks=\toks23
+\enit@inbox=\box30
+\enitdp@description=\count98
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 28.
+
 (./PowerEnJoy.aux)
 \openout1 = `PowerEnJoy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen112
-\scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen113
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count99
+\scratchdimen=\dimen113
+\scratchbox=\box31
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen114
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -196,20 +227,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count103
+\c@lstlisting=\count105
 
 <Resources/PoliLogo.png, id=1, 228.35312pt x 229.35687pt>
 File: Resources/PoliLogo.png Graphic file (type png)
 
 <use Resources/PoliLogo.png>
-Package pdftex.def Info: Resources/PoliLogo.png used on input line 21.
+Package pdftex.def Info: Resources/PoliLogo.png used on input line 31.
 (pdftex.def)             Requested size: 170.71652pt x 171.47127pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 31.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Resou
@@ -245,110 +276,157 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 ]
 (./Introduction/definitions_acronyms_abbreviations.tex)
-(./introduction/references.tex) (./introduction/overview.tex [5]) [6]
+(./introduction/references.tex
+Overfull \hbox (5.02744pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/10 IEEE Stan-dard 1016 tm -2009 Stan-dard for In-for-ma-tion Tec
+hnology-System
+ []
+
+) (./introduction/overview.tex [5]) [6]
 Chapter 2.
-(./Overall/product_prespective.tex) (./Overall/product_functions.tex
-<Resources/UML.png, id=35, 1204.5pt x 1463.4675pt>
+(./Overall/product_prespective.tex) (./Overall/product_functions.tex [7
+
+]
+<Resources/UML.png, id=40, 1204.5pt x 1463.4675pt>
 File: Resources/UML.png Graphic file (type png)
  <use Resources/UML.png>
-Package pdftex.def Info: Resources/UML.png used on input line 9.
+Package pdftex.def Info: Resources/UML.png used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 419.16933pt.
 )
-(./Overall/user_characteristics.tex) (./Overall/constraints.tex [7
-
-] [8 <./Resources/UML.png>] [9]) [10] [11]
+(./Overall/user_characteristics.tex) [8 <./Resources/UML.png>]
+(./Overall/constraints.tex [9]) (./Overall/assumptions.tex [10]) [11]
 Chapter 3.
 (./SR/external_requirements.tex
-<Resources/LoginMockup.pdf, id=53, 202.7575pt x 403.5075pt>
+<Resources/LoginMockup.pdf, id=55, 202.7575pt x 403.5075pt>
 File: Resources/LoginMockup.pdf Graphic file (type pdf)
 
 <use Resources/LoginMockup.pdf>
 Package pdftex.def Info: Resources/LoginMockup.pdf used on input line 7.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
- [12
-
- <./Resources/LoginMockup.pdf>]
-<Resources/MapMockup.pdf, id=65, 202.7575pt x 403.5075pt>
-File: Resources/MapMockup.pdf Graphic file (type pdf)
-
-<use Resources/MapMockup.pdf>
-Package pdftex.def Info: Resources/MapMockup.pdf used on input line 13.
 (pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
 
-<Resources/RegistrationMockup.png, id=66, 203.76125pt x 404.51125pt>
+<Resources/RegistrationMockup.png, id=56, 203.76125pt x 404.51125pt>
 File: Resources/RegistrationMockup.png Graphic file (type png)
 
 <use Resources/RegistrationMockup.png>
-Package pdftex.def Info: Resources/RegistrationMockup.png used on input line 19
+Package pdftex.def Info: Resources/RegistrationMockup.png used on input line 13
 .
 (pdftex.def)             Requested size: 114.65894pt x 227.62204pt.
+ [12
 
-<Resources/CarInfo.png, id=67, 202.7575pt x 403.5075pt>
+]
+<Resources/MapMockup.pdf, id=61, 202.7575pt x 403.5075pt>
+File: Resources/MapMockup.pdf Graphic file (type pdf)
+
+<use Resources/MapMockup.pdf>
+Package pdftex.def Info: Resources/MapMockup.pdf used on input line 19.
+(pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
+
+<Resources/CarInfo.png, id=62, 202.7575pt x 403.5075pt>
 File: Resources/CarInfo.png Graphic file (type png)
 
 <use Resources/CarInfo.png>
-Package pdftex.def Info: Resources/CarInfo.png used on input line 26.
+Package pdftex.def Info: Resources/CarInfo.png used on input line 25.
 (pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
- [13 <./Resources/MapMockup.pdf> <./Resources/RegistrationMockup.png>]) (./SR/u
-se_cases.tex
-<Resources/UseCaseModel.png, id=85, 1734.48pt x 997.7275pt>
+ [13 <./Resources/LoginMockup.pdf> <./Resources/RegistrationMockup.png>]) (./SR
+/use_cases.tex
+<Resources/UseCaseModel.png, id=74, 1734.48pt x 997.7275pt>
 File: Resources/UseCaseModel.png Graphic file (type png)
 
 <use Resources/UseCaseModel.png>
 Package pdftex.def Info: Resources/UseCaseModel.png used on input line 5.
 (pdftex.def)             Requested size: 345.0pt x 198.44583pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-[14 <./Resources/CarInfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+ [14 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 [15 <./Resources/UseCaseModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-[17]) (./SR/functional_requirement.tex [18] [19] [20] [21] [22] [23] [24])
-(./SR/non_functional_requirements.tex [25]) [26] [27
+) (./SR/functional_requirement.tex [18]
+<Resources/registerSequence.png, id=106, 579.16376pt x 955.57pt>
+File: Resources/registerSequence.png Graphic file (type png)
 
-] [28
+<use Resources/registerSequence.png>
+Package pdftex.def Info: Resources/registerSequence.png used on input line 10.
+(pdftex.def)             Requested size: 345.0pt x 569.22006pt.
+ [19]
+Overfull \vbox (53.1645pt too high) has occurred while \output is active []
+
+
+[20 <./Resources/registerSequence.png>] [21] [22]
+<Resources/bookSequenceDiagram.png, id=120, 510.90875pt x 784.9325pt>
+File: Resources/bookSequenceDiagram.png Graphic file (type png)
+
+<use Resources/bookSequenceDiagram.png>
+Package pdftex.def Info: Resources/bookSequenceDiagram.png used on input line 6
+8.
+(pdftex.def)             Requested size: 345.0pt x 530.03413pt.
+ [23]
+Overfull \vbox (13.97858pt too high) has occurred while \output is active []
+
+
+[24 <./Resources/bookSequenceDiagram.png>] [25]
+<Resources/endRent.png, id=132, 719.68875pt x 805.0075pt>
+File: Resources/endRent.png Graphic file (type png)
+
+<use Resources/endRent.png>
+Package pdftex.def Info: Resources/endRent.png used on input line 95.
+(pdftex.def)             Requested size: 345.0pt x 385.90788pt.
+
+<Resources/Payment.png, id=133, 599.23875pt x 483.8075pt>
+File: Resources/Payment.png Graphic file (type png)
+
+<use Resources/Payment.png>
+Package pdftex.def Info: Resources/Payment.png used on input line 102.
+(pdftex.def)             Requested size: 345.0pt x 278.54889pt.
+ [26] [27 <./Resources/endRent.png>] [28 <./Resources/Payment.png>] [29] [30]) 
+(./SR/non_functional_requirements.tex [31]) [32]
+[33
+
+] [34
 
 ] (./PowerEnJoy.aux) ) 
 Here is how much of TeX's memory you used:
- 3571 strings out of 493014
- 51087 string characters out of 6133350
- 122461 words of memory out of 5000000
- 7030 multiletter control sequences out of 15000+600000
+ 4071 strings out of 493014
+ 58831 string characters out of 6133350
+ 133069 words of memory out of 5000000
+ 7511 multiletter control sequences out of 15000+600000
  10113 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,35p,942b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,43p,942b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti12.pfb>
-Output written on PowerEnJoy.pdf (29 pages, 541318 bytes).
+onts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on PowerEnJoy.pdf (35 pages, 637177 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 198 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
