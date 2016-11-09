@@ -18,22 +18,22 @@ In this paragraph some use cases will be described. These use cases can be deriv
 	\item[Entry conditions:] There are no entry conditions
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
-			\item The visitor arrive to the home page of the application, as is not logged in is redirect to the login/registration page
-			\item The visitor enter his personal information, his driver license, a photo of his driver license and some payment method
+			\item The visitor arrives to the home page of the application, as is not logged in ,is redirected to the login/registration page
+			\item The visitor enters his personal information, his driver license, a photo of his driver license and some payment method
 			\item The visitor clicks on the confirm button
-			\item The application suggest the user to read his emails to receive the password
-			\item The visitor login after read the password
+			\item The application suggests the user to read his emails to receive the password
+			\item The visitor logs-in after reading the password
 		\end{itemize}
-	\item[Exit conditions:] The visitor is redirect to the home page of the application
+	\item[Exit conditions:] The visitor is redirected to the home page of the application
 	\item [Exception:] The information furnished by the visitor are not correct or ambiguous as the following case:
 		\begin{itemize}
-			\item The Email has not the correct format
+			\item The Email has not format-correct
 			\item The Birthday is not at least eighteen years ago
 			\item The Payment method is not valid
-			\item The information's of the driver license don't correspond with the information furnished by the visitor
+			\item The informations of the driver license don't correspond with the informations furnished by the visitor
 			\item The Driver license is not valid
 		\end {itemize}
-		Also the visitor could had forgot to enter some requested camp or to accept the Terms and Conditions. In all this case, the system does not send any mail to the visitor but notifies him that an error has been made and allows to input the incorrect data again
+		Also the visitor could had forgot to enter some requested camps or to accept the Terms and Conditions. In all this case, the system does not send any mail to the visitor but notifies him that an error has been made and allows to input the incorrect data again
 	\end{description}
 	
 \begin{center}
@@ -52,7 +52,7 @@ In this paragraph some use cases will be described. These use cases can be deriv
 			\item The system redirects the user to the home page.
 		\end{itemize}
 	\item[Exit conditions:] The user is successfully redirected to the application home page.
-	\item [Exception:] The email and/or the password furnished by the user are not correct. In this case, the system does not redirect the user to the home page but notifies him that an error has been made and allows to input his email and password again. The user can also forget his/her password, in this case he/she can ask to generate another password and received it on his/her personal email address.
+	\item [Exception:] The email and/or the password furnished by the user are not correct. In this case, the system does not redirect the user to the home page but notifies him that an error has been made and allows to input his email and password again. The user can also forget his/her password, in this case he/she can asks to generate another password and received it on his/her personal email address.
 \end{description}
 
 \begin{center}
@@ -97,11 +97,11 @@ In this paragraph some use cases will be described. These use cases can be deriv
 			\item The external system answer to the request
 			\item The system notify the user about the end of the rent with a message on the app
 		\end{itemize}
-	\item[Exit conditions:] The user successfully end the rent
+	\item[Exit conditions:] The user successfully ends the rent
 	\item [Exception:] 
 		\begin{itemize}
 			\item The car is not parked in predefined area, in this case the system will not allow the user to end rent and close the car. 
-			\item The payment request failed, in this case the system block the user and he/her will not be able to use the system  again until he complete the payment
+			\item The payment request failed, in this case the system blocks the user and he/her will not be able to use the system  again until he complete the payment
 			\item The car is stopped but the user still inside or a door is open, in this case the rent will not end and the user is charged as he/she would still driving.
 		\end{itemize}
 \end{description}
@@ -116,11 +116,11 @@ In this paragraph some use cases will be described. These use cases can be deriv
 	\item[Entry conditions:] The user needs to be logged into the application
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
-			\item The user click on profile in the menu of the application
-			\item The user change his/her information that have changed
-			\item The system notify the user that the settings have been successfully updated.
+			\item The user clicks on profile in the menu of the application
+			\item The user changes his/her information that have changed
+			\item The system notifies the user that the settings have been successfully updated.
 		\end{itemize}
-	\item[Exit conditions:] The user successfully save his/her new settings
+	\item[Exit conditions:] The user successfully saves his/her new settings
 	\item [Exception:] The information furnished by the user are not correct or ambiguous as the following case:
 		\begin{itemize}
 			\item The Email has not the correct format
