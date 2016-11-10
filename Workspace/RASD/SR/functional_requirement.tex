@@ -1,18 +1,12 @@
 \subsection{Registration}
 Visitors can register to PowEnJoy through mobile application. This operation requires the visitor to fill a registration form with personal data and accept PowEnJoy terms and conditions, including personal data policies, according to local law. The system requires the visitor personal information as name, surname, and birthday, payment information ( as a credit card or a paypal account) and proof of the possesion of a valid driver license.
 If any of the previous requirements are not met or any input is invalid, the registration fails and the system asks the visitor to repeat the process. Otherwise, a verification email containing the password of the account is sent to the provided email address. To validate his account the visitor needs to login one time with the provided password.
-\paragraph{Scenario}
+\paragraphnewline{Scenario} \ \\
 Meg is a student. She has heard about PowEnJoy and, finding it an easy and ethical way to travel, wants to subscribe to it.
 Therefore, she downloads the mobile application from the store and clicks on Register in the main screen. She fulfils the form, accepts the term and conditions  and she click Confirm. However, the system cannot verify Meg's driver license because she forgot to put the photo that prove the possession of it. It therefore asks Meg to take the picture from her mobile's camera. Once she has enter everything correctly she click on Confirm, this time the application valid his credential and tell to Meg to check her emails, she will find the confirmation of the correct registration and the given by the software. Meg read her emails and can finally open the application again and login with the given password and the email she gave before.
-\paragraph{Diagrams}
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/registerSequence.png}
-    \caption{Registration sequence}
-   \end{center}
-    \label{fig:regSequence}
-\end{figure}
-\paragraph{Functional requirements }
+\paragraphnewline{Description and Priority} \ \\
+This feature is of high priority, it is essential for the system to be.
+\paragraph{Functional requirements}
 \begin{itemize}
 	\item Visitor can abort the registration process at any time.
 	\item The password in the email must be used within 1 day, otherwise the registration is deleted along with the visitor's info.
@@ -34,6 +28,9 @@ Therefore, she downloads the mobile application from the store and clicks on Reg
 	\item Email address cannot be the same as ones from other PowerEnJoy users.
 	\item The photo of the driver license must be taken by the camera of the mobile.
 \end{itemize}
+\paragraphnewline{UML Sequence Diagram}
+\showPercentImage{Resources/registerSequence.png}{Registration sequence}{1}{fig:regSequence}{0.1em}
+\newpage
 
 \subsection{Login}
 Visitors on PowerEnJoy mobile application may access to an existing registered user account providing its corresponding email address and password. In case that the submitted info do not match with any existing account info, the system notifies the visitor that the email address doesn't exist, or that it exists, but the submitted password is wrong. In case a user forgets his/her password, the system allows him/her to retrieve it, automatically creating a new password, setting it as the user's one and sending it to the provided email address.
@@ -42,8 +39,8 @@ Visitors on PowerEnJoy mobile application may access to an existing registered u
 \item Freddy is user of PowerEnJoy. He has already downloaded the application from the store and he has already done the registration from the application. He cannot remember the password given from the system during the registration time. Therefore he opens the app on the home page and he is redirect to the login page. He click then on the forget password link and the application ask him his email address. He insert the email address and then the application show another message telling the user to check the emails. Once he has received the new password, Freddy can finally open again the application and login with the his email address and the new password.
 \item Eleonor is a lawyer familiar with the PowerEnJoy system, she have recently changed phone and she has already download the application again. She open the application and she is redirect in the login page. she fills both fields and clicks on "Log in". The system verifies her info: the operation ends successfully, and she gains access to the user homepage.
 \end{enumerate}
-\paragraph{Diagrams}
-%%here
+\paragraph{Description and Priority}
+This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
 	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.
@@ -56,20 +53,15 @@ Visitors on PowerEnJoy mobile application may access to an existing registered u
 	\item The system allows visitors to retrieve their password once a day.
 	\item The system remember the user's credential until the user decide to logout.
 \end{itemize}
+\newpage
 
 \subsection{Reserve car}
 Logged user on PowerEnJoy can look for cars near his/her position, or next to a specify address, and reserve one for a rent. This operation is possible using the map on the home page of the application that indicates with a marker the position of the car, only the cars that are in a free state can be reserved and are visible on the map
-\paragraph{Scenario}
+\paragraphnewline{Scenario} \ \\
 Francis needs to go home from a dinner with his friends. It is late and there are public transport anymore. He is already registered and successfully logged-in in the PowerEnJoy application. He decided to reserve a car using the application. He opens the application and he is directly redirect to the application home page that contains the map with the markers of cars near him. He chooses a marker and he click on it. The app shows him the information of the car as its battery charge and its position. The car is really close to him therefore he clicks on the button reserve and he moves next to the car. Meanwhile the application shows him the  a timer, the vehicle registration plate, his position and the position of the car. Once the Francis arrives next to the car the app shows him a button to open the car. The rent starts when Francis starts the engine of the car.
 %Another scenario with a men who can't reach the car until in one hours?
-\paragraph{Diagrams}
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/bookSequenceDiagram.png}
-    \caption{Registration sequence}
-   \end{center}
-    \label{fig:bookCarSequence}
-\end{figure}
+\paragraphnewline{Description and Priority} \ \\
+This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
 	\item A car changes is state from \emph{"Reserved"} to \emph{"In use"} only when the engine starts
@@ -80,30 +72,19 @@ Francis needs to go home from a dinner with his friends. It is late and there ar
 	\item Each user can reserve only one car at the same time
 	\item A car can be reserved from only one user at the same time
 \end{itemize}
+\paragraphnewline{UML Sequence Diagram}
+\showPercentImage{Resources/bookSequenceDiagram.png}{Car reservation}{1}{fig:bookCarSequence}{0.1em}
 
 \subsection{End a rent}
 Once the user has finished his/her ride he/she have to park the car in a safe area or a parking, stop the engine and get off the vehicle. The system checks if all the requirements to end the rent are respected and closes the car. The system waits 5 minute to let the user plug the car if he/she wants to. After the wait of time the system sends the payment request to the external payment system. The end of a rent can also provide some discount on the final payment or the add some overtaxes.
-\paragraph{Scenario}
+\paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item Isa is an habitual user of PowerEnJoy. She picked-up a car to cross the city and be ecologic with the system. She has finished her ride and she wants to end the rent. She parks the car near a safe area near her destination and she stops the engine of the car. The safe area, as defined, has a plug to recharge the car so Isa plugs the car just after she has stopped the car. The system notify Isa of the correct end of her rent and show her the final bill, that contain a discount of 30\%, with a message on the application.
 	\item Laura took a car of PowerEnJoy to get home with her family, her husband and her tow child. She park the car in a parking but unfortunately the battery of the car is at 10\% and there are no safe area next to Laura's house, the most near is 3.2 Km away. Laura end her rent stopping the engine of the car and receives a message from the app that shows her an overtaxes of 30\% due to the position of the parking and the state of the battery life of the car.
 	\item Mary rented a car to go home from her university, once she arrives next to her destination she park the car into a parking, she stop the engine and get off the car. Unfortunately the chosen area is not an allowed parking area and the system does not let the her close the car even if nobody is into it. Therefore she moves the car into another parking area and this time, once she followed the procedure, the system close the vehicle and wait 5 minute before charging Mary for her rent. Once the payment is successfully ended the system send a notification to Mary with the resuming of her rent and the bill.
 \end{enumerate}
-\paragraph{Diagrams}\
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/endRent.png}
-    \caption{Registration sequence}
-   \end{center}
-    \label{fig:endSequence}
-\end{figure}
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/Payment.png}
-    \caption{Registration sequence}
-   \end{center}
-    \label{fig:paymentSequence}
-\end{figure}
+\paragraphnewline{Description and Priority} \ \\
+This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
 	\item If the system detects the user took at least two other passengers into the car, the system applies a discount of 10\% on the last ride.
@@ -115,8 +96,12 @@ Once the user has finished his/her ride he/she have to park the car in a safe ar
 	\item The car can be closed only if it is turned off, there is no one in it and if it is parked into a safe/parking area
 	\item The discount can be apply only if there are not any overtaxes
 	\item Only one discount can be apply to the rent, the one who is the most convenient for the user.
-	\item The user has 2 minute before the check of the requirements condition 
+	\item The user has 2 minute before the check of the requirements condition
 \end{itemize}
+\paragraphnewline{UML Sequence Diagram}
+\showImage{Resources/endRent.png}{End rent sequence}{fig:endSequence}
+\showImage{Resources/Payment.png}{Payment sequence}{fig:paymentSequence}
+\newpage
 
 \subsection{Report problems}
 Every logged-in user can report a problem to the PowerEnJoy team during the all time of use of the system. In particular the user has a button to immediately contact the customer service during:
@@ -126,34 +111,31 @@ Every logged-in user can report a problem to the PowerEnJoy team during the all 
 	\item The charge of a car, in case some safe area is not working correctly.
 	\item The payment, in case of some error appeared during the payment time.
 \end{itemize}
-\paragraph{Scenario}
+\paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item Marc is a logged user who has already reserved a car. The rented car is really near to him and Marc wants to open it. Unfortunately the board computer of the chosen car, the one that able the system to open it, it is broken.Therefore he decides to call the customer service with the button in the reservation page. The customer service office answer to his call and let Marc abort his reservation without paying any additional feeds.
 	\item Claire is a user of PowerEnJoy who is renting a car, during her ride she rear-end another vehicle. Unaware about the procedure to follow she open the PowerEnJoy application and she click on "Customer service" in the menu. An employ of PowerEnJoy system answers and explains all the document Claire needs to complete before end her rent with the procedure to follow in her case. The operator opens also a Intervention request with the third-part company who is responsible to maintain and repair the cars of the system.
 	\item Jack is using a PowerEnJoy's car and he wants to park it because he is near to his destination. The battery charge is under 20\% and he wants to plug the car in charge in order to let the next user able to use it for a longer period of time. Unfortunately the nearest safe area is broken and Jack cannot plug the car into charge. To not income in overtaxes he decides to call the Customer service. The employ answers to Jack's call and report the problem to the third-part agency. In plus the PowerEnJoy employ preserve Jack to receive overtaxes on his last rent but he also block every type of discount.
 \end{enumerate}
-\paragraph{Diagram}
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/reportProblem.png}
-    \caption{Report problem sequence}
-   \end{center}
-    \label{fig:reportProblemSequence}
-\end{figure}
-
+\paragraphnewline{Description and Priority} \ \\
+This feature is of medium priority, it is not essential for the system to be.
 \paragraph {Functional requirements }
 \begin{itemize}
 	\item The user must be able to contact the customer service 24h/24h
 \end{itemize}
+\paragraphnewline{UML Sequence Diagram} \ \\
+\showImage{Resources/reportProblem.png}{Report problem sequence}{fig:reportProblemSequence}
+\newpage
 
 \subsection{Profile settings}
 The system allows logged in users to view and modify their profiles at any moment, as long as they are logged in. While modifying email addresses, driver license or payment method must be unique in all the system, otherwise the system denies the modification request. In case of modify of email address, the system sends a confirmation email to the new address. Modification will successfully ends when the user clicks the link in the sent email.
-\paragraph{Scenario}
+\paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item  Zac periodically changes his account password, in order to increase protection. To do so, every 3 months, he opens PoweEnJoy on his mobile phone, chooses "Profile", then "Modify". He selects the password field, writes down a new one, then writes it again in the "Confirm password" field. Finally, he clicks "Confirm": the system informs him that his account password has successfully been updated.
 	\item Sailor is a user of PowerEnJoy and she has recently change her credit card because it was expired. She needs so to open PoweEnJoy on his mobile phone, chooses "Profile", then "Modify". She selects the old credit card and she writes all the new information about her new payment method. Finally she clicks "Confirm" and the system informs her that the account payment has been successfully updated.
 \end{enumerate}
-\paragraph{Diagrams}
+\paragraphnewline{Description and Priority} \ \\
+This feature is of low priority, it is not necessary but it is a service to create a better user expirience.
 \paragraph{Functional requirements }
 \begin{itemize}
 	\item Account settings are accessible from the start screen of both apps, through the "Profile" button.
@@ -165,33 +147,19 @@ The system allows logged in users to view and modify their profiles at any momen
 	\item The system allows users to abort modifications at any time.
 	\item The system allows users to delete their account: confirmation is required to proceed.
 \end{itemize}
+\newpage
 
 \section{Alloy}
 In this section is presented the alloy model with its execution results
 \alloyfile{./Alloy/PowerEnJoy.als}
+\newpage
 
 \subsection{Alloy Model Execution Results}
-\paragraph{Alloy Console:}
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/alloyConsole.png}
-    \caption{Alloy model execution Console}
-   \end{center}
-    \label{fig:mdlConsole}
-\end{figure}
-\paragraph{Alloy Simple Word:}
-\begin{figure}[p]
-   \begin{center}
-    \includegraphics[height=\textheight,angle=90]{Resources/SimpleWorld.pdf}
-    \caption{Alloy Simple World}
-   \end{center}
-    \label{fig:simpleWorld}
-\end{figure}
-\paragraph{Alloy Real Word:}
-\begin{figure}[p]
-   \begin{center}
-    \includegraphics[height=\textheight,angle=90]{Resources/RealWorld.pdf}
-    \caption{Alloy Real World}
-   \end{center}
-    \label{fig:realWorld}
-\end{figure}
+\begin{itemize}
+	\itemBold{Alloy Console}\\
+		\showImage{Resources/alloyConsole.png}{Alloy Console.}{fig:mdlConsole}\newpage
+	\itemBold{Alloy Simple World}\\
+    \showPercentImage{Resources/SimpleWorld.pdf}{Alloy Simple World.}{0.9}{fig:simpleWorld}{0.5em}\newpage
+	\itemBold{Alloy Real World}\\
+    \showPercentImage{Resources/RealWorld.pdf}{Alloy Real World.}{0.5}{fig:realWorld}{0.1em}\newpage
+\end{itemize}
