@@ -29,32 +29,41 @@
 \contentsline {subsection}{\numberline {3.3.1}Registration}{18}
 \contentsline {paragraph}{Scenario}{19}
 \contentsline {paragraph}{Diagrams}{21}
-\contentsline {paragraph}{Special Requirements}{21}
+\contentsline {paragraph}{Functional requirements }{21}
 \contentsline {subsection}{\numberline {3.3.2}Login}{21}
 \contentsline {paragraph}{Scenario}{21}
 \contentsline {paragraph}{Diagrams}{22}
-\contentsline {paragraph}{Special Requirements}{22}
+\contentsline {paragraph}{Functional requirements }{22}
 \contentsline {subsection}{\numberline {3.3.3}Reserve car}{22}
 \contentsline {paragraph}{Scenario}{23}
 \contentsline {paragraph}{Diagrams}{25}
-\contentsline {paragraph}{Special Requirements}{25}
+\contentsline {paragraph}{Functional requirements }{25}
 \contentsline {subsection}{\numberline {3.3.4}End a rent}{25}
 \contentsline {paragraph}{Scenario}{25}
 \contentsline {paragraph}{Diagrams}{26}
-\contentsline {paragraph}{Special Requirements}{28}
+\contentsline {paragraph}{Functional requirements }{28}
 \contentsline {subsection}{\numberline {3.3.5}Report problems}{29}
 \contentsline {paragraph}{Scenario}{29}
 \contentsline {paragraph}{Diagram}{30}
-\contentsline {paragraph}{Special Requirements}{30}
+\contentsline {paragraph}{Functional requirements }{30}
 \contentsline {subsection}{\numberline {3.3.6}Profile settings}{30}
 \contentsline {paragraph}{Scenario}{30}
-\contentsline {paragraph}{Diagrams}{30}
-\contentsline {paragraph}{Special Requirements}{30}
-\contentsline {section}{\numberline {3.4}Performance Requirements}{31}
-\contentsline {section}{\numberline {3.5}Design constraints}{31}
-\contentsline {section}{\numberline {3.6}Software system attributes}{31}
-\contentsline {paragraph}{Reliability}{31}
-\contentsline {paragraph}{Availability}{31}
-\contentsline {paragraph}{Security}{31}
-\contentsline {paragraph}{Maintainability}{32}
-\contentsline {paragraph}{Portability}{32}
+\contentsline {paragraph}{Diagrams}{31}
+\contentsline {paragraph}{Functional requirements }{31}
+\contentsline {section}{\numberline {3.4}Alloy}{31}
+\contentsline {subsection}{\numberline {3.4.1}Alloy Model Execution Results}{38}
+\contentsline {paragraph}{Alloy Console:}{38}
+\contentsline {paragraph}{Alloy Simple Word:}{38}
+\contentsline {paragraph}{Alloy Real Word:}{38}
+\contentsline {section}{\numberline {3.5}Performance Requirements}{41}
+\contentsline {section}{\numberline {3.6}Design constraints}{41}
+\contentsline {section}{\numberline {3.7}Software system attributes}{41}
+\contentsline {paragraph}{Reliability}{41}
+\contentsline {paragraph}{Availability}{41}
+\contentsline {paragraph}{Security}{41}
+\contentsline {paragraph}{Maintainability}{41}
+\contentsline {paragraph}{Portability}{41}
+\contentsline {chapter}{\numberline {A}Appendix}{42}
+\contentsline {section}{\numberline {A.1}Tools}{42}
+\contentsline {section}{\numberline {A.2}Hours of work}{43}
+\contentsline {section}{\numberline {A.3}Version History}{44}

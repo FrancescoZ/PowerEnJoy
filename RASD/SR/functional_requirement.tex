@@ -130,10 +130,17 @@ Every logged-in user can report a problem to the PowerEnJoy team during the all 
 \begin{enumerate}
 	\item Marc is a logged user who has already reserved a car. The rented car is really near to him and Marc wants to open it. Unfortunately the board computer of the chosen car, the one that able the system to open it, it is broken.Therefore he decides to call the customer service with the button in the reservation page. The customer service office answer to his call and let Marc abort his reservation without paying any additional feeds.
 	\item Claire is a user of PowerEnJoy who is renting a car, during her ride she rear-end another vehicle. Unaware about the procedure to follow she open the PowerEnJoy application and she click on "Customer service" in the menu. An employ of PowerEnJoy system answers and explains all the document Claire needs to complete before end her rent with the procedure to follow in her case. The operator opens also a Intervention request with the third-part company who is responsible to maintain and repair the cars of the system.
-	\item Jack is using a PowerEnJoy's car and he wants to park it because he is near to his destination. The battery charge is under 20% and he wants to plug the car in charge in order to let the next user able to use it for a longer period of time. Unfortunately the nearest safe area is broken and Jack cannot plug the car into charge. To not income in overtaxes he decides to call the Customer service. The employ answers to Jack's call and report the problem to the third-part agency. In plus the PowerEnJoy employ preserve Jack to receive overtaxes on his last rent but he also block every type of discount.
+	\item Jack is using a PowerEnJoy's car and he wants to park it because he is near to his destination. The battery charge is under 20\% and he wants to plug the car in charge in order to let the next user able to use it for a longer period of time. Unfortunately the nearest safe area is broken and Jack cannot plug the car into charge. To not income in overtaxes he decides to call the Customer service. The employ answers to Jack's call and report the problem to the third-part agency. In plus the PowerEnJoy employ preserve Jack to receive overtaxes on his last rent but he also block every type of discount.
 \end{enumerate}
 \paragraph{Diagram}
-%herer
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/reportProblem.png}
+    \caption{Report problem sequence}
+   \end{center}
+    \label{fig:reportProblemSequence}
+\end{figure}
+
 \paragraph {Functional requirements }
 \begin{itemize}
 	\item The user must be able to contact the customer service 24h/24h
@@ -158,3 +165,33 @@ The system allows logged in users to view and modify their profiles at any momen
 	\item The system allows users to abort modifications at any time.
 	\item The system allows users to delete their account: confirmation is required to proceed.
 \end{itemize}
+
+\section{Alloy}
+In this section is presented the alloy model with its execution results
+\alloyfile{./Alloy/PowerEnJoy.als}
+
+\subsection{Alloy Model Execution Results}
+\paragraph{Alloy Console:}
+\begin{figure}[H]
+   \begin{center}
+    \includegraphics[width=\textwidth]{Resources/alloyConsole.png}
+    \caption{Alloy model execution Console}
+   \end{center}
+    \label{fig:mdlConsole}
+\end{figure}
+\paragraph{Alloy Simple Word:}
+\begin{figure}[p]
+   \begin{center}
+    \includegraphics[height=\textheight,angle=90]{Resources/SimpleWorld.pdf}
+    \caption{Alloy Simple World}
+   \end{center}
+    \label{fig:simpleWorld}
+\end{figure}
+\paragraph{Alloy Real Word:}
+\begin{figure}[p]
+   \begin{center}
+    \includegraphics[height=\textheight,angle=90]{Resources/RealWorld.pdf}
+    \caption{Alloy Real World}
+   \end{center}
+    \label{fig:realWorld}
+\end{figure}

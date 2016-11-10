@@ -58,6 +58,8 @@ sig Rent
 	passengers>=0
 	startTime>0
 	endTime>startTime
+	applyOvertax>=0
+	applyDiscount>=0
 }
 
 
@@ -68,11 +70,14 @@ abstract sig Station{
 
 sig  Parking extends Station{
 	distanceFromCharge:Int
+}{
+	distanceFromCharge>0
 }
+
 
 sig SafeArea extends Station
 {
-	carsToCharge: set Car,
+	pluggedCar: set Car,
 	plugAvailable: set Plug,
 }
 
@@ -113,6 +118,8 @@ fact{
 	//No useless License
 	User.license=DriverLicense
 
+	//No PaymentMethod with the same code
+	all p1,p2:PaymentMethod| p1!=p2 implies p1.code!=p2.code
 	//No car with the same plate
 	all c1, c2: Car | c1!=c2 implies c1.plate!=c2.plate
 	//No users with same email
@@ -165,10 +172,23 @@ fact{
 	all rent:Rent| rent.passengers>2 and rent.endRent=True implies rent.applyDiscount=20
 	
 	//All the cars parked are free
-	all car:Car,s:Station| car.position=s.position and car.state=FreeState implies car in Station.parkedCar
-	//Safe area discount
+	all car:Car,s:Station| car.position=s.position and car.state=FreeState implies car in s.parkedCar
+	
+	//If a car is plugged is also parked
+	all s:SafeArea,car:Car|car in s.pluggedCar implies car in s.parkedCar   
+
+	//the user get a discount parking and plugging the car
+	all car:Car,s:SafeArea,r1,r2:Rent| car in s.parkedCar and car in s.pluggedCar implies r1.applyDiscount=30
+	
 	//Safe area overtax
-	//Non ti puoi essere in carica o parcheggiato in una safe area se hai un rent
+	all car:Car,p:Parking, r1,r2:Rent | car in p.parkedCar and p.distanceFromCharge>3 implies r1.applyDiscount=0 and r1.applyOvertax=30
+	
+	no s:SafeArea| #s.pluggedCar>#s.parkedCar
+
+	//Overtaxes are 0 or 30
+	all rent:Rent| rent.applyOvertax=0 or rent.applyOvertax=30
+
+	all rent:Rent| rent.applyOvertax>0 or rent.applyDiscount>0 implies rent.endRent=True
 }
 
 //ASSUMPTION
@@ -176,10 +196,6 @@ fact{
 //A car can be reused after a rent
 assert CarReused{
 	all r1,r2:Rent| r1.endRent=True and r2.endRent=False and r1.reservation.car= r2.reservation.car implies r2.startTime>r1.endTime
-}
-
-assert RentOnlyAvaibleCar{
-	some rent:Rent|rent.reservation.car.state=FreeState or rent.reservation.car.state=ReservedState  implies rent.endRent=False
 }
 
 //There are as many driver license as users
@@ -192,11 +208,46 @@ assert UserPaymentMethod{
 	#User.payInfo<=#PaymentMethod
 }
 
+//The rent with taxes can't have a discount
+assert RentOverTaxes{
+	all rent:Rent| rent.applyOvertax>0 implies rent.applyDiscount<rent.applyOvertax
+}
+
+//the plugged car can't be in use
+assert PluggedCar{
+	all rent:Rent| rent.reservation.car in SafeArea.pluggedCar implies !rent.endRent=False
+}
+
+check PluggedCar
+
+check RentOverTaxes
+
 check UserPaymentMethod
 
 check CarReused for 5
 
-check RentOnlyAvaibleCar for 5
-
 check DriverForEachDocument for 5
 
+
+pred SimpleWorld
+{
+	#User <3
+	#Car < 4
+	#Station< 4
+	#Reservation < 4
+	#Rent <3
+}
+
+pred RealWorld
+{
+	#User > 2
+	#Car > 3
+	#SafeArea> 1
+	#Parking > 2
+	#Reservation > 2
+	#Rent > 1
+}
+
+run SimpleWorld for 6
+
+run RealWorld for 6
