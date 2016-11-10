@@ -183,11 +183,14 @@ fact{
 	//Safe area overtax
 	all car:Car,p:Parking, r1,r2:Rent | car in p.parkedCar and p.distanceFromCharge>3 implies r1.applyDiscount=0 and r1.applyOvertax=30
 	
+	all car:Car| car.state=FreeState implies car in Station.parkedCar
+	
 	no s:SafeArea| #s.pluggedCar>#s.parkedCar
 
 	//Overtaxes are 0 or 30
 	all rent:Rent| rent.applyOvertax=0 or rent.applyOvertax=30
 
+	//the bill is calculate only if the rent is finish
 	all rent:Rent| rent.applyOvertax>0 or rent.applyDiscount>0 implies rent.endRent=True
 }
 
