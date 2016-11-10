@@ -1,12 +1,6 @@
 In this paragraph some use cases will be described. These use cases can be derived from the scenarios and the use case diagram.
 
-\begin{figure}[H]
-   \begin{center}
-    \includegraphics[width=\textwidth]{Resources/UseCaseModel.png}
-    \caption{Use cases diagram}
-   \end{center}
-    \label{fig:UseCasesDiagram}
-\end{figure}
+\showImage{Resources/UseCaseModel.png}{Use cases diagram}{fig:UseCasesDiagram}
 
 \begin{center}
 \line(1,0){250}
@@ -35,7 +29,7 @@ In this paragraph some use cases will be described. These use cases can be deriv
 		\end {itemize}
 		Also the visitor could had forgot to enter some requested camps or to accept the Terms and Conditions. In all this case, the system does not send any mail to the visitor but notifies him that an error has been made and allows to input the incorrect data again
 	\end{description}
-	
+
 \begin{center}
 \line(1,0){250}
 \end{center}
@@ -61,7 +55,7 @@ In this paragraph some use cases will be described. These use cases can be deriv
 
 \begin{description}
 	\item[Name:] Reserve a car
-	\item[Actors:] User, 
+	\item[Actors:] User,
 	\item[Entry conditions:] There is at least a car not reserved neither used.
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
@@ -85,7 +79,7 @@ In this paragraph some use cases will be described. These use cases can be deriv
 
 \begin{description}
 	\item[Name:] End a rent
-	\item[Actors:] User, Car 
+	\item[Actors:] User, Car
 	\item[Entry conditions:] The car is in the state In Use
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
@@ -98,9 +92,9 @@ In this paragraph some use cases will be described. These use cases can be deriv
 			\item The system notify the user about the end of the rent with a message on the app
 		\end{itemize}
 	\item[Exit conditions:] The user successfully ends the rent
-	\item [Exception:] 
+	\item [Exception:]
 		\begin{itemize}
-			\item The car is not parked in predefined area, in this case the system will not allow the user to end rent and close the car. 
+			\item The car is not parked in predefined area, in this case the system will not allow the user to end rent and close the car.
 			\item The payment request failed, in this case the system blocks the user and he/her will not be able to use the system  again until he complete the payment
 			\item The car is stopped but the user still inside or a door is open, in this case the rent will not end and the user is charged as he/she would still driving.
 		\end{itemize}
@@ -112,7 +106,7 @@ In this paragraph some use cases will be described. These use cases can be deriv
 
 \begin{description}
 	\item[Name:] Profile settings
-	\item[Actors:] User 
+	\item[Actors:] User
 	\item[Entry conditions:] The user needs to be logged into the application
 	\item[Flow of events:]  \ \\
 		\begin{itemize}
@@ -130,3 +124,4 @@ In this paragraph some use cases will be described. These use cases can be deriv
 			\item The Driver license is not valid
 		\end {itemize}
 \end{description}
+\newpage

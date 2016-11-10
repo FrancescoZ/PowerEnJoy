@@ -1,39 +1,13 @@
-\documentclass[]{report}
-\usepackage{graphicx}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{listings}
-\usepackage{soul}
-\usepackage{titling}
-\usepackage{float}
-\usepackage{enumitem}
-\usepackage{fancyhdr}
+\documentclass{../Common/Structure/doc_pdf}
+
 \usepackage{alloy}
 
-\renewcommand{\listfigurename}{Figure Contents}
-\newcommand{\subscript}[2]{$#1 _ #2$}
-
-\title{{\Huge\textit{Power EnJoy}}\\{\LARGE Requirements Analysis and Specification Document}}
-\author{Redaelli Marco 877622, Zanoli Francesco 877471}
-
-\pretitle{
-  \begin{center}  
- \includegraphics[width=6cm]{Resources/PoliLogo.png} 
- 
- }
-\posttitle{\end{center}}
-
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Chapter \thechapter}
-\lhead{Requirements Analysis and Specification Document}
-\fancyfoot[CE,CO]{\thepage}
+\titleSubtitle{{\Huge\textit{Power EnJoy}}\\{\LARGE Requirements Analysis and Specification Document}}{Version 1.0.0}
+\pageHeader{Requirements Analysis and Specification Document}
 
 \begin{document}
-\maketitle
+\titleToc
 
-\tableofcontents
-
-\listoffigures
 \chapter{Introduction}
 
 \input{Introduction/purpose.tex}
@@ -81,19 +55,19 @@
 \chapter{Appendix}
 
 \section{Tools}
-\begin{itemize}[label=\textbf{\arabic*}]
-	\item{TeXstudio} \LaTeX{} editor used to write the document.
-	\item{Alloy Analyzer 4.2} Used to build an Alloy Model and to check its consistency.
-	\item{StarUML} Used to build UML Class Diagram and UML Use Case Diagrams.
-	\item{draw.io WebSite} Used to design the UML Sequence Diagram and the Mockup (wep portal and smartphone app).
-	
+\begin{itemize}
+	\itemBold{TeXstudio} \LaTeX{} editor used to write the document.
+	\itemBold{Alloy Analyzer 4.2} Used to build an Alloy Model and to check its consistency.
+	\itemBold{StarUML} Used to build UML Class Diagram and UML Use Case Diagrams.
+	\itemBold{draw.io WebSite} Used to design the UML Sequence Diagram and the Mockup (wep portal and smartphone app).
+
 \end{itemize}
 \newpage
 \section{Hours of work}
 In the following are listed the hours of work that each member of the group did:
 \begin{enumerate}
-	\item Marco Redaelli:  \emph{35}
-	\item Francesco Zanoli: \emph{35}
+	\item Marco Redaelli: 35 \emph{hours}
+	\item Francesco Zanoli: 35 \emph{hours}
 \end{enumerate}
 \newpage
 \section{Version History}
@@ -103,4 +77,3 @@ In the following are listed the differences between versions:
 \end{enumerate}
 
 \end{document}
-       
