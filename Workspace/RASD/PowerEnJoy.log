@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  10 NOV 2016 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 NOV 2016 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,7 +470,7 @@ LaTeX Info: Redefining \nameref on input line 8.
 
 \c@lstlisting=\count146
 
-<../Common/Resources/PoliLogo.png, id=285, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=301, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
@@ -496,7 +496,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...erline {3.3.2}Login}{21}{subsection.3.3.2}
+l.34 ...2.2.0.1}Use Case}{21}{paragraph.3.2.2.0.1}
                                                    [1
 
 ])
@@ -528,9 +528,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
+[5]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 13.
+(hyperref)                than one, level fixed on input line 22.
 
 ) (./introduction/references.tex
 Overfull \hbox (5.02744pt too wide) in paragraph at lines 4--5
@@ -538,32 +539,37 @@ Overfull \hbox (5.02744pt too wide) in paragraph at lines 4--5
 hnology-System
  []
 
-) (./introduction/overview.tex [5]) [6]
+) (./introduction/overview.tex [6]) [7]
 Chapter 2.
-(./Overall/product_prespective.tex) (./Overall/product_functions.tex [7
+(./Overall/product_prespective.tex) (./Overall/product_functions.tex
 
-]
-<Resources/UML.png, id=520, 1204.5pt x 1463.4675pt>
+LaTeX Warning: Reference `fig:UseCasesDiagram' on page 8 undefined on input lin
+e 6.
+
+[8
+
+] <Resources/UML.png, id=543, 1204.5pt x 1463.4675pt>
 File: Resources/UML.png Graphic file (type png)
- <use Resources/UML.png>
-Package pdftex.def Info: Resources/UML.png used on input line 19.
+
+<use Resources/UML.png>
+Package pdftex.def Info: Resources/UML.png used on input line 25.
 (pdftex.def)             Requested size: 345.0pt x 419.16933pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 19.
+(caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 19--34
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-(./Overall/user_characteristics.tex) [8 <./Resources/UML.png>]
-(./Overall/constraints.tex [9]) (./Overall/assumptions.tex [10]) [11]
+[9] [10 <./Resources/UML.png>]) (./Overall/user_characteristics.tex)
+(./Overall/constraints.tex [11]) (./Overall/assumptions.tex [12]) [13]
 Chapter 3.
 (./SR/external_requirements.tex
-<Resources/LoginMockup.pdf, id=554, 202.7575pt x 403.5075pt>
+<Resources/LoginMockup.pdf, id=590, 202.7575pt x 403.5075pt>
 File: Resources/LoginMockup.pdf Graphic file (type pdf)
 
 <use Resources/LoginMockup.pdf>
@@ -580,7 +586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
  []
 
-<Resources/RegistrationMockup.png, id=555, 203.76125pt x 404.51125pt>
+<Resources/RegistrationMockup.png, id=591, 203.76125pt x 404.51125pt>
 File: Resources/RegistrationMockup.png Graphic file (type png)
 
 <use Resources/RegistrationMockup.png>
@@ -598,7 +604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
  []
 
-<Resources/MapMockup.pdf, id=556, 202.7575pt x 403.5075pt>
+<Resources/MapMockup.pdf, id=592, 202.7575pt x 403.5075pt>
 File: Resources/MapMockup.pdf Graphic file (type pdf)
 
 <use Resources/MapMockup.pdf>
@@ -615,7 +621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
  []
 
-<Resources/CarInfo.png, id=557, 202.7575pt x 403.5075pt>
+<Resources/CarInfo.png, id=593, 202.7575pt x 403.5075pt>
 File: Resources/CarInfo.png Graphic file (type png)
 
 <use Resources/CarInfo.png>
@@ -632,296 +638,309 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
 
-[12
+[14
 
-] [13 <./Resources/LoginMockup.pdf> <./Resources/RegistrationMockup.png>]
-[14 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>]) (./SR/use_cases.tex
-<Resources/UseCaseModel.png, id=594, 1734.48pt x 997.7275pt>
-File: Resources/UseCaseModel.png Graphic file (type png)
-
-<use Resources/UseCaseModel.png>
-Package pdftex.def Info: Resources/UseCaseModel.png used on input line 3.
-(pdftex.def)             Requested size: 345.0pt x 198.44583pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 3.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 3--4
-[]$[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-[15 <./Resources/UseCaseModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-[18]) (./SR/functional_requirement.tex
+] [15 <./Resources/LoginMockup.pdf> <./Resources/RegistrationMockup.png>]
+[16 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>])
+(./SR/functional_requirement.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-[19] <Resources/registerSequence.png, id=617, 578.16pt x 721.69624pt>
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+[18] <Resources/registerSequence.png, id=637, 578.16pt x 721.69624pt>
 File: Resources/registerSequence.png Graphic file (type png)
 
 <use Resources/registerSequence.png>
-Package pdftex.def Info: Resources/registerSequence.png used on input line 32.
+Package pdftex.def Info: Resources/registerSequence.png used on input line 57.
 (pdftex.def)             Requested size: 345.0pt x 430.64246pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 32.
+(caption)                particular \caption on input line 57.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-[20] [21 <./Resources/registerSequence.png>]
+[19] [20 <./Resources/registerSequence.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 39.
+(hyperref)                than one, level fixed on input line 62.
 
-[22] [23]
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+[21] [22]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 60.
+(hyperref)                than one, level fixed on input line 100.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-<Resources/bookSequenceDiagram.png, id=637, 510.90875pt x 756.8275pt>
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+<Resources/bookSequenceDiagram.png, id=661, 510.90875pt x 756.8275pt>
 File: Resources/bookSequenceDiagram.png Graphic file (type png)
 
 <use Resources/bookSequenceDiagram.png>
-Package pdftex.def Info: Resources/bookSequenceDiagram.png used on input line 7
-6.
+Package pdftex.def Info: Resources/bookSequenceDiagram.png used on input line 1
+36.
 (pdftex.def)             Requested size: 345.0pt x 511.05594pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 76.
+(caption)                particular \caption on input line 136.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 [24] [25 <./Resources/bookSequenceDiagram.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 80.
+(hyperref)                than one, level fixed on input line 140.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
-[26] <Resources/endRent.png, id=655, 719.68875pt x 805.0075pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+[27] <Resources/endRent.png, id=684, 719.68875pt x 805.0075pt>
 File: Resources/endRent.png Graphic file (type png)
 
 <use Resources/endRent.png>
-Package pdftex.def Info: Resources/endRent.png used on input line 102.
+Package pdftex.def Info: Resources/endRent.png used on input line 185.
 (pdftex.def)             Requested size: 345.0pt x 385.90788pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 102.
+(caption)                particular \caption on input line 185.
 See the caption package documentation for explanation.
 
-<Resources/Payment.png, id=656, 599.23875pt x 483.8075pt>
+<Resources/Payment.png, id=685, 599.23875pt x 483.8075pt>
 File: Resources/Payment.png Graphic file (type png)
 
 <use Resources/Payment.png>
-Package pdftex.def Info: Resources/Payment.png used on input line 103.
+Package pdftex.def Info: Resources/Payment.png used on input line 186.
 (pdftex.def)             Requested size: 345.0pt x 278.54889pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 103.
+(caption)                particular \caption on input line 186.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--104
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
 
  []
 
-[27] [28 <./Resources/endRent.png>] [29 <./Resources/Payment.png>]
+[28] [29 <./Resources/endRent.png>] [30 <./Resources/Payment.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 114.
+(hyperref)                than one, level fixed on input line 197.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
-[30] <Resources/reportProblem.png, id=680, 742.775pt x 354.32375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+<Resources/reportProblem.png, id=706, 742.775pt x 354.32375pt>
 File: Resources/reportProblem.png Graphic file (type png)
 
 <use Resources/reportProblem.png>
-Package pdftex.def Info: Resources/reportProblem.png used on input line 127.
+Package pdftex.def Info: Resources/reportProblem.png used on input line 224.
 (pdftex.def)             Requested size: 345.0pt x 164.57501pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 127.
+(caption)                particular \caption on input line 224.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-[31 <./Resources/reportProblem.png>]
+[32 <./Resources/reportProblem.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 132.
+(hyperref)                than one, level fixed on input line 229.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
-[32] [33]
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+
+ []
+
+[34]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 154.
- (./Alloy/PowerEnJoy.als [34] [35] [36] [37] [38]) [39]
-<Resources/alloyConsole.png, id=978, 588.1975pt x 670.505pt>
+nput line 272.
+ (./Alloy/PowerEnJoy.als [35] [36] [37] [38] [39]) [40]
+<Resources/alloyConsole.png, id=1010, 588.1975pt x 670.505pt>
 File: Resources/alloyConsole.png Graphic file (type png)
 
 <use Resources/alloyConsole.png>
-Package pdftex.def Info: Resources/alloyConsole.png used on input line 160.
+Package pdftex.def Info: Resources/alloyConsole.png used on input line 278.
 (pdftex.def)             Requested size: 319.99997pt x 364.77855pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 160.
+(caption)                particular \caption on input line 278.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[40 <./Resources/alloyConsole.png>]
-<Resources/SimpleWorld.pdf, id=985, 284.42963pt x 427.89944pt>
+[41 <./Resources/alloyConsole.png>]
+<Resources/SimpleWorld.pdf, id=1016, 284.42963pt x 427.89944pt>
 File: Resources/SimpleWorld.pdf Graphic file (type pdf)
 
 <use Resources/SimpleWorld.pdf>
-Package pdftex.def Info: Resources/SimpleWorld.pdf used on input line 162.
+Package pdftex.def Info: Resources/SimpleWorld.pdf used on input line 280.
 (pdftex.def)             Requested size: 287.99802pt x 433.29803pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
+(caption)                particular \caption on input line 280.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-[41 <./Resources/SimpleWorld.pdf, page is rotated 90 degrees>]
-<Resources/RealWorld.pdf, id=996, 153.74017pt x 469.73647pt>
+[42 <./Resources/SimpleWorld.pdf, page is rotated 90 degrees>]
+<Resources/RealWorld.pdf, id=1028, 153.74017pt x 469.73647pt>
 File: Resources/RealWorld.pdf Graphic file (type pdf)
 
 <use Resources/RealWorld.pdf>
-Package pdftex.def Info: Resources/RealWorld.pdf used on input line 164.
+Package pdftex.def Info: Resources/RealWorld.pdf used on input line 282.
 (pdftex.def)             Requested size: 159.99998pt x 488.87277pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 164.
+(caption)                particular \caption on input line 282.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-[42 <./Resources/RealWorld.pdf, page is rotated 90 degrees>])
+[43 <./Resources/RealWorld.pdf, page is rotated 90 degrees>])
 (./SR/non_functional_requirements.tex
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
@@ -931,29 +950,29 @@ Package hyperref Warning: Difference (3) between bookmark levels is greater
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 14.
 
-) [43]
+) [44]
 Appendix A.
-[44
+[45
 
-] [45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+] [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+ [47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./PowerEnJoy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
-(rerunfilecheck)             Checksum: 2849A79304BE8CE61538B5D3C4245CA1;5051.
+(rerunfilecheck)             Checksum: 467F85286CEB2131849E2C9CF3DD8A4B;5350.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 10841 strings out of 493014
- 162264 string characters out of 6133350
- 530462 words of memory out of 5000000
+ 10850 strings out of 493014
+ 162360 string characters out of 6133350
+ 530416 words of memory out of 5000000
  13760 multiletter control sequences out of 15000+600000
  10747 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -969,10 +988,10 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on PowerEnJoy.pdf (47 pages, 1076926 bytes).
+Output written on PowerEnJoy.pdf (48 pages, 998441 bytes).
 PDF statistics:
- 1153 PDF objects out of 1200 (max. 8388607)
- 1048 compressed objects within 11 object streams
- 413 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1186 PDF objects out of 1200 (max. 8388607)
+ 1082 compressed objects within 11 object streams
+ 426 named destinations out of 1000 (max. 500000)
+ 663 words of extra memory for PDF output out of 10000 (max. 10000000)
 

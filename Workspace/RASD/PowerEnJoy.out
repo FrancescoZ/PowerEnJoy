@@ -20,51 +20,55 @@
 \BOOKMARK [2][-]{subsection.2.4.6}{Criticality of the application}{section.2.4}% 20
 \BOOKMARK [2][-]{subsection.2.4.7}{Safety and security considerations}{section.2.4}% 21
 \BOOKMARK [1][-]{section.2.5}{Assumptions and dependencies}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.6}{Apportioning of requirements}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{Specific requirements}{}% 24
-\BOOKMARK [1][-]{section.3.1}{External interface requirements}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.1.1}{User interfaces}{section.3.1}% 26
-\BOOKMARK [1][-]{section.3.2}{Use Cases}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{Functional requirements}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.1}{Registration}{section.3.3}% 29
-\BOOKMARK [3][-]{paragraph.3.3.1.0.1}{Scenario}{subsection.3.3.1}% 30
-\BOOKMARK [4][-]{paragraph.3.3.1.0.2}{Description and Priority}{paragraph.3.3.1.0.1}% 31
-\BOOKMARK [4][-]{paragraph.3.3.1.0.3}{Functional requirements}{paragraph.3.3.1.0.1}% 32
-\BOOKMARK [4][-]{paragraph.3.3.1.0.4}{UML Sequence Diagram}{paragraph.3.3.1.0.1}% 33
-\BOOKMARK [2][-]{subsection.3.3.2}{Login}{section.3.3}% 34
-\BOOKMARK [3][-]{paragraph.3.3.2.0.1}{Scenario}{subsection.3.3.2}% 35
-\BOOKMARK [4][-]{paragraph.3.3.2.0.2}{Description and Priority}{paragraph.3.3.2.0.1}% 36
-\BOOKMARK [4][-]{paragraph.3.3.2.0.3}{Functional requirements }{paragraph.3.3.2.0.1}% 37
-\BOOKMARK [2][-]{subsection.3.3.3}{Reserve car}{section.3.3}% 38
-\BOOKMARK [3][-]{paragraph.3.3.3.0.1}{Scenario}{subsection.3.3.3}% 39
-\BOOKMARK [4][-]{paragraph.3.3.3.0.2}{Description and Priority}{paragraph.3.3.3.0.1}% 40
-\BOOKMARK [4][-]{paragraph.3.3.3.0.3}{Functional requirements }{paragraph.3.3.3.0.1}% 41
-\BOOKMARK [4][-]{paragraph.3.3.3.0.4}{UML Sequence Diagram}{paragraph.3.3.3.0.1}% 42
-\BOOKMARK [2][-]{subsection.3.3.4}{End a rent}{section.3.3}% 43
-\BOOKMARK [3][-]{paragraph.3.3.4.0.1}{Scenario}{subsection.3.3.4}% 44
-\BOOKMARK [4][-]{paragraph.3.3.4.0.2}{Description and Priority}{paragraph.3.3.4.0.1}% 45
-\BOOKMARK [4][-]{paragraph.3.3.4.0.3}{Functional requirements }{paragraph.3.3.4.0.1}% 46
-\BOOKMARK [4][-]{paragraph.3.3.4.0.4}{UML Sequence Diagram}{paragraph.3.3.4.0.1}% 47
-\BOOKMARK [2][-]{subsection.3.3.5}{Report problems}{section.3.3}% 48
-\BOOKMARK [3][-]{paragraph.3.3.5.0.1}{Scenario}{subsection.3.3.5}% 49
-\BOOKMARK [4][-]{paragraph.3.3.5.0.2}{Description and Priority}{paragraph.3.3.5.0.1}% 50
-\BOOKMARK [4][-]{paragraph.3.3.5.0.3}{Functional requirements }{paragraph.3.3.5.0.1}% 51
-\BOOKMARK [4][-]{paragraph.3.3.5.0.4}{UML Sequence Diagram}{paragraph.3.3.5.0.1}% 52
-\BOOKMARK [2][-]{subsection.3.3.6}{Profile settings}{section.3.3}% 53
-\BOOKMARK [3][-]{paragraph.3.3.6.0.1}{Scenario}{subsection.3.3.6}% 54
-\BOOKMARK [4][-]{paragraph.3.3.6.0.2}{Description and Priority}{paragraph.3.3.6.0.1}% 55
-\BOOKMARK [4][-]{paragraph.3.3.6.0.3}{Functional requirements }{paragraph.3.3.6.0.1}% 56
-\BOOKMARK [1][-]{section.3.4}{Alloy}{chapter.3}% 57
-\BOOKMARK [2][-]{subsection.3.4.1}{Alloy Model Execution Results}{section.3.4}% 58
-\BOOKMARK [1][-]{section.3.5}{Performance Requirements}{chapter.3}% 59
-\BOOKMARK [1][-]{section.3.6}{Design constraints}{chapter.3}% 60
-\BOOKMARK [1][-]{section.3.7}{Software system attributes}{chapter.3}% 61
-\BOOKMARK [2][-]{paragraph.3.7.0.0.1}{Reliability}{section.3.7}% 62
-\BOOKMARK [3][-]{paragraph.3.7.0.0.2}{Availability}{paragraph.3.7.0.0.1}% 63
-\BOOKMARK [4][-]{paragraph.3.7.0.0.3}{Security}{paragraph.3.7.0.0.2}% 64
-\BOOKMARK [4][-]{paragraph.3.7.0.0.4}{Maintainability}{paragraph.3.7.0.0.2}% 65
-\BOOKMARK [4][-]{paragraph.3.7.0.0.5}{Portability}{paragraph.3.7.0.0.2}% 66
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 67
-\BOOKMARK [1][-]{section.A.1}{Tools}{appendix.A}% 68
-\BOOKMARK [1][-]{section.A.2}{Hours of work}{appendix.A}% 69
-\BOOKMARK [1][-]{section.A.3}{Version History}{appendix.A}% 70
+\BOOKMARK [0][-]{chapter.3}{Specific requirements}{}% 23
+\BOOKMARK [1][-]{section.3.1}{External interface requirements}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{User interfaces}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{System Features}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Registration}{section.3.2}% 27
+\BOOKMARK [3][-]{paragraph.3.2.1.0.1}{Use Case}{subsection.3.2.1}% 28
+\BOOKMARK [4][-]{paragraph.3.2.1.0.2}{Scenario}{paragraph.3.2.1.0.1}% 29
+\BOOKMARK [4][-]{paragraph.3.2.1.0.3}{Description and Priority}{paragraph.3.2.1.0.1}% 30
+\BOOKMARK [4][-]{paragraph.3.2.1.0.4}{Functional requirements}{paragraph.3.2.1.0.1}% 31
+\BOOKMARK [4][-]{paragraph.3.2.1.0.5}{UML Sequence Diagram}{paragraph.3.2.1.0.1}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{Login}{section.3.2}% 33
+\BOOKMARK [3][-]{paragraph.3.2.2.0.1}{Use Case}{subsection.3.2.2}% 34
+\BOOKMARK [4][-]{paragraph.3.2.2.0.2}{Scenario}{paragraph.3.2.2.0.1}% 35
+\BOOKMARK [4][-]{paragraph.3.2.2.0.3}{Description and Priority}{paragraph.3.2.2.0.1}% 36
+\BOOKMARK [4][-]{paragraph.3.2.2.0.4}{Functional requirements }{paragraph.3.2.2.0.1}% 37
+\BOOKMARK [2][-]{subsection.3.2.3}{Reserve car}{section.3.2}% 38
+\BOOKMARK [3][-]{paragraph.3.2.3.0.1}{Use Case}{subsection.3.2.3}% 39
+\BOOKMARK [4][-]{paragraph.3.2.3.0.2}{Scenario}{paragraph.3.2.3.0.1}% 40
+\BOOKMARK [4][-]{paragraph.3.2.3.0.3}{Description and Priority}{paragraph.3.2.3.0.1}% 41
+\BOOKMARK [4][-]{paragraph.3.2.3.0.4}{Functional requirements }{paragraph.3.2.3.0.1}% 42
+\BOOKMARK [4][-]{paragraph.3.2.3.0.5}{UML Sequence Diagram}{paragraph.3.2.3.0.1}% 43
+\BOOKMARK [2][-]{subsection.3.2.4}{End a rent}{section.3.2}% 44
+\BOOKMARK [3][-]{paragraph.3.2.4.0.1}{Use Case}{subsection.3.2.4}% 45
+\BOOKMARK [4][-]{paragraph.3.2.4.0.2}{Scenario}{paragraph.3.2.4.0.1}% 46
+\BOOKMARK [4][-]{paragraph.3.2.4.0.3}{Description and Priority}{paragraph.3.2.4.0.1}% 47
+\BOOKMARK [4][-]{paragraph.3.2.4.0.4}{Functional requirements }{paragraph.3.2.4.0.1}% 48
+\BOOKMARK [4][-]{paragraph.3.2.4.0.5}{UML Sequence Diagram}{paragraph.3.2.4.0.1}% 49
+\BOOKMARK [2][-]{subsection.3.2.5}{Report problems}{section.3.2}% 50
+\BOOKMARK [3][-]{paragraph.3.2.5.0.1}{Use Case}{subsection.3.2.5}% 51
+\BOOKMARK [4][-]{paragraph.3.2.5.0.2}{Scenario}{paragraph.3.2.5.0.1}% 52
+\BOOKMARK [4][-]{paragraph.3.2.5.0.3}{Description and Priority}{paragraph.3.2.5.0.1}% 53
+\BOOKMARK [4][-]{paragraph.3.2.5.0.4}{Functional requirements }{paragraph.3.2.5.0.1}% 54
+\BOOKMARK [4][-]{paragraph.3.2.5.0.5}{UML Sequence Diagram}{paragraph.3.2.5.0.1}% 55
+\BOOKMARK [2][-]{subsection.3.2.6}{Profile settings}{section.3.2}% 56
+\BOOKMARK [3][-]{paragraph.3.2.6.0.1}{Use Case}{subsection.3.2.6}% 57
+\BOOKMARK [4][-]{paragraph.3.2.6.0.2}{Scenario}{paragraph.3.2.6.0.1}% 58
+\BOOKMARK [4][-]{paragraph.3.2.6.0.3}{Description and Priority}{paragraph.3.2.6.0.1}% 59
+\BOOKMARK [4][-]{paragraph.3.2.6.0.4}{Functional requirements }{paragraph.3.2.6.0.1}% 60
+\BOOKMARK [1][-]{section.3.3}{Alloy}{chapter.3}% 61
+\BOOKMARK [2][-]{subsection.3.3.1}{Alloy Model Execution Results}{section.3.3}% 62
+\BOOKMARK [1][-]{section.3.4}{Performance Requirements}{chapter.3}% 63
+\BOOKMARK [1][-]{section.3.5}{Design constraints}{chapter.3}% 64
+\BOOKMARK [1][-]{section.3.6}{Software system attributes}{chapter.3}% 65
+\BOOKMARK [2][-]{paragraph.3.6.0.0.1}{Reliability}{section.3.6}% 66
+\BOOKMARK [3][-]{paragraph.3.6.0.0.2}{Availability}{paragraph.3.6.0.0.1}% 67
+\BOOKMARK [4][-]{paragraph.3.6.0.0.3}{Security}{paragraph.3.6.0.0.2}% 68
+\BOOKMARK [4][-]{paragraph.3.6.0.0.4}{Maintainability}{paragraph.3.6.0.0.2}% 69
+\BOOKMARK [4][-]{paragraph.3.6.0.0.5}{Portability}{paragraph.3.6.0.0.2}% 70
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 71
+\BOOKMARK [1][-]{section.A.1}{Tools}{appendix.A}% 72
+\BOOKMARK [1][-]{section.A.2}{Hours of work}{appendix.A}% 73
+\BOOKMARK [1][-]{section.A.3}{Version History}{appendix.A}% 74

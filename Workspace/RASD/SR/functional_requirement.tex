@@ -1,6 +1,31 @@
 \subsection{Registration}
 Visitors can register to PowEnJoy through mobile application. This operation requires the visitor to fill a registration form with personal data and accept PowEnJoy terms and conditions, including personal data policies, according to local law. The system requires the visitor personal information as name, surname, and birthday, payment information ( as a credit card or a paypal account) and proof of the possesion of a valid driver license.
 If any of the previous requirements are not met or any input is invalid, the registration fails and the system asks the visitor to repeat the process. Otherwise, a verification email containing the password of the account is sent to the provided email address. To validate his account the visitor needs to login one time with the provided password.
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] User registration
+	\item[Actors:] Visitor
+	\item[Entry conditions:] There are no entry conditions
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The visitor arrives to the home page of the application, as is not logged in ,is redirected to the login/registration page
+			\item The visitor enters his personal information, his driver license, a photo of his driver license and some payment method
+			\item The visitor clicks on the confirm button
+			\item The application suggests the user to read his emails to receive the password
+			\item The visitor logs-in after reading the password
+		\end{itemize}
+	\item[Exit conditions:] The visitor is redirected to the home page of the application
+	\item [Exception:] The information furnished by the visitor are not correct or ambiguous as the following case:
+		\begin{itemize}
+			\item The Email has not format-correct
+			\item The Birthday is not at least eighteen years ago
+			\item The Payment method is not valid
+			\item The informations of the driver license don't correspond with the informations furnished by the visitor
+			\item The Driver license is not valid
+		\end {itemize}
+		Also the visitor could had forgot to enter some requested camps or to accept the Terms and Conditions. In all this case, the system does not send any mail to the visitor but notifies him that an error has been made and allows to input the incorrect data again
+	\end{description}
+
 \paragraphnewline{Scenario} \ \\
 Meg is a student. She has heard about PowEnJoy and, finding it an easy and ethical way to travel, wants to subscribe to it.
 Therefore, she downloads the mobile application from the store and clicks on Register in the main screen. She fulfils the form, accepts the term and conditions  and she click Confirm. However, the system cannot verify Meg's driver license because she forgot to put the photo that prove the possession of it. It therefore asks Meg to take the picture from her mobile's camera. Once she has enter everything correctly she click on Confirm, this time the application valid his credential and tell to Meg to check her emails, she will find the confirmation of the correct registration and the given by the software. Meg read her emails and can finally open the application again and login with the given password and the email she gave before.
@@ -34,6 +59,21 @@ This feature is of high priority, it is essential for the system to be.
 
 \subsection{Login}
 Visitors on PowerEnJoy mobile application may access to an existing registered user account providing its corresponding email address and password. In case that the submitted info do not match with any existing account info, the system notifies the visitor that the email address doesn't exist, or that it exists, but the submitted password is wrong. In case a user forgets his/her password, the system allows him/her to retrieve it, automatically creating a new password, setting it as the user's one and sending it to the provided email address.
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] User Login
+	\item[Actors:] User
+	\item[Entry conditions:] There are no entry conditions
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user arrives at the Login page of the mobile application.
+			\item The user inputs his email address and his password.
+			\item The user clicks on the log in button.
+			\item The system redirects the user to the home page.
+		\end{itemize}
+	\item[Exit conditions:] The user is successfully redirected to the application home page.
+	\item [Exception:] The email and/or the password furnished by the user are not correct. In this case, the system does not redirect the user to the home page but notifies him that an error has been made and allows to input his email and password again. The user can also forget his/her password, in this case he/she can asks to generate another password and received it on his/her personal email address.
+\end{description}
 \paragraph{Scenario}
 \begin {enumerate}
 \item Freddy is user of PowerEnJoy. He has already downloaded the application from the store and he has already done the registration from the application. He cannot remember the password given from the system during the registration time. Therefore he opens the app on the home page and he is redirect to the login page. He click then on the forget password link and the application ask him his email address. He insert the email address and then the application show another message telling the user to check the emails. Once he has received the new password, Freddy can finally open again the application and login with the his email address and the new password.
@@ -57,6 +97,26 @@ This feature is of high priority, it is essential for the system to be.
 
 \subsection{Reserve car}
 Logged user on PowerEnJoy can look for cars near his/her position, or next to a specify address, and reserve one for a rent. This operation is possible using the map on the home page of the application that indicates with a marker the position of the car, only the cars that are in a free state can be reserved and are visible on the map
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] Reserve a car
+	\item[Actors:] User,
+	\item[Entry conditions:] There is at least a car not reserved neither used.
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user arrives at the home page of the application that shows the map with the markers of the cars.
+			\item The user choose a car.
+			\item The user clicks on the marker of the car chosen.
+			\item The user clicks on the "Reserve" button
+			\item The application shows to the user the time remained to start the engine and the position of both the actors.
+			\item The user arrives next to the car.
+			\item The user clicks on the button "Open the car"
+			\item The car is opened by the system
+			\item The user get into the car and start the engine.
+		\end{itemize}
+	\item[Exit conditions:] The user successfully start the engine of the car
+	\item [Exception:] Two users reserve the same car in a really small difference of time, the system in this case will delete the reservation that is requested later.
+\end{description}
 \paragraphnewline{Scenario} \ \\
 Francis needs to go home from a dinner with his friends. It is late and there are public transport anymore. He is already registered and successfully logged-in in the PowerEnJoy application. He decided to reserve a car using the application. He opens the application and he is directly redirect to the application home page that contains the map with the markers of cars near him. He chooses a marker and he click on it. The app shows him the information of the car as its battery charge and its position. The car is really close to him therefore he clicks on the button reserve and he moves next to the car. Meanwhile the application shows him the  a timer, the vehicle registration plate, his position and the position of the car. Once the Francis arrives next to the car the app shows him a button to open the car. The rent starts when Francis starts the engine of the car.
 %Another scenario with a men who can't reach the car until in one hours?
@@ -77,6 +137,29 @@ This feature is of high priority, it is essential for the system to be.
 
 \subsection{End a rent}
 Once the user has finished his/her ride he/she have to park the car in a safe area or a parking, stop the engine and get off the vehicle. The system checks if all the requirements to end the rent are respected and closes the car. The system waits 5 minute to let the user plug the car if he/she wants to. After the wait of time the system sends the payment request to the external payment system. The end of a rent can also provide some discount on the final payment or the add some overtaxes.
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] End a rent
+	\item[Actors:] User, Car
+	\item[Entry conditions:] The car is in the state In Use
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user stop the engine of the car and get out of the vehicle.
+			\item The car check if all the doors are closed and there is no one into the it.
+			\item The system close the car
+			\item The system wait 5 minute
+			\item The system send the request for payment to the external system
+			\item The external system answer to the request
+			\item The system notify the user about the end of the rent with a message on the app
+		\end{itemize}
+	\item[Exit conditions:] The user successfully ends the rent
+	\item [Exception:]
+		\begin{itemize}
+			\item The car is not parked in predefined area, in this case the system will not allow the user to end rent and close the car.
+			\item The payment request failed, in this case the system blocks the user and he/her will not be able to use the system  again until he complete the payment
+			\item The car is stopped but the user still inside or a door is open, in this case the rent will not end and the user is charged as he/she would still driving.
+		\end{itemize}
+\end{description}
 \paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item Isa is an habitual user of PowerEnJoy. She picked-up a car to cross the city and be ecologic with the system. She has finished her ride and she wants to end the rent. She parks the car near a safe area near her destination and she stops the engine of the car. The safe area, as defined, has a plug to recharge the car so Isa plugs the car just after she has stopped the car. The system notify Isa of the correct end of her rent and show her the final bill, that contain a discount of 30\%, with a message on the application.
@@ -111,6 +194,20 @@ Every logged-in user can report a problem to the PowerEnJoy team during the all 
 	\item The charge of a car, in case some safe area is not working correctly.
 	\item The payment, in case of some error appeared during the payment time.
 \end{itemize}
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] Report problems
+	\item[Actors:] User, External Customer service
+	\item[Entry conditions:] The user needs to be logged into the application and some part of the system must have a malfunction.
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user clicks on the button help in the menu of the application
+			\item The phone automatically call the customer service 
+			\item A customer service operator answer to the user and help him/her to solve the problem or open a repair request on the car
+		\end{itemize}
+	\item[Exit conditions:] The user successfully resolve or notify the problem
+	\item [Exception:] The information furnished by the user are not correct or ambiguous and the operator cannot help the user solving his/her problem. In this case if the operator will notify to the external system a reparation needed. The user have no credit in the phone to call the customer service, in this case the app will call the service through the internet connection 
+\end{description}
 \paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item Marc is a logged user who has already reserved a car. The rented car is really near to him and Marc wants to open it. Unfortunately the board computer of the chosen car, the one that able the system to open it, it is broken.Therefore he decides to call the customer service with the button in the reservation page. The customer service office answer to his call and let Marc abort his reservation without paying any additional feeds.
@@ -129,6 +226,27 @@ This feature is of medium priority, it is not essential for the system to be.
 
 \subsection{Profile settings}
 The system allows logged in users to view and modify their profiles at any moment, as long as they are logged in. While modifying email addresses, driver license or payment method must be unique in all the system, otherwise the system denies the modification request. In case of modify of email address, the system sends a confirmation email to the new address. Modification will successfully ends when the user clicks the link in the sent email.
+\paragraphnewline{Use Case} 
+\begin{description}
+	\item[Name:] Profile settings
+	\item[Actors:] User
+	\item[Entry conditions:] The user needs to be logged into the application
+	\item[Flow of events:]  \ \\
+		\begin{itemize}
+			\item The user clicks on profile in the menu of the application
+			\item The user changes his/her information that have changed
+			\item The system notifies the user that the settings have been successfully updated.
+		\end{itemize}
+	\item[Exit conditions:] The user successfully saves his/her new settings
+	\item [Exception:] The information furnished by the user are not correct or ambiguous as the following case:
+		\begin{itemize}
+			\item The Email has not the correct format
+			\item The Birthday is not at least eighteen years ago
+			\item The Payment method is not valid
+			\item The information's of the driver license don't correspond with the information furnished by the visitor
+			\item The Driver license is not valid
+		\end {itemize}
+\end{description}
 \paragraphnewline{Scenario} \ \\
 \begin{enumerate}
 	\item  Zac periodically changes his account password, in order to increase protection. To do so, every 3 months, he opens PoweEnJoy on his mobile phone, chooses "Profile", then "Modify". He selects the password field, writes down a new one, then writes it again in the "Confirm password" field. Finally, he clicks "Confirm": the system informs him that his account password has successfully been updated.
