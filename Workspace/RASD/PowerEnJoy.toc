@@ -40,35 +40,35 @@
 \contentsline {paragraph}{\numberline {3.2.3.0.2}Scenario}{23}{paragraph.3.2.3.0.2}
 \contentsline {paragraph}{\numberline {3.2.3.0.3}Description and Priority}{24}{paragraph.3.2.3.0.3}
 \contentsline {paragraph}{\numberline {3.2.3.0.4}Functional requirements }{24}{paragraph.3.2.3.0.4}
-\contentsline {paragraph}{\numberline {3.2.3.0.5}UML Sequence Diagram}{25}{paragraph.3.2.3.0.5}
-\contentsline {subsection}{\numberline {3.2.4}End a rent}{26}{subsection.3.2.4}
-\contentsline {paragraph}{\numberline {3.2.4.0.1}Use Case}{26}{paragraph.3.2.4.0.1}
-\contentsline {paragraph}{\numberline {3.2.4.0.2}Scenario}{27}{paragraph.3.2.4.0.2}
-\contentsline {paragraph}{\numberline {3.2.4.0.3}Description and Priority}{27}{paragraph.3.2.4.0.3}
-\contentsline {paragraph}{\numberline {3.2.4.0.4}Functional requirements }{27}{paragraph.3.2.4.0.4}
-\contentsline {paragraph}{\numberline {3.2.4.0.5}UML Sequence Diagram}{29}{paragraph.3.2.4.0.5}
-\contentsline {subsection}{\numberline {3.2.5}Report problems}{31}{subsection.3.2.5}
-\contentsline {paragraph}{\numberline {3.2.5.0.1}Use Case}{31}{paragraph.3.2.5.0.1}
-\contentsline {paragraph}{\numberline {3.2.5.0.2}Scenario}{31}{paragraph.3.2.5.0.2}
-\contentsline {paragraph}{\numberline {3.2.5.0.3}Description and Priority}{32}{paragraph.3.2.5.0.3}
-\contentsline {paragraph}{\numberline {3.2.5.0.4}Functional requirements }{32}{paragraph.3.2.5.0.4}
-\contentsline {paragraph}{\numberline {3.2.5.0.5}UML Sequence Diagram}{32}{paragraph.3.2.5.0.5}
-\contentsline {subsection}{\numberline {3.2.6}Profile settings}{33}{subsection.3.2.6}
-\contentsline {paragraph}{\numberline {3.2.6.0.1}Use Case}{33}{paragraph.3.2.6.0.1}
-\contentsline {paragraph}{\numberline {3.2.6.0.2}Scenario}{33}{paragraph.3.2.6.0.2}
-\contentsline {paragraph}{\numberline {3.2.6.0.3}Description and Priority}{34}{paragraph.3.2.6.0.3}
-\contentsline {paragraph}{\numberline {3.2.6.0.4}Functional requirements }{34}{paragraph.3.2.6.0.4}
-\contentsline {section}{\numberline {3.3}Alloy}{35}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Alloy Model Execution Results}{41}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Performance Requirements}{44}{section.3.4}
-\contentsline {section}{\numberline {3.5}Design constraints}{44}{section.3.5}
-\contentsline {section}{\numberline {3.6}Software system attributes}{44}{section.3.6}
-\contentsline {paragraph}{\numberline {3.6.0.0.1}Reliability}{44}{paragraph.3.6.0.0.1}
-\contentsline {paragraph}{\numberline {3.6.0.0.2}Availability}{44}{paragraph.3.6.0.0.2}
-\contentsline {paragraph}{\numberline {3.6.0.0.3}Security}{44}{paragraph.3.6.0.0.3}
-\contentsline {paragraph}{\numberline {3.6.0.0.4}Maintainability}{44}{paragraph.3.6.0.0.4}
-\contentsline {paragraph}{\numberline {3.6.0.0.5}Portability}{44}{paragraph.3.6.0.0.5}
-\contentsline {chapter}{\numberline {A}Appendix}{45}{appendix.A}
-\contentsline {section}{\numberline {A.1}Tools}{45}{section.A.1}
-\contentsline {section}{\numberline {A.2}Hours of work}{46}{section.A.2}
-\contentsline {section}{\numberline {A.3}Version History}{47}{section.A.3}
+\contentsline {paragraph}{\numberline {3.2.3.0.5}UML Sequence Diagram}{26}{paragraph.3.2.3.0.5}
+\contentsline {subsection}{\numberline {3.2.4}End a rent}{27}{subsection.3.2.4}
+\contentsline {paragraph}{\numberline {3.2.4.0.1}Use Case}{27}{paragraph.3.2.4.0.1}
+\contentsline {paragraph}{\numberline {3.2.4.0.2}Scenario}{28}{paragraph.3.2.4.0.2}
+\contentsline {paragraph}{\numberline {3.2.4.0.3}Description and Priority}{28}{paragraph.3.2.4.0.3}
+\contentsline {paragraph}{\numberline {3.2.4.0.4}Functional requirements }{28}{paragraph.3.2.4.0.4}
+\contentsline {paragraph}{\numberline {3.2.4.0.5}UML Sequence Diagram}{30}{paragraph.3.2.4.0.5}
+\contentsline {subsection}{\numberline {3.2.5}Report problems}{32}{subsection.3.2.5}
+\contentsline {paragraph}{\numberline {3.2.5.0.1}Use Case}{32}{paragraph.3.2.5.0.1}
+\contentsline {paragraph}{\numberline {3.2.5.0.2}Scenario}{32}{paragraph.3.2.5.0.2}
+\contentsline {paragraph}{\numberline {3.2.5.0.3}Description and Priority}{33}{paragraph.3.2.5.0.3}
+\contentsline {paragraph}{\numberline {3.2.5.0.4}Functional requirements }{33}{paragraph.3.2.5.0.4}
+\contentsline {paragraph}{\numberline {3.2.5.0.5}UML Sequence Diagram}{33}{paragraph.3.2.5.0.5}
+\contentsline {subsection}{\numberline {3.2.6}Profile settings}{34}{subsection.3.2.6}
+\contentsline {paragraph}{\numberline {3.2.6.0.1}Use Case}{34}{paragraph.3.2.6.0.1}
+\contentsline {paragraph}{\numberline {3.2.6.0.2}Scenario}{34}{paragraph.3.2.6.0.2}
+\contentsline {paragraph}{\numberline {3.2.6.0.3}Description and Priority}{35}{paragraph.3.2.6.0.3}
+\contentsline {paragraph}{\numberline {3.2.6.0.4}Functional requirements }{35}{paragraph.3.2.6.0.4}
+\contentsline {section}{\numberline {3.3}Alloy}{36}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Alloy Model Execution Results}{42}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Performance Requirements}{45}{section.3.4}
+\contentsline {section}{\numberline {3.5}Design constraints}{45}{section.3.5}
+\contentsline {section}{\numberline {3.6}Software system attributes}{45}{section.3.6}
+\contentsline {paragraph}{\numberline {3.6.0.0.1}Reliability}{45}{paragraph.3.6.0.0.1}
+\contentsline {paragraph}{\numberline {3.6.0.0.2}Availability}{45}{paragraph.3.6.0.0.2}
+\contentsline {paragraph}{\numberline {3.6.0.0.3}Security}{45}{paragraph.3.6.0.0.3}
+\contentsline {paragraph}{\numberline {3.6.0.0.4}Maintainability}{45}{paragraph.3.6.0.0.4}
+\contentsline {paragraph}{\numberline {3.6.0.0.5}Portability}{45}{paragraph.3.6.0.0.5}
+\contentsline {chapter}{\numberline {A}Appendix}{46}{appendix.A}
+\contentsline {section}{\numberline {A.1}Tools}{46}{section.A.1}
+\contentsline {section}{\numberline {A.2}Hours of work}{47}{section.A.2}
+\contentsline {section}{\numberline {A.3}Version History}{48}{section.A.3}

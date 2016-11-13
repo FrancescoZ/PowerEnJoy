@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 NOV 2016 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 NOV 2016 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,13 +724,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-<Resources/bookSequenceDiagram.png, id=661, 510.90875pt x 756.8275pt>
+<Resources/bookSequenceDiagram.png, id=661, 511.9125pt x 785.93625pt>
 File: Resources/bookSequenceDiagram.png Graphic file (type png)
 
 <use Resources/bookSequenceDiagram.png>
 Package pdftex.def Info: Resources/bookSequenceDiagram.png used on input line 1
 36.
-(pdftex.def)             Requested size: 345.0pt x 511.05594pt.
+(pdftex.def)             Requested size: 345.0pt x 529.68059pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -742,7 +742,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-[24] [25 <./Resources/bookSequenceDiagram.png>]
+[24] [25]
+Overfull \vbox (11.62515pt too high) has occurred while \output is active []
+
+
+[26 <./Resources/bookSequenceDiagram.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 140.
@@ -767,12 +771,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-[26]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
-[27] <Resources/endRent.png, id=684, 719.68875pt x 805.0075pt>
+[28] <Resources/endRent.png, id=688, 719.68875pt x 805.0075pt>
 File: Resources/endRent.png Graphic file (type png)
 
 <use Resources/endRent.png>
@@ -784,7 +788,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 185.
 See the caption package documentation for explanation.
 
-<Resources/Payment.png, id=685, 599.23875pt x 483.8075pt>
+<Resources/Payment.png, id=689, 599.23875pt x 483.8075pt>
 File: Resources/Payment.png Graphic file (type png)
 
 <use Resources/Payment.png>
@@ -801,7 +805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--187
 
  []
 
-[28] [29 <./Resources/endRent.png>] [30 <./Resources/Payment.png>]
+[29] [30 <./Resources/endRent.png>] [31 <./Resources/Payment.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 197.
@@ -826,12 +830,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-<Resources/reportProblem.png, id=706, 742.775pt x 354.32375pt>
+<Resources/reportProblem.png, id=710, 742.775pt x 354.32375pt>
 File: Resources/reportProblem.png Graphic file (type png)
 
 <use Resources/reportProblem.png>
@@ -853,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-[32 <./Resources/reportProblem.png>]
+[33 <./Resources/reportProblem.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 229.
@@ -878,16 +882,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
-[34]
+[35]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 272.
- (./Alloy/PowerEnJoy.als [35] [36] [37] [38] [39]) [40]
-<Resources/alloyConsole.png, id=1010, 588.1975pt x 670.505pt>
+ (./Alloy/PowerEnJoy.als [36] [37] [38] [39] [40]) [41]
+<Resources/alloyConsole.png, id=1014, 588.1975pt x 670.505pt>
 File: Resources/alloyConsole.png Graphic file (type png)
 
 <use Resources/alloyConsole.png>
@@ -904,8 +908,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[41 <./Resources/alloyConsole.png>]
-<Resources/SimpleWorld.pdf, id=1016, 284.42963pt x 427.89944pt>
+[42 <./Resources/alloyConsole.png>]
+<Resources/SimpleWorld.pdf, id=1021, 284.42963pt x 427.89944pt>
 File: Resources/SimpleWorld.pdf Graphic file (type pdf)
 
 <use Resources/SimpleWorld.pdf>
@@ -922,8 +926,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-[42 <./Resources/SimpleWorld.pdf, page is rotated 90 degrees>]
-<Resources/RealWorld.pdf, id=1028, 153.74017pt x 469.73647pt>
+[43 <./Resources/SimpleWorld.pdf, page is rotated 90 degrees>]
+<Resources/RealWorld.pdf, id=1032, 153.74017pt x 469.73647pt>
 File: Resources/RealWorld.pdf Graphic file (type pdf)
 
 <use Resources/RealWorld.pdf>
@@ -940,7 +944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-[43 <./Resources/RealWorld.pdf, page is rotated 90 degrees>])
+[44 <./Resources/RealWorld.pdf, page is rotated 90 degrees>])
 (./SR/non_functional_requirements.tex
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
@@ -950,13 +954,13 @@ Package hyperref Warning: Difference (3) between bookmark levels is greater
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 14.
 
-) [44]
+) [45]
 Appendix A.
-[45
+[46
 
-] [46]
+] [47]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [47]
+ [48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./PowerEnJoy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
@@ -967,11 +971,14 @@ Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 10850 strings out of 493014
- 162360 string characters out of 6133350
+ 10851 strings out of 493014
+ 162367 string characters out of 6133350
  530416 words of memory out of 5000000
  13760 multiletter control sequences out of 15000+600000
  10747 words of font info for 38 fonts, out of 8000000 for 9000
@@ -988,10 +995,10 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on PowerEnJoy.pdf (48 pages, 998441 bytes).
+Output written on PowerEnJoy.pdf (49 pages, 998438 bytes).
 PDF statistics:
- 1186 PDF objects out of 1200 (max. 8388607)
- 1082 compressed objects within 11 object streams
- 426 named destinations out of 1000 (max. 500000)
+ 1192 PDF objects out of 1200 (max. 8388607)
+ 1087 compressed objects within 11 object streams
+ 427 named destinations out of 1000 (max. 500000)
  663 words of extra memory for PDF output out of 10000 (max. 10000000)
 
