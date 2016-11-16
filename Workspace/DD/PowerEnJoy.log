@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 NOV 2016 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  16 NOV 2016 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,28 +393,27 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 100.
 )
-(./alloy.sty)
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 6.
+less on input line 5.
 
 (./PowerEnJoy.aux)
 \openout1 = `PowerEnJoy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -436,34 +435,33 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.nal_requirements.tex [37 <./Resources/alloyConsole.png>]
-[38 <./Resources/SimpleWorld.pdf>] [39 <./Resources/RealWorld.pdf>]) [40]
-Appendix A.
-./PowerEnJoy.tex:85: Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.85 	\item{
-            TeXstudio} \LaTeX{} editor used to write the document.
-? 
-./PowerEnJoy.tex:85: Emergency stop.
-<to be read again> 
-                   \c@* 
-l.85 	\item{
-            TeXstudio} \LaTeX{} editor used to write the document.
-End of file on the terminal!
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
- 
-Here is how much of TeX's memory you used:
- 4233 strings out of 493014
- 60835 string characters out of 6133350
- 299315 words of memory out of 5000000
- 7661 multiletter control sequences out of 15000+600000
- 10747 words of font info for 38 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,12n,44p,947b,1713s stack positions out of 5000i,500n,10000p,200000b,80000s
-./PowerEnJoy.tex:85:  ==> Fatal error occurred, no output PDF file produced!
-aTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 7.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count145
+)
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 (./PowerEnJoy.out) (./PowerEnJoy.out)
 \@outlinefile=\write3
@@ -471,19 +469,19 @@ LaTeX Info: Redefining \nameref on input line 8.
 
 \c@lstlisting=\count146
 
-<../Common/Resources/PoliLogo.png, id=301, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=88, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
-Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 9.
+Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 8.
 
 (pdftex.def)             Requested size: 170.71652pt x 171.47127pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 8.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
@@ -493,23 +491,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `PowerEnJoy.toc'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...2.2.0.1}Use Case}{21}{paragraph.3.2.2.0.1}
-                                                   [1
+l.8 \titleToc
+              [1
 
-])
-\tf@toc=\write4
-\openout4 = `PowerEnJoy.toc'.
-
- [2] (./PowerEnJoy.lof)
+] (./PowerEnJoy.lof)
 \tf@lof=\write5
 \openout5 = `PowerEnJoy.lof'.
 
-
-[3
+ [2
 
 ]
 Chapter 1.
@@ -521,485 +518,63 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-) [4
+)
+(./Introduction/definitions_acronyms_abbreviations.tex [3
+
+])
+(./introduction/references.tex) (./introduction/overview.tex [4]) [5]
+Chapter 2.
+(./architecturalDesign/Overview.tex) [6
 
 ]
-(./Introduction/definitions_acronyms_abbreviations.tex
+Chapter 3.
+[7
 
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-[5]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 22.
-
-) (./introduction/references.tex
-Overfull \hbox (5.02744pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/10 IEEE Stan-dard 1016 tm -2009 Stan-dard for In-for-ma-tion Tec
-hnology-System
- []
-
-) (./introduction/overview.tex [6]) [7]
-Chapter 2.
-(./Overall/product_prespective.tex) (./Overall/product_functions.tex
-
-LaTeX Warning: Reference `fig:UseCasesDiagram' on page 8 undefined on input lin
-e 6.
-
+]
+Chapter 4.
 [8
 
-] <Resources/UML.png, id=543, 1204.5pt x 1463.4675pt>
-File: Resources/UML.png Graphic file (type png)
-
-<use Resources/UML.png>
-Package pdftex.def Info: Resources/UML.png used on input line 25.
-(pdftex.def)             Requested size: 345.0pt x 419.16933pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 25.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-[9] [10 <./Resources/UML.png>]) (./Overall/user_characteristics.tex)
-(./Overall/constraints.tex [11]) (./Overall/assumptions.tex [12]) [13]
-Chapter 3.
-(./SR/external_requirements.tex
-<Resources/LoginMockup.pdf, id=590, 202.7575pt x 403.5075pt>
-File: Resources/LoginMockup.pdf Graphic file (type pdf)
-
-<use Resources/LoginMockup.pdf>
-Package pdftex.def Info: Resources/LoginMockup.pdf used on input line 8.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 8.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-
- []
-
-<Resources/RegistrationMockup.png, id=591, 203.76125pt x 404.51125pt>
-File: Resources/RegistrationMockup.png Graphic file (type png)
-
-<use Resources/RegistrationMockup.png>
-Package pdftex.def Info: Resources/RegistrationMockup.png used on input line 11
-.
-(pdftex.def)             Requested size: 100.32579pt x 199.16928pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 11.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-
- []
-
-<Resources/MapMockup.pdf, id=592, 202.7575pt x 403.5075pt>
-File: Resources/MapMockup.pdf Graphic file (type pdf)
-
-<use Resources/MapMockup.pdf>
-Package pdftex.def Info: Resources/MapMockup.pdf used on input line 14.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 14.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-
- []
-
-<Resources/CarInfo.png, id=593, 202.7575pt x 403.5075pt>
-File: Resources/CarInfo.png Graphic file (type png)
-
-<use Resources/CarInfo.png>
-Package pdftex.def Info: Resources/CarInfo.png used on input line 17.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 17.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-
- []
-
-[14
-
-] [15 <./Resources/LoginMockup.pdf> <./Resources/RegistrationMockup.png>]
-[16 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>])
-(./SR/functional_requirement.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-
- []
-
-[18] <Resources/registerSequence.png, id=637, 578.16pt x 721.69624pt>
-File: Resources/registerSequence.png Graphic file (type png)
-
-<use Resources/registerSequence.png>
-Package pdftex.def Info: Resources/registerSequence.png used on input line 57.
-(pdftex.def)             Requested size: 345.0pt x 430.64246pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 57.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-[19] [20 <./Resources/registerSequence.png>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 62.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-[21] [22]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 100.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
-
- []
-
-<Resources/bookSequenceDiagram.png, id=661, 511.9125pt x 785.93625pt>
-File: Resources/bookSequenceDiagram.png Graphic file (type png)
-
-<use Resources/bookSequenceDiagram.png>
-Package pdftex.def Info: Resources/bookSequenceDiagram.png used on input line 1
-36.
-(pdftex.def)             Requested size: 345.0pt x 529.68059pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 136.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
- []
-
-[24] [25]
-Overfull \vbox (11.62515pt too high) has occurred while \output is active []
-
-
-[26 <./Resources/bookSequenceDiagram.png>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 140.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
-
- []
-
-[28] <Resources/endRent.png, id=688, 719.68875pt x 805.0075pt>
-File: Resources/endRent.png Graphic file (type png)
-
-<use Resources/endRent.png>
-Package pdftex.def Info: Resources/endRent.png used on input line 185.
-(pdftex.def)             Requested size: 345.0pt x 385.90788pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 185.
-See the caption package documentation for explanation.
-
-<Resources/Payment.png, id=689, 599.23875pt x 483.8075pt>
-File: Resources/Payment.png Graphic file (type png)
-
-<use Resources/Payment.png>
-Package pdftex.def Info: Resources/Payment.png used on input line 186.
-(pdftex.def)             Requested size: 345.0pt x 278.54889pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 186.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
-
- []
-
-[29] [30 <./Resources/endRent.png>] [31 <./Resources/Payment.png>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 197.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-<Resources/reportProblem.png, id=710, 742.775pt x 354.32375pt>
-File: Resources/reportProblem.png Graphic file (type png)
-
-<use Resources/reportProblem.png>
-Package pdftex.def Info: Resources/reportProblem.png used on input line 224.
-(pdftex.def)             Requested size: 345.0pt x 164.57501pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 224.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
-
- []
-
-[33 <./Resources/reportProblem.png>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 229.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
-
- []
-
-[35]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 272.
- (./Alloy/PowerEnJoy.als [36] [37] [38] [39] [40]) [41]
-<Resources/alloyConsole.png, id=1014, 588.1975pt x 670.505pt>
-File: Resources/alloyConsole.png Graphic file (type png)
-
-<use Resources/alloyConsole.png>
-Package pdftex.def Info: Resources/alloyConsole.png used on input line 278.
-(pdftex.def)             Requested size: 319.99997pt x 364.77855pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 278.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-[42 <./Resources/alloyConsole.png>]
-<Resources/SimpleWorld.pdf, id=1021, 284.42963pt x 427.89944pt>
-File: Resources/SimpleWorld.pdf Graphic file (type pdf)
-
-<use Resources/SimpleWorld.pdf>
-Package pdftex.def Info: Resources/SimpleWorld.pdf used on input line 280.
-(pdftex.def)             Requested size: 287.99802pt x 433.29803pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 280.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-[43 <./Resources/SimpleWorld.pdf, page is rotated 90 degrees>]
-<Resources/RealWorld.pdf, id=1032, 153.74017pt x 469.73647pt>
-File: Resources/RealWorld.pdf Graphic file (type pdf)
-
-<use Resources/RealWorld.pdf>
-Package pdftex.def Info: Resources/RealWorld.pdf used on input line 282.
-(pdftex.def)             Requested size: 159.99998pt x 488.87277pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 282.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-[44 <./Resources/RealWorld.pdf, page is rotated 90 degrees>])
-(./SR/non_functional_requirements.tex
-
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 12.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 14.
-
-) [45]
+]
+Chapter 5.
+[9
+
+]
 Appendix A.
-[46
+[10
 
-] [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+] [11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (./PowerEnJoy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
-(rerunfilecheck)             Checksum: 467F85286CEB2131849E2C9CF3DD8A4B;5350.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+(rerunfilecheck)             Checksum: 229B025FA97DF5E3098C2BB1064ADEE6;1299.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 10851 strings out of 493014
- 162367 string characters out of 6133350
- 530416 words of memory out of 5000000
- 13760 multiletter control sequences out of 15000+600000
- 10747 words of font info for 38 fonts, out of 8000000 for 9000
+ 10135 strings out of 493014
+ 151217 string characters out of 6133350
+ 367333 words of memory out of 5000000
+ 13477 multiletter control sequences out of 15000+600000
+ 10165 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,12n,86p,1012b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,45p,1012b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on PowerEnJoy.pdf (49 pages, 998438 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on PowerEnJoy.pdf (13 pages, 257189 bytes).
 PDF statistics:
- 1192 PDF objects out of 1200 (max. 8388607)
- 1087 compressed objects within 11 object streams
- 427 named destinations out of 1000 (max. 500000)
- 663 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
