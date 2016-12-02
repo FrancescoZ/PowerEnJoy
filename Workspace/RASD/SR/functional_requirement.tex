@@ -33,9 +33,9 @@ Therefore, she downloads the mobile application from the store and clicks on Reg
 This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements}
 \begin{itemize}
-	\item Visitor can abort the registration process at any time.
-	\item The password in the email must be used within 1 day, otherwise the registration is deleted along with the visitor's info.
-	\item Registration form contain the following information (fields):
+	\itemBold{FR1} Visitor can abort the registration process at any time.
+	\itemBold{FR2} The password in the email must be used within 1 day, otherwise the registration is deleted along with the visitor's info.
+	\itemBold{FR3} Registration form contain the following information (fields):
 	\begin{itemize}
 		\item Email address.
 		\item First name.
@@ -50,8 +50,8 @@ This feature is of high priority, it is essential for the system to be.
 		\item Expiration of driver license.
 		\item Photo of a driver license.
 	\end{itemize}
-	\item Email address cannot be the same as ones from other PowerEnJoy users.
-	\item The photo of the driver license must be taken by the camera of the mobile.
+	\itemBold{FR4} Email address cannot be the same as ones from other PowerEnJoy users.
+	\itemBold{FR5} The photo of the driver license must be taken by the camera of the mobile.
 \end{itemize}
 \paragraphnewline{UML Sequence Diagram}
 \showPercentImage{Resources/registerSequence.png}{Registration sequence}{1}{fig:regSequence}{0.1em}
@@ -83,15 +83,15 @@ Visitors on PowerEnJoy mobile application may access to an existing registered u
 This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
-	\item Visitors must fill the "email field" with an existing email address in order to successfully log in.
-	\item Visitors must fill the "password" field with the only password correspond- ing to the submitted email address in order to successfully log in.
-	\item The system will ignore log in requests if at least one of the "email" and "password" fields are left blank.
-	\item The system allows visitors to retrieve their password if they forget it, by clicking "Forgot password".
-	\item The system requires visitors to submit an existing email address in order to retrieve their password.
-	\item The system will take care of assigning the user a new password, when he/she states to have lost the previous one.
-	\item The system will take care of sending to the email address submitted by the visitor the new assigned password, when he/she states to have lost the previous one.
-	\item The system allows visitors to retrieve their password once a day.
-	\item The system remember the user's credential until the user decide to logout.
+	\itemBold{FR6} Visitors must fill the "email field" with an existing email address in order to successfully log in.
+	\itemBold{FR7} Visitors must fill the "password" field with the only password correspond- ing to the submitted email address in order to successfully log in.
+	\itemBold{FR8} The system will ignore log in requests if at least one of the "email" and "password" fields are left blank.
+	\itemBold{FR9} The system allows visitors to retrieve their password if they forget it, by clicking "Forgot password".
+	\itemBold{FR10} The system requires visitors to submit an existing email address in order to retrieve their password.
+	\itemBold{FR11} The system will take care of assigning the user a new password, when he/she states to have lost the previous one.
+	\itemBold{FR12} The system will take care of sending to the email address submitted by the visitor the new assigned password, when he/she states to have lost the previous one.
+	\itemBold{FR13} The system allows visitors to retrieve their password once a day.
+	\itemBold{FR14} The system remember the user's credential until the user decide to logout.
 \end{itemize}
 \newpage
 
@@ -124,13 +124,13 @@ Francis needs to go home from a dinner with his friends. It is late and there ar
 This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
-	\item A car changes is state from \emph{"Reserved"} to \emph{"In use"} only when the engine starts
-	\item A car can be reserved and showed on the map only if its state is \emph{"Free"}
-	\item A car stays in the \emph{"Reserved"} state for at maximum one hour, if it's not picked-up it return to the state \emph{"Free"}
-	\item Each car have a precise position
-	\item An user can open the car through the app only if it is near to it
-	\item Each user can reserve only one car at the same time
-	\item A car can be reserved from only one user at the same time
+	\itemBold{FR15} A car changes is state from \emph{"Reserved"} to \emph{"In use"} only when the engine starts
+	\itemBold{FR16} A car can be reserved and showed on the map only if its state is \emph{"Free"}
+	\itemBold{FR17} A car stays in the \emph{"Reserved"} state for at maximum one hour, if it's not picked-up it return to the state \emph{"Free"}
+	\itemBold{FR18} Each car have a precise position
+	\itemBold{FR19} An user can open the car through the app only if it is near to it
+	\itemBold{FR20} Each user can reserve only one car at the same time
+	\itemBold{FR21} A car can be reserved from only one user at the same time
 \end{itemize}
 \paragraphnewline{UML Sequence Diagram}
 \showPercentImage{Resources/bookSequenceDiagram.png}{Car reservation}{1}{fig:bookCarSequence}{0.1em}
@@ -170,16 +170,16 @@ Once the user has finished his/her ride he/she have to park the car in a safe ar
 This feature is of high priority, it is essential for the system to be.
 \paragraph{Functional requirements }
 \begin{itemize}
-	\item If the system detects the user took at least two other passengers into the car, the system applies a discount of 10\% on the last ride.
-	\item If a car is left with no more than 50\% of the battery empty, the system applies a discount of 20\% on the last ride.
-	\item If a car is left at special parking areas where they can be recharged and the user takes care of plugging the car into the power grid, the system applies a discount of 30\% on the last ride.
-	\item If a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty, the system charges 30\% more on the last ride to compensate for the cost required to re-charge the car on-site.
-	\item The user has five minutes to plug the car if he/she wants a discount
-	\item The rent end-up only if the car is closed, parked in a parking/safe area and there is anybody in the vehicle.
-	\item The car can be closed only if it is turned off, there is no one in it and if it is parked into a safe/parking area
-	\item The discount can be apply only if there are not any overtaxes
-	\item Only one discount can be apply to the rent, the one who is the most convenient for the user.
-	\item The user has 2 minute before the check of the requirements condition
+	\itemBold{FR22} If the system detects the user took at least two other passengers into the car, the system applies a discount of 10\% on the last ride.
+	\itemBold{FR23} If a car is left with no more than 50\% of the battery empty, the system applies a discount of 20\% on the last ride.
+	\itemBold{FR24} If a car is left at special parking areas where they can be recharged and the user takes care of plugging the car into the power grid, the system applies a discount of 30\% on the last ride.
+	\itemBold{FR25} If a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty, the system charges 30\% more on the last ride to compensate for the cost required to re-charge the car on-site.
+	\itemBold{FR26} The user has five minutes to plug the car if he/she wants a discount
+	\itemBold{FR27} The rent end-up only if the car is closed, parked in a parking/safe area and there is anybody in the vehicle.
+	\itemBold{FR28} The car can be closed only if it is turned off, there is no one in it and if it is parked into a safe/parking area
+	\itemBold{FR29} The discount can be apply only if there are not any overtaxes
+	\itemBold{FR30} Only one discount can be apply to the rent, the one who is the most convenient for the user.
+	\itemBold{FR31} The user has 2 minute before the check of the requirements condition
 \end{itemize}
 \paragraphnewline{UML Sequence Diagram}
 \showImage{Resources/endRent.png}{End rent sequence}{fig:endSequence}
@@ -218,7 +218,7 @@ Every logged-in user can report a problem to the PowerEnJoy team during the all 
 This feature is of medium priority, it is not essential for the system to be.
 \paragraph {Functional requirements }
 \begin{itemize}
-	\item The user must be able to contact the customer service 24h/24h
+	\itemBold{FR32} The user must be able to contact the customer service 24h/24h
 \end{itemize}
 \paragraphnewline{UML Sequence Diagram} \ \\
 \showImage{Resources/reportProblem.png}{Report problem sequence}{fig:reportProblemSequence}
@@ -256,14 +256,13 @@ The system allows logged in users to view and modify their profiles at any momen
 This feature is of low priority, it is not necessary but it is a service to create a better user expirience.
 \paragraph{Functional requirements }
 \begin{itemize}
-	\item Account settings are accessible from the start screen of both apps, through the "Profile" button.
-	\item The system allows users to view all their profile info, submitted during registration
-	\item The system allows users to modify all their profile info, submitted during registration.
-	\item Modifying the password requires to write the old one, and the new one twice; if the former password is not correct or if the two new passwords submitted do not match, the system asks for all passwords again and notifies the user.
-	\item Modifying the email address, the driver license requires that the new one doesn't match with the one of another registered user.
-	\item Modifying the email address requires confirmation through an email sent to the submitted email address.
-	\item The system allows users to abort modifications at any time.
-	\item The system allows users to delete their account: confirmation is required to proceed.
+	\itemBold{FR33} Account settings are accessible from the menu of the app, through the "Profile" button.
+	\itemBold{FR34} The system allows users to view all their profile info, submitted during registration
+	\itemBold{FR35} The system allows users to modify all their profile info, submitted during registration.
+	\itemBold{FR36} Modifying the email address, the driver license requires that the new one doesn't match with the one of another registered user.
+	\itemBold{FR37} Modifying the email address requires confirmation through an email sent to the submitted email address.
+	\itemBold{FR38} The system allows users to abort modifications at any time.
+	\itemBold{FR49} The system allows users to delete their account: confirmation is required to proceed.
 \end{itemize}
 \newpage
 

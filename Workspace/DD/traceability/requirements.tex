@@ -1,0 +1,131 @@
+\section{Requirements Traceability}
+In this section are mapped all the functional requirements identified in the \textbf{RASD}, grouped by the \textbf{Use Case} they refer to.
+
+\subsection{Registration}
+\reqTracTab{
+	FR1 &
+	%Visitor can abort the registration process at any time.
+	\textbf{Account manager} does not consider unfulfilled registrations. No data is stored. \\
+	\hline
+	FR2 & 
+	%The password in the email must be used within 1 day, otherwise the registration is deleted along with the visitor?s info.
+	The \textbf{Account manager} consider a valid registered user (allowed to rent a car) after the first login, if the status of the user stays "inactive" for more than one day after the registration date the \textbf{Account manager} delete the data about this user.\\
+	\hline
+	FR3 &
+	%Registration form contain the following information (fields)
+	\textbf{Account manager} does not consider unfulfilled registrations.\\
+	\hline
+	FR4 &
+	% Email address cannot be the same as ones from other PowerEnJoy users
+	\textbf{Account manager} ensures the uniqueness of users.\\
+	\hline
+	FR5 &
+	%The photo of the driver license must be taken by the camera of the mobile.
+	Validation of all the form is done by the \textbf{Mobile Application} even the photos taken from the camera and not from the gallery \\
+	
+}	
+
+\subsection{Login}
+\reqTracTab{
+	FR6, FR7 &
+	%Visitors must fill the ?email field? with an existing email address in order to successfully log in. Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.	\textbf{Account Manager} check the existence of the user's email and the correspondent password before allowing the user to log-into the system\\
+	\hline
+	FR8 &
+	%The system will ignore log in requests if at least one of the ?email? and ?password? fields are left blank.
+	Blank fields let the \textbf{Client Application} to ignore the login.\\
+	\hline
+	FR9 &
+	%The system allows visitors to retrieve their password if they forget it, by clicking ?Forgot password?.
+	The \textbf{Client Application} provide this functionality and the \textbf{Account Manager} takes care of the procedure to follow to allow the user have another name\\
+	\hline
+	FR10,FR11,FR12 &
+	%The system requires visitors to submit an existing email address in order to retrieve their password. The system will take care of assigning the user a new password, when he/she states to have lost the previous one. The system will take care of sending to the email address submit- ted by the visitor the new assigned password, when he/she states to have lost the previous one.
+	The \textbf{Account Manager} take only exiting user on the database and handle all the procedure to restore a password, from the generation of the new one until the sent of the mail with the new access code. \\
+	\hline
+	FR13 &
+	%The system allows visitors to retrieve their password once a day.
+	The \textbf{Account Manager} is allowed to generate only one password a day for one user.\\
+	\hline
+	FR14 & 
+	%The system remember the user?s credential until the user decide to logout.
+	The \textbf{Client Application} remeber email and password after a login until the user do a logout. It's also provide the email and password every time the system requires its.
+}
+
+\subsection{Reserve a Car}
+\reqTracTab{
+	FR15 &
+	%A car changes is state from ?Reserved? to ?In use? only when the engine starts
+	The \textbf{Car Manager} change the state of the car according with the \textbf{Ride Manager} when it relieves that the car is started, it keep always communicate with the \textbf{Ride Manager} in order to know if there are some security problems. Only if the car is reserved it can be started\\
+	\hline
+	FR16 &
+	%A car can be reserved and showed on the map only if its state is?Free?
+	The \textbf{Car Manager} according with the \textbf{Ride Manager} set the status of the car. The \textbf{Ride Manager} shows to the \texbf{Mobile Application} only the car that are in free state.\\
+	\hline
+	FR17 &
+	%A car stays in the ?Reserved? state for at maximum one hour, if it?s not picked-up it return to the state ?Free?
+	The \textbf{Ride Manager} can set up the status of the car passing through the \textbf{Car Manager} when a reservation expires\\
+	\hline
+	FR18 &
+	%Each car have a precise position
+	The car position is managed from the \textbf{Car System} and sent to the \textbf{Car Manager} in order to log the car movement.
+	FR19 &
+	%An user can open the car through the app only if it is near to it
+	The \textbf{Account Manager} has the position of the user and the \textbf{Car Manager} has the position on the car and can open it communicating with the \textbf{Car System}. The \textbf{Ride Manager} handling the two link with this components will open the car only if all the requirement (as the same position and the previously reservation) are correctly soddisfied. \\
+	\hline
+	FR20,FR21 &
+	%A car can be reserved from only one user at the same time,Each user can reserve only one car at the same time
+	The reservation is handled by the \textbf{Ride Manager} \\
+	}
+
+\subsection{End a Rent}
+\reqTracTab{
+	FR22,FR23,FR24,FR25 &
+	%If the system detects the user took at least two other passengers into the car, the system applies a discount of 10% on the last ride.
+	The \textbf{Ride Manager} communicating with the \textbf{Car Manager} is always aware about the conditions of the rent, thanks to that the \textbf{Bill Manager} can figure out the total bill and apply discount or overtaxes\\
+	\hline
+	FR26 &
+	%The user has five minutes to plug the car if he/she wants a discount
+	Once the car is closed the \textbf{Car Manager} keep communicate with the car system in order to analyse the car condition, if after five minute the \textbf{Car Manager} has not communicate with the \textbf{Ride Manager} it send a payment request thought the \textbf{Bill Manager}.\\
+	\hline
+	FR27,FR28 &
+	%The rent end-up only if the car is closed, parked in a parking/safe area and there is anybody in the vehicle. The car can be closed only if it is turned off, there is no one in it and if it is parked into a safe/parking area
+	The \textbf{Car Manager} through the \textbf{Car System} check the number of passenger when the car stop,  if there is none on it, the \textbf{Car Manager} ask to the \textbf{Ride Manager} if the rent can end and the car can be closed. If the position of the car is concordant with a parking/safe area then the \textbf{Ride Manager} send the acknowledge to the \textbf{Car Manager} once the car is closed the rent is ended.\\
+	\hline
+	FR29,FR30 &
+	%The discount can be apply only if there are not any overtaxes Only one discount can be apply to the rent, the one who is the most convenient for the user.
+	The \textbf{Bill Manager} verify to apply only one discount for rent or an overtaxes.\\
+	\hline
+	FR31 &
+	%The user has 2 minute before the check of the requirements con- dition
+	The communication between the \textbf{Car Manager} and the \textbf{Ride Manager} and the communication between the \textbf{Car Manager} and the \textbf{Car System} takes at most two minutes, it means that the user has two minute to get off from the car.\\
+	}
+
+\subsection{Report Problem}
+\reqTracTab{
+	FR32 &
+	%The user must be able to contact the customer service 24h/24h
+	The \textbf{Problem Manager} offers some API of Vocal Recognition and Call Center to the \textbf{Mobile Application} in order to have a customer service always open.\\
+	}
+
+\subsection{Report Problem}
+\reqTracTab{
+	FR33 &
+	%Account settings are accessible from the start screen of both apps, through the ?Profile? button.
+	The \textbf{Mobile Application} let the user access to his/her information.\\
+	\hline
+	FR34,FR35 &
+	% The system allows users to view all their profile info, submitted during registration, The system allows users to modify all their profile info, submitted during registration.
+	The \textbf{Account Manager} can provide and modify information about any user.\\
+	\hline
+	FR36,FR37 &
+	% Modifying the email address, the driver license requires that the new one doesn?t match with the one of another registered user. Modifying the email address requires confirmation through an email sent to the submitted email address.
+	The \textbf{Account Manager} can modify a user only if the new information respect the Requirement contained in the RASD.\\
+	\hline
+	FR38 &
+	% The system allows users to abort modifications at any time.
+	\textbf{Account manager} does not consider unfulfilled registrations. No data is stored. \\
+	\hline
+	FR39 &
+	%The system allows users to delete their account: confirmation is required to proceed.
+	\textbf{Account manager} can delete an user from the database only if there is a double confirmation from the application in order to avoid errors.\\\\
+	}

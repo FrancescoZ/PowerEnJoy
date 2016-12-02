@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 NOV 2016 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  1 DEC 2016 10:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,33 +436,32 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.nal_requirements.tex [37 <./Resources/alloyConsole.png>]
-[38 <./Resources/SimpleWorld.pdf>] [39 <./Resources/RealWorld.pdf>]) [40]
-Appendix A.
-./PowerEnJoy.tex:85: Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.85 	\item{
-            TeXstudio} \LaTeX{} editor used to write the document.
-? 
-./PowerEnJoy.tex:85: Emergency stop.
-<to be read again> 
-                   \c@* 
-l.85 	\item{
-            TeXstudio} \LaTeX{} editor used to write the document.
-End of file on the terminal!
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
- 
-Here is how much of TeX's memory you used:
- 4233 strings out of 493014
- 60835 string characters out of 6133350
- 299315 words of memory out of 5000000
- 7661 multiletter control sequences out of 15000+600000
- 10747 words of font info for 38 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,12n,44p,947b,1713s stack positions out of 5000i,500n,10000p,200000b,80000s
-./PowerEnJoy.tex:85:  ==> Fatal error occurred, no output PDF file produced!
-aTeX Info: Redefining \pageref on input line 8.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 8.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count145
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
 (./PowerEnJoy.out) (./PowerEnJoy.out)
@@ -960,26 +959,23 @@ Appendix A.
 [46
 
 ] [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
  [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./PowerEnJoy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
 (rerunfilecheck)             Checksum: 467F85286CEB2131849E2C9CF3DD8A4B;5350.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 10851 strings out of 493014
- 162367 string characters out of 6133350
+ 10852 strings out of 493014
+ 162374 string characters out of 6133350
  530416 words of memory out of 5000000
  13760 multiletter control sequences out of 15000+600000
  10747 words of font info for 38 fonts, out of 8000000 for 9000
@@ -996,10 +992,10 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on PowerEnJoy.pdf (49 pages, 998438 bytes).
+Output written on PowerEnJoy.pdf (49 pages, 999385 bytes).
 PDF statistics:
- 1192 PDF objects out of 1200 (max. 8388607)
- 1087 compressed objects within 11 object streams
- 427 named destinations out of 1000 (max. 500000)
+ 1193 PDF objects out of 1200 (max. 8388607)
+ 1088 compressed objects within 11 object streams
+ 428 named destinations out of 1000 (max. 500000)
  663 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,141 @@
+This section contains all the architectural software specification. In particular it explains all the different part displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some is Point-to-Point, in plus the system is composed by different tiers:
+\begin{itemize}
+	\itemBold{Client} This is the mobile application used by the users. All the communication done by the client to the server are using the pattern Client-Server
+	\itemBold{Application Server} This is the core of the system.It is responsible to manage all the user's interaction with the car and the customer service. It is composed by different par as explain bellow
+	\itemBold{Database Server} This is the memory of the system, all the interactions with this tier are made by the application server with a Point-to-Point communication
+	\itemBold{External Services} To simplify the complexity of the system without deleting some functionality external services are connected with our Application Server
+\end{itemize}
+In particular the application server is composed by different components that are explained in this section.
+
+\section{Tiers}
+\subsection{PowerEnJoy}
+\begin{description}
+	\item[Type] System
+	\item[Node] PowerEnJoy
+	\item[Description] This is the core of the system and contains all the functionality provided to the user, in plus it provided API for the maintenance and the interoperability with other system and it is the main entry for every request coming from the mobile application
+	\item[Dependencies] Google APIs, PayPal API, Maintenance API, PowerEnJoy Database
+	\item[Resources] ??
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Account API (Sign-up, Sign-in, Login, Personal Information editing, Personal Information handling)
+			\item Reservation API (Reservation Management, Reservation Time)
+			\item Assistance API (Incident management from the system, Error and problem from the system)
+			\item Rent API (Start a rent, End a rent, Bill management)
+			\item Query Problem API (Request and Information to the Maintenance service)
+		\end{itemize}
+\end{description}
+
+\subsection{PowerEnJoy Database}
+\begin{description}
+	\item[Type] Database
+	\item[Node] PowerEnJoy Database
+	\item[Description] This is the part of the system devoted to store the data 
+	\item[Resources] ??
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Database API			\item Data storare management			\item Data presentation			\item Security management			\item Multiuser access control			\item Backup and recovery management ? Data integrity management			\item Data transaction management	
+		\end{itemize}
+\end{description}
+
+\subsection{Mobile App}
+\begin{description}
+	\item[Type] Mobile App
+	\item[Node] Client
+	\item[Description] This is the interface that allow the users to interact with the system, rent car, look for near cars
+	\item[Dependencies] Account API,Reservation API,Rent API, Assistence API
+	\item[Resources] Supported devices (see RASD for further informations)
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Sign-in, Sign up, login, personal informations editing
+			\item Reserve a car, Rent a car, Looking for a car
+			\item Notification from service
+			\item Assistance request
+	\end{itemize}
+\end{description}
+
+\section{System Part}
+\subsection{Ride Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This component provide all the data to calculate the total bill and all the information about the rent as the path followed, the time spent on the car and the number of passenger
+	\item[Dependencies] Account Manager,Data Manager, Car Manager API
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Rent API
+			\item Reservation and Rent 
+			\item Data of the rent to calculate the bill
+			\item Assistance request
+	\end{itemize}
+\end{description}
+
+\subsection{Account Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This component manages users connected to the service. It manages sign-up, sign-in and login functionalities, profile editing. All data are stored on the database through Data API.
+	\item[Dependencies] Data Manager
+	\item[Operations] 
+		\begin{itemize}
+			\item Account API
+			\item Sign-up, Sign-in
+			\item Login  
+			\item Personal Information editing 
+	\end{itemize}
+\end{description}
+
+\subsection{Car Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This component manages all the information and the interaction with the cars, and communicate with the other service letting they storing all the information they need. Especially  with the Ride Manager who is in charge of obtaining all the information about the number of passenger, the state of the battery and the position of the car.
+	\item[Dependencies] Map Service
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Reservation API
+			\item Data of the car
+			\item Status of the car   
+	\end{itemize}
+\end{description}
+
+\subsection{Bill Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] It's in charge of calculate and ask for the rent payment, asking to the Ride Manager it can have all the information it needs to calculate the total cost and pretending to the external system the amount requested
+	\item[Dependencies] PayPal API, Ride Manager.
+	\item[Operations] 
+		\begin{itemize}
+			\item Calculate total cost, apply discount and overtaxes 
+			\item Request the amount of the rent to the external payment method 
+		\end{itemize}
+\end{description}
+
+\subsection{Problem Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This is the part of the system dedicated to the customer service, able to request assistance for some accident and to request maintenance on a particular car.
+	\item[Dependencies] Query Problemes API
+	\item[Operations] 
+		\begin{itemize}
+			\item Assistance API
+			\item Ask for maintenance on a car
+			\item Helping Customer with problems of the system
+	\end{itemize}
+\end{description}
+
+\subsection{Data Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This component provides access to all of the data contained in the database. It provides various functions that allow entry, storage and retrieval of large quantities of information and provides ways to manage how that information is organized.
+	\item[Dependencies] PowerEnJoy Database
+	\item[Operations] 
+		\begin{itemize}
+			\item Data API
+			\item Data access
+			\item Data presentation 
+			\item Data organization
+		\end{itemize}
+\end{description}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  16 NOV 2016 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  1 DEC 2016 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,25 +395,25 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 100.
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 5.
+less on input line 12.
 
 (./PowerEnJoy.aux)
 \openout1 = `PowerEnJoy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -449,7 +449,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 14.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -459,9 +459,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./PowerEnJoy.out) (./PowerEnJoy.out)
 \@outlinefile=\write3
@@ -469,19 +469,19 @@ LaTeX Info: Redefining \nameref on input line 7.
 
 \c@lstlisting=\count146
 
-<../Common/Resources/PoliLogo.png, id=88, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=172, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
-Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 8.
-
+Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 15
+.
 (pdftex.def)             Requested size: 170.71652pt x 171.47127pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <6> on input line 15.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
@@ -491,22 +491,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-)
-\tf@toc=\write4
-\openout4 = `PowerEnJoy.toc'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \titleToc
-              [1
+l.32 ...rline {5.1.3}Logout}{17}{subsection.5.1.3}
+                                                   [1
 
-] (./PowerEnJoy.lof)
+])
+\tf@toc=\write4
+\openout4 = `PowerEnJoy.toc'.
+
+ [2] (./PowerEnJoy.lof)
 \tf@lof=\write5
 \openout5 = `PowerEnJoy.lof'.
 
- [2
+
+[3
 
 ]
 Chapter 1.
@@ -519,48 +520,241 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 )
-(./Introduction/definitions_acronyms_abbreviations.tex [3
+(./Introduction/definitions_acronyms_abbreviations.tex [4
 
 ])
-(./introduction/references.tex) (./introduction/overview.tex [4]) [5]
+(./introduction/references.tex) (./introduction/overview.tex [5]) [6]
 Chapter 2.
-(./architecturalDesign/Overview.tex) [6
-
-]
-Chapter 3.
+(./architecturalDesign/Overview.tex) (./architecturalDesign/highlevel.tex
 [7
 
 ]
+Overfull \hbox (21.68904pt too wide) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/10 Google APIs, Pay-Pal API, Main-te-nance API, Pow-erEn-Joy Dat
+abase 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+[10]) <Resources/ComponentDiagram.png, id=324, 981.6675pt x 359.84438pt>
+File: Resources/ComponentDiagram.png Graphic file (type png)
+
+<use Resources/ComponentDiagram.png>
+Package pdftex.def Info: Resources/ComponentDiagram.png used on input line 35.
+(pdftex.def)             Requested size: 345.0pt x 126.46355pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 35.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[11] <Resources/DeploymentDiagram.png, id=329, 765.86125pt x 766.865pt>
+File: Resources/DeploymentDiagram.png Graphic file (type png)
+
+<use Resources/DeploymentDiagram.png>
+Package pdftex.def Info: Resources/DeploymentDiagram.png used on input line 37.
+
+(pdftex.def)             Requested size: 345.0pt x 345.4488pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+[12 <./Resources/ComponentDiagram.png>] (./architecturalDesign/patterns.tex
+[13 <./Resources/DeploymentDiagram.png>]) [14]
+Chapter 3.
+[15
+
+]
 Chapter 4.
-[8
+[16
 
 ]
 Chapter 5.
-[9
+(./traceability/requirements.tex
+
+Package tabulary Warning: No suitable columns! on input line 26.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 26--27
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 53.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 53--54
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+[17
 
 ]
-Appendix A.
-[10
 
-] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+Package tabulary Warning: No suitable columns! on input line 71.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 71--72
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 90.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 90--91
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[18]
+
+Package tabulary Warning: No suitable columns! on input line 109.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 109--110
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 128.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 128--129
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 153.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 153--154
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[19]
+
+Package tabulary Warning: No suitable columns! on input line 180.
+
+
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 180--181
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 199.
+
+)
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 199--47
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--47
+
+ []
+
+[20] [21]
+Appendix A.
+[22
+
+] [23]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./PowerEnJoy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
-(rerunfilecheck)             Checksum: 229B025FA97DF5E3098C2BB1064ADEE6;1299.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
+(rerunfilecheck)             Checksum: 8371B7CFCD862AAE985356CB92FBC689;2697.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 10135 strings out of 493014
- 151217 string characters out of 6133350
- 367333 words of memory out of 5000000
- 13477 multiletter control sequences out of 15000+600000
- 10165 words of font info for 35 fonts, out of 8000000 for 9000
+ 10242 strings out of 493014
+ 152909 string characters out of 6133350
+ 371568 words of memory out of 5000000
+ 13537 multiletter control sequences out of 15000+600000
+ 10472 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,1012b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,86p,1012b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -571,10 +765,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PowerEnJoy.pdf (13 pages, 257189 bytes).
+Output written on PowerEnJoy.pdf (25 pages, 369661 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
