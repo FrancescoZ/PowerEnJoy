@@ -1,4 +1,6 @@
-Below is represented the ?bill's algorithm?. Before the driver ends the ride and exits the car, the system starts checking the state of sensors, the position of the car towards the position of the nearest safe area and last but not least the state of the battery ( the driver has 5 minutes to eventually charge the battery and receive the discount).The events generated and their consequences are discussed in the following table.
+\subsection{Bill' Algorithm}
+Below is represented the \textbf{Bill' algorithm}. Before the driver ends the ride and exits the car, the system starts checking the state of sensors, the position of the car towards the position of the nearest safe area and last but not least the state of the battery ( the driver has 5 minutes to eventually charge the battery and receive the discount).The events generated and their consequences are discussed in the following table.
+\ \\ 
 [Legend]
 \begin{itemize}
 	\item D: Driver;
@@ -12,54 +14,55 @@ Below is represented the ?bill's algorithm?. Before the driver ends the ride and
 \algoTab{
 	D exits C &
 	\begin{algorithmic}
-		$S start checking$\\
+		$S.startChecking()$
 	\end{algorithmic}\\
 	\hline
 	Check the distance between the SA and the current position &
 	\begin{algorithmic}
-		\If {$sA.nearest()-D.currPos()\geq 3$}\\
-		    $D.applyTax()$\\
+		\If {$sA.nearest()-D.currPos()\geq 3$}
+		    \State $D.applyTax()$
 		\Else
-		    \If {$i+k\leq maxval$}\\
-		        $D.applyDiscount()$\\
+		    \If {$i+k\leq maxval$}
+		        \State $D.applyDiscount()$
 		    \EndIf
 		\EndIf
 	\end{algorithmic}\\
 	\hline
 	Check the number of passengers &
 	\begin{algorithmic}
-		\If {$LoP.size()\geq 2$}\\
-			$D.applyDiscount()$\\
+		\If {$LoP.size()\geq 2$}
+			\State $D.applyDiscount()$
 		\EndIf
 	\end{algorithmic}\\
 	\hline
 	Check the battery state &
 	\begin{algorithmic}
-		\If {$B.getState()\leq 20$}\\
-			$D.applyTax()$\\
+		\If {$B.getState()\leq 20$}
+			\State $D.applyTax()$
 		\EndIf
-		\If {$B.getState()\geq 50$}\\
-			$D.applyDiscount()$\\
+		\If {$B.getState()\geq 50$}
+			\State $D.applyDiscount()$
 		\EndIf
 	\end{algorithmic}\\
 	\hline
 	D  ends the rent &
 	\begin{algorithmic}
-		\State $C. status\gets Ready$
+		\State $C.status \gets Ready$
 	\end{algorithmic}\\
 	\hline
 	D has 5 minutes to charge the car and take a discount &
 	\begin{algorithmic}
-		\State $oldState\gets B.getState()$\\
-		$wait(5)$\\
-		\If {$B.getState()\geq oldState$}\\
-			$D.applyDiscount()$
+		\State $oldState \gets B.getState()$
+		\State $wait(5)$
+		\If {$B.getState()\geq oldState$}
+			\State $D.applyDiscount()$
 		\EndIf
 	\end{algorithmic}\\
-	\hline
 }	
-	
-Below is represented the ?reservation/rent algorithm?. The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin)
+\newpage
+\subsection{Reservation & Rent' Algorithm}
+Below is represented the \textbf{Reservation & Rent' algorithm}. The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin)
+\ \\
 
 [Legend]
 \begin{itemize}
@@ -74,42 +77,43 @@ Below is represented the ?reservation/rent algorithm?. The algorithm starts when
 \algoTab{
 	 U selects car on the map &
 	\begin{algorithmic}
-		\State $C. status\gets Reserved$\\
-		$S.hideCar()$
+		\State $C. status\gets Reserved$
+		\State $S.hideCar()$
 	\end{algorithmic}\\
 	\hline
 	Check the reservation?s time and compare it with the current time &
 	\begin{algorithmic}
-		\If {$S.getCurrTime()-R.time()\geq 1$}\\
-			\State $C. status\gets Reserved$\\
-			$U.applyTax()$\\
-			$S.showCar()$
+		\If {$S.getCurrTime()-R.time()\geq 1$}
+			\State $C. status\gets Reserved$
+			\State $U.applyTax()$
+			\State $S.showCar()$
 		\Else
-			\State $C. status\gets Rented$
+			\State $C.status\gets Rented$
 		\EndIf
 	\end{algorithmic}\\
 	\hline
 	Compare the positions &
 	\begin{algorithmic}
 		\If {$U.position-C.position\leq 1$}
-			$myApp.enableStartButton()$
+			\State $myApp.enableStartButton()$
 		\EndIf
 	\end{algorithmic}\\
 	\hline
 	User starts the engine &
 	\begin{algorithmic}
-		$C.startCharge()$
+		\State $C.startCharge()$
 	\end{algorithmic}\\
 	\hline
 }
+\newpage
+\subsection{Geolocation' Algorithm}
+Below is represented the \textbf{Geolocation? algorithm}. Let?s begin with the premise that we are imagine to build the algorithm with an object oriented Language and we?re providing a pseudo-code. This algorithm checks if the given point is inside this Triangle. Infact thanks to a theorem about convex polygons, we can check if a point P is inside a given convex polygon (i.e. if the given vector associated to the point P is a convex combination of the polygon vertices). We can calculate if such coefficients exists solving a vector equation:
 
-Below is represented the ?geolocation?s algorithm?. Let?s begin with the premise that we are imagine to build the algorithm with an object oriented Language and we?re providing a pseudo-code. This algorithm checks if the given point is inside this Triangle. Infact thanks to a theorem about convex polygons, we can check if a point P is inside a given convex polygon (i.e. if the given vector associated to the point P is a convex combination of the polygon vertices). We can calculate if such coefficients exists solving a vector equation:
-
-\begin{enumerate}
-	\item P = \mathrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3; ( with P, P1, P2, P3 in R^2; with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d}y in R; \mathrm{d}x >= 0, \mathrm{d}y >= 0, \mathrm{d}z >= 0 and  \mathrm{d}x + \mathrm{d}y + \mathrm{d}z = 1.)
-	\item P = \mathrm{d}x * P1 +  \mathrm{d}y * P2 + (1 - \mathrm{d}x - \mathrm{d}y ) * P3.
-	\item P - P3 = \mathrm{d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
-\end{enumerate}
+\begin{itemize}
+	\item P = \mathrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. **
+	\item P = \mathrm{d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm{d}y )*P3.
+	\item P - P3 = \mathrm{d}x*(P1 - P3)+\mathrm{d}y*(P2 - P3).
+\end{itemize}
 
 This equation can then be split into two scalar linear equations in the x and y components. The system is solved using Cramer's rule and then it is checked that alpha1 and alpha2 (and alpha3) found by solving the system satisfy the constraints.
 
@@ -125,35 +129,39 @@ This equation can then be split into two scalar linear equations in the x and y 
 \algoTab{
 	 Declare variables that will allow to solve the linear equation system thanks to Cramer?s method &
 	\begin{algorithmic}
-		\State$a\gets p1.getX() ? p3.getX()$\\              \State 	$b\gets p2.getX() ? p3.getX()$\\               	\State$c\gets p1.getY() ? p3.getY()$\\               	\State$d\gets p2.getY() ? p3.getY()$\\               	\State$e\gets  p.getX() ? p3.getX()$\\               	\State$f\gets p.getX() ? p3.getY()$\\
+		\State $a\gets p1.getX()-p3.getX()$                 \State $b\gets p2.getX()-p3.getX()$
+		\State $c\gets p1.getY()-p3.getY()$               	\State $d\gets p2.getY()-p3.getY()$               	\State $e\gets  p.getX()-p3.getX()$               	\State $f\gets p.getX()-p3.getY()$
 	\end{algorithmic}\\
 	\hline
 	Calculate the determinant to check the solution of the system &
 	\begin{algorithmic}
-		$tContains()$\\             	\State $d\gets a*d-b*c\\
+		\State $tContains()*$             	\State $d\gets a*d-b*c$
 		\If {$d\eq 0$}
-			$return false$
-		\EndIf	        \mathrm{d}Px \gets e*d ? f*b       		\mathrm{d}Py \gets a*f ?  c*e	        \mathrm{d}Z \gets 1 ? \mathrm{d}Px ? \mathrm{d}Py		\mathrm{d}X \gets \mathrm{d}Px/d		\mathrm{d}Y \gets \mathrm{d}Py/d}	\end{algorithmic}\\
+			\State \Return $false$
+		\EndIf	        \State $\mathrm{d}Px \gets e*d-f*b$       		\State $\mathrm{d}Py \gets a*f-c*e$	        \State $\mathrm{d}Z \gets 1- \mathrm{d}Px - \mathrm{d}Py$		\State $\mathrm{d}X \gets \mathrm{d}Px /d$		\State $\mathrm{d}Y \gets \mathrm{d}Py /d$	\end{algorithmic}\\
 	\hline
 	Check the results and draw conclusion &
 	\begin{algorithmic}                        
 		\If {$\mathrm{d}x\leq 0 || \mathrm{d}y\leq0 || \mathrm{d}z\leq0$}
-			$return false$\\
+			\State \Return $false$
 		\EndIf
-		$return true$\\
+		\State \Return $true$
 	\end{algorithmic}\\
 	\hline
 	Instance the Zone Class and set the Zone as a set of Triangles. Then check if a point (in our case our position) is contained in the triangle &
 	\begin{algorithmic}
-		$C.startCharge()$
+		\State $zContains()$                \ForAll {Triangle t : triangles}               	\If {t.tContains(p)}              		\State \Return $true$	               \State \Return $false$
+		\EndIf
+		\EndFor
 	\end{algorithmic}\\
 	\hline
-	
 	  Instance the Area Class and set the Area as a set of Zone. Then check if a point is contained in the zone. This allows us to determine in which zone is our point &
 	\begin{algorithmic}
-		$C.startCharge()$
+		\State $Point(latitude,longitude)$              	\ForAll { Zone z : zones}	              \If {z.zContains(p)}              \State \Return $z$             \State \Return $null$
+		\EndFor
 	\end{algorithmic}\\
 	\hline
 }
 
-*the method tContains() should be defined in the Triangle Class as with for zContains() method that will be inside the Zone class
+*the method tContains() should be defined in the Triangle Class as with for zContains() method that will be inside the Zone class \\
+**with P, P1, P2, P3 in R^2;  with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d}y in R; \mathrm{d}x >= 0, \mathrm{d}y >= 0, \mathrm{d}z >= 0 and  \mathrm{d}x+\mathrm{d}y+\mathrm{d}z = 1

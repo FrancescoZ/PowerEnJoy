@@ -87,6 +87,14 @@
     \label{#4}
 	}{#5}
 }
+\newcommand{\showRotateImage}[5]{%
+	\unbreakableCenteredBlockSpaced{%
+		\includegraphics[width=#3\textwidth,keepaspectratio=true,angle=90]{#1}
+		\captionof{figure}{#2}
+    \label{#4}
+	}{#5}
+}
+
 \newcommand{\showHeightImage}[4]{%
 	\unbreakableCenteredBlockSpaced{%
 		\includegraphics[height=#3,keepaspectratio=true]{#1}

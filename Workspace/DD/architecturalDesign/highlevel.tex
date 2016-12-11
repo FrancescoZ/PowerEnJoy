@@ -14,7 +14,6 @@ In particular the application server is composed by different components that ar
 	\item[Node] PowerEnJoy
 	\item[Description] This is the core of the system and contains all the functionality provided to the user, in plus it provided API for the maintenance and the interoperability with other system and it is the main entry for every request coming from the mobile application
 	\item[Dependencies] Google APIs, PayPal API, Maintenance API, PowerEnJoy Database
-	\item[Resources] ??
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Account API (Sign-up, Sign-in, Login, Personal Information editing, Personal Information handling)
@@ -30,7 +29,6 @@ In particular the application server is composed by different components that ar
 	\item[Type] Database
 	\item[Node] PowerEnJoy Database
 	\item[Description] This is the part of the system devoted to store the data 
-	\item[Resources] ??
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Database API
@@ -64,8 +62,6 @@ In particular the application server is composed by different components that ar
 	\item[Type] Car System
 	\item[Node] Car
 	\item[Description] This is the board computer in the car that allow the system to retriever all the needed data. This computer is also able to open and close and to do a fast check of the car condition in order to directly send a maintenance request to the system. Its main feature is the car position in order to let the system localise the car. The communication between this computer and the system is done by an internet connection of 10 MB for month because it does not require an intense communication.
-	\item[Dependencies] 
-	\item[Resources] ??
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Passenger counting.
@@ -128,7 +124,7 @@ In particular the application server is composed by different components that ar
 	\item[Node] PowerEnJoy Server
 	\item[Description] It's in charge of calculate and ask for the rent payment, asking to the Ride Manager it can have all the information it needs to calculate the total cost and pretending to the external system the amount requested
 	\item[Dependencies] PayPal API, Ride Manager.
-	\item[Operations] 
+	\item[Operations] \ \\
 		\begin{itemize}
 			\item Calculate total cost, apply discount and overtaxes 
 			\item Request the amount of the rent to the external payment method 
@@ -141,10 +137,10 @@ In particular the application server is composed by different components that ar
 	\item[Node] PowerEnJoy Server
 	\item[Description] This part of the system is dedicated to manager all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course. 
 	\item[Dependencies] Database API
-	\item[Operations] 
+	\item[Operations] \ \\
 		\begin{itemize}
 			\item Retrieve the information about the parking and safe area
-			\item Calcule the free area where an user can end the rent 
+			\item Calculate the free area where an user can end the rent 
 			\item Communicate with the Ride Manager to avoid end of rent that are not correct
 	\end{itemize}
 \end{description}
@@ -154,8 +150,8 @@ In particular the application server is composed by different components that ar
 	\item[Type] Subsystem of PowerEnJoy
 	\item[Node] PowerEnJoy Server
 	\item[Description] This is the part of the system dedicated to the customer service, able to request assistance for some accident and to request maintenance on a particular car.
-	\item[Dependencies] Query Problemes API
-	\item[Operations] 
+	\item[Dependencies] Query Problems API
+	\item[Operations] \ \\
 		\begin{itemize}
 			\item Assistance API
 			\item Ask for maintenance on a car
@@ -169,11 +165,12 @@ In particular the application server is composed by different components that ar
 	\item[Node] PowerEnJoy Server
 	\item[Description] This component provides access to all of the data contained in the database. It provides various functions that allow entry, storage and retrieval of large quantities of information and provides ways to manage how that information is organized.
 	\item[Dependencies] PowerEnJoy Database
-	\item[Operations] 
+	\item[Operations] \ \\
 		\begin{itemize}
 			\item Data API
 			\item Data access
 			\item Data presentation 
-			\item Data organization
+			\item Data organisation
 		\end{itemize}
 \end{description}
+\newpage

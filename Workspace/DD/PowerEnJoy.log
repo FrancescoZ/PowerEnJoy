@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,7 +473,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 105.
+Package hyperref Info: Option `colorlinks' set `true' on input line 113.
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
@@ -551,7 +551,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 \c@lstlisting=\count166
 
-<../Common/Resources/PoliLogo.png, id=213, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=221, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
@@ -566,10 +566,17 @@ on/Resources/PoliLogo.png>]
 ame{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ... Manager Interface}{19}{subsection.2.8.10}
+l.35 ... Manager Interface}{25}{subsection.2.8.10}
                                                    [1
 
-])
+]
+./PowerEnJoy.toc:41: Misplaced alignment tab character &.
+<argument> ...e }{\numberline {3.0.2}Reservation &
+                                                   Rent' Algorithm}\hyper@li...
+l.41 ...n & Rent' Algorithm}{30}{subsection.3.0.2}
+                                                  
+? 
+)
 \tf@toc=\write4
 \openout4 = `PowerEnJoy.toc'.
 
@@ -577,8 +584,7 @@ l.35 ... Manager Interface}{19}{subsection.2.8.10}
 \tf@lof=\write5
 \openout5 = `PowerEnJoy.lof'.
 
-
-[3
+ [3
 
 ]
 Chapter 1.
@@ -606,41 +612,61 @@ abase
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-[11]) <Resources/ComponentDiagram.png, id=412, 981.6675pt x 359.84438pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+[12]) <Resources/ComponentDiagram.png, id=448, 981.6675pt x 359.84438pt>
 File: Resources/ComponentDiagram.png Graphic file (type png)
 
 <use Resources/ComponentDiagram.png>
 Package pdftex.def Info: Resources/ComponentDiagram.png used on input line 45.
-(pdftex.def)             Requested size: 345.0pt x 126.46355pt.
+(pdftex.def)             Requested size: 482.9979pt x 177.05006pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -652,7 +678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[12] <Resources/DeploymentDiagram.png, id=418, 765.86125pt x 765.86125pt>
+<Resources/DeploymentDiagram.png, id=449, 765.86125pt x 765.86125pt>
 File: Resources/DeploymentDiagram.png Graphic file (type png)
 
 <use Resources/DeploymentDiagram.png>
@@ -670,7 +696,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[13 <./Resources/ComponentDiagram.png>] (./architecturalDesign/component.tex
+[13 <./Resources/ComponentDiagram.png>] (./architecturalDesign/runtimeview.tex
+<Resources/LoginSequence.png, id=455, 1728.4575pt x 1616.0375pt>
+File: Resources/LoginSequence.png Graphic file (type png)
+
+<use Resources/LoginSequence.png>
+Package pdftex.def Info: Resources/LoginSequence.png used on input line 2.
+(pdftex.def)             Requested size: 345.0pt x 322.56065pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[14 <./Resources/DeploymentDiagram.png>] [15 <./Resources/LoginSequence.png>]
+<Resources/RegistrationSequence.png, id=466, 1830.84pt x 2236.355pt>
+File: Resources/RegistrationSequence.png Graphic file (type png)
+
+<use Resources/RegistrationSequence.png>
+Package pdftex.def Info: Resources/RegistrationSequence.png used on input line 
+4.
+(pdftex.def)             Requested size: 345.0pt x 421.3971pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 4.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 4--5
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+<Resources/FindFreeCarSequence.png, id=467, 1726.45pt x 1256.695pt>
+File: Resources/FindFreeCarSequence.png Graphic file (type png)
+
+<use Resources/FindFreeCarSequence.png>
+Package pdftex.def Info: Resources/FindFreeCarSequence.png used on input line 6
+.
+(pdftex.def)             Requested size: 345.0pt x 251.12361pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 6.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 6--7
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[16 <./Resources/RegistrationSequence.png>]
+<Resources/ReserveSequence.png, id=473, 1872.9975pt x 1850.915pt>
+File: Resources/ReserveSequence.png Graphic file (type png)
+
+<use Resources/ReserveSequence.png>
+Package pdftex.def Info: Resources/ReserveSequence.png used on input line 8.
+(pdftex.def)             Requested size: 345.0pt x 340.91705pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 8.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--9
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[17 <./Resources/FindFreeCarSequence.png>]
+<Resources/RentSequence.png, id=479, 1086.0575pt x 614.295pt>
+File: Resources/RentSequence.png Graphic file (type png)
+
+<use Resources/RentSequence.png>
+Package pdftex.def Info: Resources/RentSequence.png used on input line 10.
+(pdftex.def)             Requested size: 345.0pt x 195.1349pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 10.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 10--11
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+[18 <./Resources/ReserveSequence.png>]
+<Resources/EndRentSequence.png, id=486, 1995.455pt x 1738.495pt>
+File: Resources/EndRentSequence.png Graphic file (type png)
+
+<use Resources/EndRentSequence.png>
+Package pdftex.def Info: Resources/EndRentSequence.png used on input line 12.
+(pdftex.def)             Requested size: 345.0pt x 300.5539pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 12.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 12--13
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[19 <./Resources/RentSequence.png>] [20 <./Resources/EndRentSequence.png>])
+(./architecturalDesign/component.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
@@ -683,7 +844,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
 
-[14 <./Resources/DeploymentDiagram.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 14.
@@ -696,12 +856,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 14.
 
-[15]
+[21] [22]
 Overfull \hbox (2.73761pt too wide) in paragraph at lines 112--142
  [] 
  []
 
-[16] [17] [18]
+[23] [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 286.
@@ -714,937 +874,369 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 286.
 
-) (./architecturalDesign/patterns.tex [19]) [20]
+[25]) (./architecturalDesign/patterns.tex) [26] [27]
 Chapter 3.
 (./algorithm/algo.tex
 
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+./algorithm/algo.tex:4: Missing number, treated as zero.
+<to be read again> 
+                   L
+l.4 [Legend]
+            
+? 
+./algorithm/algo.tex:4: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.4 [Legend]
+            
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+
+ []
+
+
+./algorithm/algo.tex:61: LaTeX Error: Something's wrong--perhaps a missing \ite
 m.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 }
+l.61 }
       
 ? 
 
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
+Package tabulary Warning: No suitable columns! on input line 61.
+
+
+./algorithm/algo.tex:61: LaTeX Error: Something's wrong--perhaps a missing \ite
 m.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 }
+l.61 }
       
 ? 
 
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-Package tabulary Warning: No suitable columns! on input line 60.
-
-
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-./algorithm/algo.tex:60: LaTeX Error: Something's wrong--perhaps a missing \ite
-m.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 }
-      
-? 
-
-Overfull \hbox (28.71986pt too wide) in paragraph at lines 60--61
+Overfull \hbox (28.71986pt too wide) in paragraph at lines 61--62
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[21
+[28
 
-] [22]
-
-./algorithm/algo.tex:104: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 }
-       
+] [29]
+./algorithm/algo.tex:63: Misplaced alignment tab character &.
+<argument> Reservation &
+                         Rent' Algorithm
+l.63 \subsection{Reservation & Rent' Algorithm}
+                                               
 ? 
 
-Package tabulary Warning: No suitable columns! on input line 104.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `alignment tab' on input line 63.
 
+./algorithm/algo.tex:64: Misplaced alignment tab character &.
+<argument> Reservation &
+                         Rent' algorithm
+l.64 ...the \textbf{Reservation & Rent' algorithm}
+                                                  . The algorithm starts whe...
 
-./algorithm/algo.tex:104: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 }
-       
 ? 
 
-Overfull \hbox (28.71986pt too wide) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Package tabulary Warning: No suitable columns! on input line 107.
+
+
+Overfull \hbox (28.71986pt too wide) in paragraph at lines 107--108
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
+[30]
 
-./algorithm/algo.tex:109: LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 	\item P = \mathrm
-                        {d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3; ( w...
-
-? 
-
-./algorithm/algo.tex:109: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 	\item P = \mathrm{d}x * P1 + \mathrm
-                                           {d}y * P2 + \mathrm{d}z * P3; ( w...
-
+l.113 	\item P = \mathrm
+                        {d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. **
 ? 
 
-./algorithm/algo.tex:109: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...hrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm
-                                                  {d}z * P3; ( with P, P1, P...
-
-? 
-./algorithm/algo.tex:109: Missing $ inserted.
-<inserted text> 
-                $
-l.109 ...thrm{d}z * P3; ( with P, P1, P2, P3 in R^
-                                                  2; with \mathrm{d}x ,\math...
-
+l.113 	\item P = \mathrm{d}x * P1 + \mathrm
+                                           {d}y * P2 + \mathrm{d}z * P3. **
 ? 
 
-./algorithm/algo.tex:110: LaTeX Error: Command \item invalid in math mode.
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\item
-             P = \mathrm{d}x * P1 +  \mathrm{d}y * P2 + (1 - \mathrm{d}x - \...
-
+l.113 ...hrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm
+                                                  {d}z * P3. **
 ? 
 
-./algorithm/algo.tex:110: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
+./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\item P
-               = \mathrm{d}x * P1 +  \mathrm{d}y * P2 + (1 - \mathrm{d}x - \...
+l.114 	\item P = \mathrm
+                        {d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm{d...
 
 ? 
 
-./algorithm/algo.tex:110: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
+./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\item P
-               = \mathrm{d}x * P1 +  \mathrm{d}y * P2 + (1 - \mathrm{d}x - \...
+l.114 	\item P = \mathrm{d}x*P1+ \mathrm
+                                        {d}y*P2+(1 - \mathrm{d}x - \mathrm{d...
 
 ? 
 
-./algorithm/algo.tex:111: LaTeX Error: Command \item invalid in math mode.
+./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 	\item
-             P - P3 = \mathrm{d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
-? 
-./algorithm/algo.tex:111: Missing $ inserted.
-<inserted text> 
-                $
-l.111 	\item P
-               - P3 = \mathrm{d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
-? 
-./algorithm/algo.tex:111: Missing } inserted.
-<inserted text> 
-                }
-l.111 	\item P
-               - P3 = \mathrm{d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
+l.114 ...athrm{d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm
+                                                  {d}x - \mathrm{d}y )*P3.
 ? 
 
-Overfull \hbox (50.97412pt too wide) in paragraph at lines 109--111
-[]\OT1/cmr/m/n/10 P = dx * P1 + dy * P2 + dz * P3; ( with P, P1, P2, P3 in R$[]
-; \OML/cmm/m/it/10 with\OT1/cmr/m/n/10 d\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 d\O
-ML/cmm/m/it/10 z; \OT1/cmr/m/n/10 d\OML/cmm/m/it/10 yinR\OT1/cmr/m/n/10 ; d\OML
-/cmm/m/it/10 x >\OT1/cmr/m/n/10 =
- []
-
-./algorithm/algo.tex:111: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.111 	\item P
-               - P3 = \mathrm{d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
-? 
-
-./algorithm/algo.tex:111: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 	\item P - P3 = \mathrm
-                             {d}x * (P1 - P3) + \mathrm{d}y * (P2 - P3).
+l.114 ...\mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm
+                                                  {d}y )*P3.
 ? 
 
-./algorithm/algo.tex:111: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:115: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 ... - P3 = \mathrm{d}x * (P1 - P3) + \mathrm
-                                                  {d}y * (P2 - P3).
+l.115 	\item P - P3 = \mathrm
+                             {d}x*(P1 - P3)+\mathrm{d}y*(P2 - P3).
 ? 
-[23]
 
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
+./algorithm/algo.tex:115: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+l.115 ...em P - P3 = \mathrm{d}x*(P1 - P3)+\mathrm
+                                                  {d}y*(P2 - P3).
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Undefined control sequence.
+./algorithm/algo.tex:183: Undefined control sequence.
 <argument> $d\eq 
                  0$
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing number, treated as zero.
+./algorithm/algo.tex:183: Missing number, treated as zero.
 <to be read again> 
-                   \ALG@b@2@EndIf@0 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing } inserted.
-<inserted text> 
-                }
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing $ inserted.
-<inserted text> 
-                $
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+                   \ALG@b@2@EndFor@0 
+l.183 }
+       
 ? 
 
-Package tabulary Warning: No suitable columns! on input line 147.
+./algorithm/algo.tex:183: Package algorithmicx Error: Some blocks are not close
+d!!!.
 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
+See the algorithmicx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+l.183 }
+       
 ? 
 
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
+Package tabulary Warning: No suitable columns! on input line 183.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+./algorithm/algo.tex:183: Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
 ? 
-./algorithm/algo.tex:147: Undefined control sequence.
+./algorithm/algo.tex:183: Missing = inserted for \ifnum.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
+? 
+./algorithm/algo.tex:183: Missing number, treated as zero.
+<to be read again> 
+                   \ALG@currentblock@0 
+l.183 }
+       
+? 
+./algorithm/algo.tex:183: Undefined control sequence.
 <argument> $d\eq 
                  0$
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
+l.183 }
+       
 ? 
-
-./algorithm/algo.tex:147: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-
-./algorithm/algo.tex:147: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing number, treated as zero.
+./algorithm/algo.tex:183: Missing number, treated as zero.
 <to be read again> 
-                   \ALG@b@2@EndIf@0 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing } inserted.
-<inserted text> 
-                }
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:147: Missing $ inserted.
-<inserted text> 
-                $
-l.147 		\mathrm{d}Y \gets \mathrm{d}Py/d}
-                                         
-? 
-./algorithm/algo.tex:148: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.148 	\end{algorithmic}
-                        \\
-? 
-./algorithm/algo.tex:148: Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.148 	\end{algorithmic}
-                        \\
-? 
-./algorithm/algo.tex:148: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.148 	\end{algorithmic}
-                        \\
+                   \ALG@b@2@EndFor@0 
+l.183 }
+       
 ? 
 
-./algorithm/algo.tex:148: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
+./algorithm/algo.tex:183: Package algorithmicx Error: Some blocks are not close
+d!!!.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the algorithmicx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 	\end{algorithmic}
-                        \\
+l.183 }
+       
 ? 
 
-Overfull \hbox (28.71986pt too wide) in paragraph at lines 147--148
+Overfull \hbox (28.71986pt too wide) in paragraph at lines 183--184
 [][]
  []
 
 
-./algorithm/algo.tex:148: LaTeX Error: \begin{document} ended by \end{list}.
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 	\end{algorithmic}
-                        \\
-? 
-./algorithm/algo.tex:148: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.148 	\end{algorithmic}
-                        \\
-? 
+ []
 
-./algorithm/algo.tex:148: LaTeX Error: \begin{document} ended by \end{algorithm
-ic}.
+[31]
+./algorithm/algo.tex:186: Missing $ inserted.
+<inserted text> 
+                $
+l.186 **with P, P1, P2, P3 in R^
+                                2;  with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d...
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 	\end{algorithmic}
-                        \\
 ? 
-./algorithm/algo.tex:148: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.148 	\end{algorithmic}
-                        \\
+)
+./PowerEnJoy.tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 \chapter
+             {User Interface Design}
 ? 
-
-./algorithm/algo.tex:149: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 	\hline
-             
-? 
-./algorithm/algo.tex:149: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.149 	\hline
-             
-? 
-./algorithm/algo.tex:150: Misplaced alignment tab character &.
-l.150 	Check the results and draw conclusion &
-                                              
-? 
-
-./algorithm/algo.tex:157: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 	\hline
-             
-? 
-./algorithm/algo.tex:157: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.157 	\hline
-             
-? 
-./algorithm/algo.tex:158: Misplaced alignment tab character &.
-l.158 ... position) is contained in the triangle &
-                                                  
-? 
-
-./algorithm/algo.tex:161: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 	\end{algorithmic}
-                        \\
-? 
-
-./algorithm/algo.tex:162: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 	\hline
-             
-? 
-./algorithm/algo.tex:162: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.162 	\hline
-             
-? 
-./algorithm/algo.tex:164: Misplaced alignment tab character &.
-l.164 ...to determine in which zone is our point &
-                                                  
-? 
-
-./algorithm/algo.tex:167: LaTeX Error: Something's wrong--perhaps a missing \it
-em.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{algorithmic}
-                        \\
-? 
-
-./algorithm/algo.tex:168: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 	\hline
-             
-? 
-./algorithm/algo.tex:168: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.168 	\hline
-             
-? 
-./algorithm/algo.tex:169: Too many }'s.
-<recently read> }
-                 
-l.169 }
-       
-? 
-) [24]
+[32] [33]
 Chapter 4.
 (./ud/interface.tex
-<Resources/LoginMockup.pdf, id=476, 202.7575pt x 403.5075pt>
+<Resources/LoginMockup.pdf, id=554, 202.7575pt x 403.5075pt>
 File: Resources/LoginMockup.pdf Graphic file (type pdf)
 
 <use Resources/LoginMockup.pdf>
 Package pdftex.def Info: Resources/LoginMockup.pdf used on input line 5.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
+(pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1656,15 +1248,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 
  []
 
-[25
+[34
 
  <./Resources/LoginMockup.pdf>]
-<Resources/Registration.png, id=488, 211.79124pt x 404.51125pt>
+<Resources/Registration.png, id=566, 211.79124pt x 404.51125pt>
 File: Resources/Registration.png Graphic file (type png)
 
 <use Resources/Registration.png>
 Package pdftex.def Info: Resources/Registration.png used on input line 8.
-(pdftex.def)             Requested size: 104.27953pt x 199.16928pt.
+(pdftex.def)             Requested size: 119.17752pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1676,27 +1268,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
  []
 
+<Resources/Registration-part-2.png, id=567, 211.79124pt x 404.51125pt>
+File: Resources/Registration-part-2.png Graphic file (type png)
 
-./ud/interface.tex:11: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 }
-      
-? 
-
-LaTeX Warning: File `Resources/Registration part 2.png' not found on input line
- 11.
-
-<Resources/Registration part 2.png, id=489, 211.79124pt x 404.51125pt>
-File: Resources/Registration part 2.png Graphic file (type png)
-
-<use Resources/Registration part 2.png>
-Package pdftex.def Info: Resources/Registration part 2.png used on input line 1
+<use Resources/Registration-part-2.png>
+Package pdftex.def Info: Resources/Registration-part-2.png used on input line 1
 1.
-(pdftex.def)             Requested size: 104.27953pt x 199.16928pt.
+(pdftex.def)             Requested size: 119.17752pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1713,12 +1291,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
  []
 
-<Resources/MapMockup.pdf, id=490, 202.7575pt x 403.5075pt>
+<Resources/MapMockup.pdf, id=568, 202.7575pt x 403.5075pt>
 File: Resources/MapMockup.pdf Graphic file (type pdf)
 
 <use Resources/MapMockup.pdf>
 Package pdftex.def Info: Resources/MapMockup.pdf used on input line 15.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
+(pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1730,12 +1308,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
-<Resources/CarInfo.png, id=491, 202.7575pt x 403.5075pt>
+<Resources/CarInfo.png, id=569, 202.7575pt x 403.5075pt>
 File: Resources/CarInfo.png Graphic file (type png)
 
 <use Resources/CarInfo.png>
 Package pdftex.def Info: Resources/CarInfo.png used on input line 18.
-(pdftex.def)             Requested size: 100.07909pt x 199.16928pt.
+(pdftex.def)             Requested size: 114.37875pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1747,12 +1325,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-<Resources/Reservation.png, id=492, 211.79124pt x 404.51125pt>
+<Resources/Reservation.png, id=570, 211.79124pt x 404.51125pt>
 File: Resources/Reservation.png Graphic file (type png)
 
 <use Resources/Reservation.png>
 Package pdftex.def Info: Resources/Reservation.png used on input line 21.
-(pdftex.def)             Requested size: 104.27953pt x 199.16928pt.
+(pdftex.def)             Requested size: 119.17752pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1764,12 +1342,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-<Resources/EditProfile.png, id=493, 211.79124pt x 404.51125pt>
+<Resources/EditProfile.png, id=571, 211.79124pt x 404.51125pt>
 File: Resources/EditProfile.png Graphic file (type png)
 
 <use Resources/EditProfile.png>
 Package pdftex.def Info: Resources/EditProfile.png used on input line 24.
-(pdftex.def)             Requested size: 104.27953pt x 199.16928pt.
+(pdftex.def)             Requested size: 119.17752pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1781,12 +1359,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  []
 
-<Resources/EndRent.png, id=494, 231.86626pt x 404.51125pt>
+<Resources/EndRent.png, id=572, 231.86626pt x 404.51125pt>
 File: Resources/EndRent.png Graphic file (type png)
 
 <use Resources/EndRent.png>
 Package pdftex.def Info: Resources/EndRent.png used on input line 27.
-(pdftex.def)             Requested size: 114.16383pt x 199.16928pt.
+(pdftex.def)             Requested size: 130.47397pt x 227.62204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1798,9 +1376,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
 
-[26 <./Resources/Registration.png> <./Resources/Registration part 2.png>]
-[27 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>] [28 <./Resources/Res
-ervation.png> <./Resources/EditProfile.png>] [29 <./Resources/EndRent.png>])
+[35 <./Resources/Registration.png> <./Resources/Registration-part-2.png>]
+[36 <./Resources/MapMockup.pdf> <./Resources/CarInfo.png>] [37 <./Resources/Res
+ervation.png> <./Resources/EditProfile.png>] [38 <./Resources/EndRent.png>])
 Chapter 5.
 (./traceability/requirements.tex
 
@@ -1829,7 +1407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[30
+[39
 
 ]
 
@@ -1845,7 +1423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[31]
+[40]
 
 Package tabulary Warning: No suitable columns! on input line 103.
 
@@ -1859,56 +1437,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[32]
+[41]
 
-Package tabulary Warning: No suitable columns! on input line 110.
-
-
-Overfull \hbox (13.71986pt too wide) in paragraph at lines 110--111
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Package tabulary Warning: No suitable columns! on input line 133.
+Package tabulary Warning: No suitable columns! on input line 130.
 
 )
-Overfull \hbox (13.71986pt too wide) in paragraph at lines 133--60
+Overfull \hbox (13.71986pt too wide) in paragraph at lines 130--61
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--60
+Underfull \hbox (badness 10000) in paragraph at lines 130--61
 
  []
 
-[33] [34]
+[42] [43]
 Appendix A.
-[35
+[44
 
-] [36]
+] [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [37]
+ [46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (./PowerEnJoy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
-(rerunfilecheck)             Checksum: A92C0F0BDC9317A67BDCDAFCEC5B6249;3391.
+(rerunfilecheck)             Checksum: B22CF74967FCC60B02254AD565199940;3561.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 11440 strings out of 493014
- 169131 string characters out of 6133350
- 391836 words of memory out of 5000000
- 14653 multiletter control sequences out of 15000+600000
- 12219 words of font info for 43 fonts, out of 8000000 for 9000
+ 11503 strings out of 493014
+ 170550 string characters out of 6133350
+ 392183 words of memory out of 5000000
+ 14693 multiletter control sequences out of 15000+600000
+ 11600 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,86p,1012b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,86p,1012b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -1920,10 +1485,10 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PowerEnJoy.pdf (38 pages, 546630 bytes).
+Output written on PowerEnJoy.pdf (47 pages, 1038433 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 107 named destinations out of 1000 (max. 500000)
- 472 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 608 compressed objects within 7 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 
