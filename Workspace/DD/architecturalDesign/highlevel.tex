@@ -33,7 +33,13 @@ In particular the application server is composed by different components that ar
 	\item[Resources] ??
 	\item[Operations] \ \\
 		\begin{itemize}
-			\item Database API			\item Data storare management			\item Data presentation			\item Security management			\item Multiuser access control			\item Backup and recovery management ? Data integrity management			\item Data transaction management	
+			\item Database API
+			\item Data storare management
+			\item Data presentation
+			\item Security management
+			\item Multiuser access control
+			\item Backup and recovery management ? Data integrity management
+			\item Data transaction management	
 		\end{itemize}
 \end{description}
 
@@ -52,6 +58,24 @@ In particular the application server is composed by different components that ar
 			\item Assistance request
 	\end{itemize}
 \end{description}
+
+\subsection{Car System}
+\begin{description}
+	\item[Type] Car System
+	\item[Node] Car
+	\item[Description] This is the board computer in the car that allow the system to retriever all the needed data. This computer is also able to open and close and to do a fast check of the car condition in order to directly send a maintenance request to the system. Its main feature is the car position in order to let the system localise the car. The communication between this computer and the system is done by an internet connection of 10 MB for month because it does not require an intense communication.
+	\item[Dependencies] 
+	\item[Resources] ??
+	\item[Operations] \ \\
+		\begin{itemize}
+			\item Passenger counting.
+			\item Open and close the car.
+			\item Check the car condition and send notification to the central system
+			\item Relieve the position of the car.
+			\item Relieve the state of the battery even if it is plugged-in or not. 
+		\end{itemize}
+\end{description}
+
 
 \section{System Part}
 \subsection{Ride Manager}
@@ -109,6 +133,20 @@ In particular the application server is composed by different components that ar
 			\item Calculate total cost, apply discount and overtaxes 
 			\item Request the amount of the rent to the external payment method 
 		\end{itemize}
+\end{description}
+
+\subsection{Zone Manager}
+\begin{description}
+	\item[Type] Subsystem of PowerEnJoy
+	\item[Node] PowerEnJoy Server
+	\item[Description] This part of the system is dedicated to manager all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course. 
+	\item[Dependencies] Database API
+	\item[Operations] 
+		\begin{itemize}
+			\item Retrieve the information about the parking and safe area
+			\item Calcule the free area where an user can end the rent 
+			\item Communicate with the Ride Manager to avoid end of rent that are not correct
+	\end{itemize}
 \end{description}
 
 \subsection{Problem Manager}

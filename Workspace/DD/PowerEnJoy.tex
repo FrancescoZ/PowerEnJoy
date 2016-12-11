@@ -1,5 +1,6 @@
 \documentclass{../Common/Structure/doc_pdf}
 
+
 \newcommand{\reqTracTab}[1]{
 	\begin{tabulary}{\linewidth}{Y{2.75cm}|X{9cm}}
 		\textbf{\textit{Functional Requirements}} & \textbf{\textit{Design Elements}} \\
@@ -7,6 +8,15 @@
 		#1
 	\end{tabulary}
 }
+\newcommand{\algoTab}[1]{
+	\begin{tabulary}{\linewidth}{Y{2.75cm}|X{9cm}}
+		\textbf{\textit{Event}} & \textbf{\textit{Consequences}} \\
+		\hline
+		#1
+	\end{tabulary}
+}
+
+
 
 \titleSubtitle{{\Huge\textit{Power EnJoy}}\\{\LARGE Design Document}}{Version 1.0.0}
 \pageHeader{Design Document}
@@ -37,11 +47,14 @@
 \showPercentImage{Resources/DeploymentDiagram.png}{deployment diagram for PowerEnJoy}{1}{fig:Deploy}{0.5em}
 \section{Runtime view}
 \section{Component interfaces}
+\input{architecturalDesign/component.tex}
 \section{Selected architectural styles and patterns}
 \input{architecturalDesign/patterns.tex}
 
 \chapter{Algorithm Design}
+\input{algorithm/algo.tex}
 \chapter{User Interface Design}
+\input{ud/interface.tex}
 \chapter{Requirements Traceability}
 \input{traceability/requirements.tex}
 

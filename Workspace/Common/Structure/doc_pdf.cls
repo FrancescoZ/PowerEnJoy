@@ -19,6 +19,11 @@
 \usepackage{float}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
+\usepackage{multirow}
+
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}

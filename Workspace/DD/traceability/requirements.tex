@@ -28,7 +28,8 @@ In this section are mapped all the functional requirements identified in the \te
 \subsection{Login}
 \reqTracTab{
 	FR6, FR7 &
-	%Visitors must fill the ?email field? with an existing email address in order to successfully log in. Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.	\textbf{Account Manager} check the existence of the user's email and the correspondent password before allowing the user to log-into the system\\
+	%Visitors must fill the ?email field? with an existing email address in order to successfully log in. Visitors must fill the ?password? field with the only password correspond- ing to the submitted email address in order to successfully log in.
+	\textbf{Account Manager} check the existence of the user's email and the correspondent password before allowing the user to log-into the system\\
 	\hline
 	FR8 &
 	%The system will ignore log in requests if at least one of the ?email? and ?password? fields are left blank.
@@ -59,7 +60,7 @@ In this section are mapped all the functional requirements identified in the \te
 	\hline
 	FR16 &
 	%A car can be reserved and showed on the map only if its state is?Free?
-	The \textbf{Car Manager} according with the \textbf{Ride Manager} set the status of the car. The \textbf{Ride Manager} shows to the \texbf{Mobile Application} only the car that are in free state.\\
+	The \textbf{Car Manager} according with the \textbf{Ride Manager} set the status of the car. The \textbf{Ride Manager} shows to the \textbf{Mobile Application} only the car that are in free state.\\
 	\hline
 	FR17 &
 	%A car stays in the ?Reserved? state for at maximum one hour, if it?s not picked-up it return to the state ?Free?
@@ -67,7 +68,8 @@ In this section are mapped all the functional requirements identified in the \te
 	\hline
 	FR18 &
 	%Each car have a precise position
-	The car position is managed from the \textbf{Car System} and sent to the \textbf{Car Manager} in order to log the car movement.
+	The car position is managed from the \textbf{Car System} and sent to the \textbf{Car Manager} in order to log the car movement.\\
+	\hline
 	FR19 &
 	%An user can open the car through the app only if it is near to it
 	The \textbf{Account Manager} has the position of the user and the \textbf{Car Manager} has the position on the car and can open it communicating with the \textbf{Car System}. The \textbf{Ride Manager} handling the two link with this components will open the car only if all the requirement (as the same position and the previously reservation) are correctly soddisfied. \\
@@ -79,7 +81,7 @@ In this section are mapped all the functional requirements identified in the \te
 
 \subsection{End a Rent}
 \reqTracTab{
-	FR22,FR23,FR24,FR25 &
+	FR22,FR23,\\FR24,FR25 &
 	%If the system detects the user took at least two other passengers into the car, the system applies a discount of 10% on the last ride.
 	The \textbf{Ride Manager} communicating with the \textbf{Car Manager} is always aware about the conditions of the rent, thanks to that the \textbf{Bill Manager} can figure out the total bill and apply discount or overtaxes\\
 	\hline

@@ -1,0 +1,298 @@
+This section describes all interfaces between components, their interaction and their input/output parameters. For further, detailed explanations about their functioning, dependencies, resources, operations and parameters read the RASD release.
+
+\subsection{Application$\leftrightarrow$Client Interface}
+	\begin{itemize}
+		\item [] \textbf{Components}:
+			\begin{itemize}
+				\item PowerEnJoyServer  (Application)
+				\item Mobile App (Client)
+			\end{itemize}			
+		\item [] \textbf{Communication system}: JPA, JDBC APIs;
+		\item [] \textbf{Protocols}: standard HTTPS protocol;
+	\end{itemize}
+	
+\subsection{Application$\leftrightarrow$Database  Interface}
+	\begin{itemize}
+		\item [] \textbf{Components}:
+		\begin{itemize}
+			\item Data Manager (PowerEnJoyServer) (Application)
+			\item PowerEnjoy DB (Database)
+		\end{itemize}			
+		\item [] \textbf{Communication system}: JPA, JDBC APIs;
+		\item [] \textbf{Protocols}: standard TCP/IP protocols;
+	\end{itemize}
+	
+\subsection{Map services}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			% Zone Management
+			\multirow{2}{*}{\textbf{Zones Management}}
+				& \multirow{2}{*}{Drivers}
+					&	location & [Position]\\
+					&&	available car & [Car]\\ [1.5ex]
+			\hline\\
+			
+			% Google API
+			\multirow{2}{*}{\textbf{Google Maps APIs}}
+				& \multirow{1}{*}{Drivers}
+					&	address & [string]\\
+					&&	location car & [Position]\\ [1.5ex]
+			\hline\\
+			
+		\end{tabular}
+	\end{center}
+	
+\subsection{Account manager}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			% REGISTRATION
+			\multirow{4}{*}{\textbf{Registration}}
+			\multirow{4}{*}
+				& \multirow{4}{*}{Visitors}
+					&	email & [string]\\
+					&&	password & [string]\\
+					&& 	license ID & [string]\\
+					&&	.. .& \\ [1.5ex]
+			\hline\\
+			
+			% LOGIN
+			\multirow{2}{*}{\textbf{Login}}
+				& \multirow{2}{*}{Visitors}
+					&	email & [string]\\
+					&&	password & [string]\\ [1.5ex]
+			\hline\\
+			
+			% EMAIL CONFIRMATION
+			\multirow{2}{*}{\textbf{Email Confirmation}}
+				& \multirow{1}{*}{Driver}
+					&	\multirow{2}{*}{password} & \multirow{2}{*}{[string]}\\ [1.5ex]
+			\hline\\
+			
+			% PROFILE EDITING
+			\multirow{4}{*}{\textbf{Profile Editing}}
+				& \multirow{2}{*}{Drivers}
+					& new email & [string]\\
+					&& ... & \\ [1.5ex]
+			\hline\\
+			
+			% PROFILE DELETING
+			\multirow{2}{*}{\textbf{Profile Deleting}}
+				& \multirow{2}{*}{Drivers}
+					&	token & [/]\\
+					&&	password & [string]\\ [1.5ex]
+			\hline
+		\end{tabular}
+	\end{center}
+
+	
+\subsection{Notification}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			% Car Reservation NOTIFICATION
+			\multirow{4}{*}{\textbf{Car Reservation Notification}}
+				& \multirow{4}{*}{Drivers}
+					&	car location & [Position]\\
+					&&	ETA & [interval]\\
+					&&	car state & [boolean]\\
+					&&	... & \\ [1.5ex]
+			\hline\\
+			
+			% BILL RIDE NOTIFICATION
+			\multirow{4}{*}{\textbf{Bill Ride Notification}}
+				& \multirow{4}{*}{Drivers}
+					&	time of rent & [Time]\\
+					&&	total amount & [float]\\
+					&&	discount & [float]\\
+					&&	... & \\ [1.5ex]
+			\hline
+		\end{tabular}
+	\end{center}
+
+
+\subsection{Ride manager}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			% RIDE REQUEST
+			\multirow{9}{*}{\textbf{Ride Management}}
+				& \multirow{9}{*}{Drivers}
+					&	user ID & [string]\\
+					&&	start location & [Position]\\
+					&&	start time & [Time]\\
+					&&	end time & [Time]\\
+					&&	end location & [Position]\\
+					&&	num passengers & [int]\\
+					&&	battery state & [float]\\
+					&&	bill & [float]\\
+					&&	... & \\ [1.5ex]
+			\hline\\
+			
+			% Reservation
+			\multirow{2}{*}{\textbf{Reservation Update}}
+				& \multirow{2}{*}{Drivers}
+					&	request status & [enum]\\
+					&&	new request status & [enum]\\ [1.5ex]
+			\hline\\
+			
+			% Ride update
+			\multirow{2}{*}{\textbf{Request Status Update}}
+				& \multirow{2}{*}{Drivers}
+					&	ride status & [enum]\\
+					&&	new ride status & [enum]\\ [1.5ex]
+			\hline\\
+
+		\end{tabular}
+	\end{center}
+
+\subsection{Zone manager}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			\multirow{9}{*}{\textbf{Zone Management}}
+				& \multirow{9}{*}{Drivers}
+					&	car location & [Position]\\
+					&&	discount & [float]\\
+					&&	car state & [boolean]\\
+					&&	... & \\ [1.5ex]
+			\hline\\
+			
+			\multirow{2}{*}{\textbf{Zone Update}}
+				& \multirow{2}{*}{Drivers}
+					&	status & [enum]\\
+					&&	new zone  & [Zone]\\ [1.5ex]
+			\hline\\
+
+		\end{tabular}
+	\end{center}
+
+\subsection{Bill manager}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			\multirow{9}{*}{\textbf{Bill Management}}
+				& \multirow{9}{*}{Drivers}
+					&	car location & [Position]\\
+					&&	battery state & [float]\\
+					&&	num passengers & [int]\\
+					&&	time charged & [float]\\
+					&&	... & \\ [1.5ex]
+			\hline\\
+			
+			\multirow{2}{*}{\textbf{PayPal APIs}}
+				& \multirow{2}{*}{Drivers}
+					&	email & [string]\\
+					&&	total amount & [float]\\ [1.5ex]
+			\hline\\
+
+		\end{tabular}
+	\end{center}
+
+\subsection{Car manager}
+	\begin{center}
+		\begin{tabular}{ l | c | l   r }
+			\multirow{2}{*}{\textbf{Operation}} & \textbf{Involved} & \textbf{Input/Output} & \multirow{2}{*}{[type]}\\
+			& \textbf{Users} & \textbf{Parameters} & \\ [1.5ex]
+			\hline\hline\\
+			
+			% GENERAL
+			\multirow{2}{*}{\textit{(General)}}
+				& \multirow{2}{*}{\textit{(All)}}
+					&	token & [/]\\
+					&&	errors & [/]\\ [1.5ex]
+			\hline\\
+			
+			% RIDE REQUEST
+			\multirow{9}{*}{\textbf{Car Management}}
+				& \multirow{9}{*}{Drivers}
+					&	car location & [Position]\\
+					&&	battery state & [float]\\
+					&&	num passengers & [int]\\
+					&&	time charged & [float]\\
+					&&	... & \\ [1.5ex]
+			\hline\\
+			
+			\multirow{2}{*}{\textbf{Car Update}}
+				& \multirow{2}{*}{Drivers}
+					&	new car status & [enum]\\
+					&&	new car location & [Position]\\ [1.5ex]
+			\hline\\
+
+		\end{tabular}
+	\end{center}
+	
+\subsection{Application$\leftrightarrow$Problem Manager Interface}
+	\begin{itemize}
+		\item [] \textbf{Components}:
+			\begin{itemize}
+				\item Problem Manager APIs
+				\item Mobile App (Client)
+			\end{itemize}			
+		\item [] \textbf{Communication system}: JAX-RS API (RESTful interface)
+		\item [] \textbf{Protocols}: standard HTTPS protocol;
+	\end{itemize}
+
+\subsection{Data manager}
+	See subsection 2.6.1, \textit{"Application$\leftrightarrow$Database Interface"}.

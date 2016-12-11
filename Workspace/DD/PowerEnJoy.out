@@ -10,33 +10,43 @@
 \BOOKMARK [2][-]{subsection.2.3.1}{PowerEnJoy}{section.2.3}% 10
 \BOOKMARK [2][-]{subsection.2.3.2}{PowerEnJoy Database}{section.2.3}% 11
 \BOOKMARK [2][-]{subsection.2.3.3}{Mobile App}{section.2.3}% 12
-\BOOKMARK [1][-]{section.2.4}{System Part}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.4.1}{Ride Manager}{section.2.4}% 14
-\BOOKMARK [2][-]{subsection.2.4.2}{Account Manager}{section.2.4}% 15
-\BOOKMARK [2][-]{subsection.2.4.3}{Car Manager}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.4}{Bill Manager}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.5}{Problem Manager}{section.2.4}% 18
-\BOOKMARK [2][-]{subsection.2.4.6}{Data Manager}{section.2.4}% 19
-\BOOKMARK [1][-]{section.2.5}{Component View}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.6}{Deployment view}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.7}{Runtime view}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.8}{Component interfaces}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.9}{Selected architectural styles and patterns}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.10}{Other Design Decision}{chapter.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 26
-\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 27
-\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 28
-\BOOKMARK [1][-]{section.5.1}{Requirements Traceability}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.1.1}{Registration}{section.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.1.2}{Login}{section.5.1}% 31
-\BOOKMARK [2][-]{subsection.5.1.3}{Logout}{section.5.1}% 32
-\BOOKMARK [2][-]{subsection.5.1.4}{View Request and Reservations}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.5}{Handle Personal Profile}{section.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.1.6}{Taxi Reservation}{section.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.1.7}{Taxi Request}{section.5.1}% 36
-\BOOKMARK [2][-]{subsection.5.1.8}{Notify Problem}{section.5.1}% 37
-\BOOKMARK [2][-]{subsection.5.1.9}{End of Ride}{section.5.1}% 38
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 39
-\BOOKMARK [1][-]{section.A.1}{Tools}{appendix.A}% 40
-\BOOKMARK [1][-]{section.A.2}{Hours of work}{appendix.A}% 41
-\BOOKMARK [1][-]{section.A.3}{Version History}{appendix.A}% 42
+\BOOKMARK [2][-]{subsection.2.3.4}{Car System}{section.2.3}% 13
+\BOOKMARK [1][-]{section.2.4}{System Part}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{Ride Manager}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.2}{Account Manager}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.3}{Car Manager}{section.2.4}% 17
+\BOOKMARK [2][-]{subsection.2.4.4}{Bill Manager}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.5}{Zone Manager}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.6}{Problem Manager}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.7}{Data Manager}{section.2.4}% 21
+\BOOKMARK [1][-]{section.2.5}{Component View}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.6}{Deployment view}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.7}{Runtime view}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.8}{Component interfaces}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.8.1}{ApplicationClient Interface}{section.2.8}% 26
+\BOOKMARK [2][-]{subsection.2.8.2}{ApplicationDatabase Interface}{section.2.8}% 27
+\BOOKMARK [2][-]{subsection.2.8.3}{Map services}{section.2.8}% 28
+\BOOKMARK [2][-]{subsection.2.8.4}{Account manager}{section.2.8}% 29
+\BOOKMARK [2][-]{subsection.2.8.5}{Notification}{section.2.8}% 30
+\BOOKMARK [2][-]{subsection.2.8.6}{Ride manager}{section.2.8}% 31
+\BOOKMARK [2][-]{subsection.2.8.7}{Zone manager}{section.2.8}% 32
+\BOOKMARK [2][-]{subsection.2.8.8}{Bill manager}{section.2.8}% 33
+\BOOKMARK [2][-]{subsection.2.8.9}{Car manager}{section.2.8}% 34
+\BOOKMARK [2][-]{subsection.2.8.10}{ApplicationProblem Manager Interface}{section.2.8}% 35
+\BOOKMARK [2][-]{subsection.2.8.11}{Data manager}{section.2.8}% 36
+\BOOKMARK [1][-]{section.2.9}{Selected architectural styles and patterns}{chapter.2}% 37
+\BOOKMARK [1][-]{section.2.10}{Other Design Decision}{chapter.2}% 38
+\BOOKMARK [0][-]{chapter.3}{Algorithm Design}{}% 39
+\BOOKMARK [0][-]{chapter.4}{User Interface Design}{}% 40
+\BOOKMARK [0][-]{chapter.5}{Requirements Traceability}{}% 41
+\BOOKMARK [1][-]{section.5.1}{Requirements Traceability}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.1.1}{Registration}{section.5.1}% 43
+\BOOKMARK [2][-]{subsection.5.1.2}{Login}{section.5.1}% 44
+\BOOKMARK [2][-]{subsection.5.1.3}{Reserve a Car}{section.5.1}% 45
+\BOOKMARK [2][-]{subsection.5.1.4}{End a Rent}{section.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.1.5}{Report Problem}{section.5.1}% 47
+\BOOKMARK [2][-]{subsection.5.1.6}{Report Problem}{section.5.1}% 48
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 49
+\BOOKMARK [1][-]{section.A.1}{Tools}{appendix.A}% 50
+\BOOKMARK [1][-]{section.A.2}{Hours of work}{appendix.A}% 51
+\BOOKMARK [1][-]{section.A.3}{Version History}{appendix.A}% 52
