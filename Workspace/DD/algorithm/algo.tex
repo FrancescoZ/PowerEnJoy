@@ -59,7 +59,7 @@ Below is represented the ?bill's algorithm?. Before the driver ends the ride and
 	\hline
 }	
 	
-Below is represented the ?reservation/rent algorithm?. The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin)
+Below is represented the "reservation/rent algorithm". The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin)
 
 [Legend]
 \begin{itemize}
@@ -125,15 +125,27 @@ This equation can then be split into two scalar linear equations in the x and y 
 \algoTab{
 	 Declare variables that will allow to solve the linear equation system thanks to Cramer?s method &
 	\begin{algorithmic}
-		\State$a\gets p1.getX() ? p3.getX()$\\              \State 	$b\gets p2.getX() ? p3.getX()$\\               	\State$c\gets p1.getY() ? p3.getY()$\\               	\State$d\gets p2.getY() ? p3.getY()$\\               	\State$e\gets  p.getX() ? p3.getX()$\\               	\State$f\gets p.getX() ? p3.getY()$\\
+		\State$a\gets p1.getX() ? p3.getX()$\\
+              \State 	$b\gets p2.getX() ? p3.getX()$\\
+               	\State$c\gets p1.getY() ? p3.getY()$\\
+               	\State$d\gets p2.getY() ? p3.getY()$\\
+               	\State$e\gets  p.getX() ? p3.getX()$\\
+               	\State$f\gets p.getX() ? p3.getY()$\\
 	\end{algorithmic}\\
 	\hline
 	Calculate the determinant to check the solution of the system &
 	\begin{algorithmic}
-		$tContains()$\\             	\State $d\gets a*d-b*c\\
+		$tContains()$\\
+             	\State $d\gets a*d-b*c\\
 		\If {$d\eq 0$}
 			$return false$
-		\EndIf	        \mathrm{d}Px \gets e*d ? f*b       		\mathrm{d}Py \gets a*f ?  c*e	        \mathrm{d}Z \gets 1 ? \mathrm{d}Px ? \mathrm{d}Py		\mathrm{d}X \gets \mathrm{d}Px/d		\mathrm{d}Y \gets \mathrm{d}Py/d}	\end{algorithmic}\\
+		\EndIf
+	        \mathrm{d}Px \gets e*d ? f*b
+       		\mathrm{d}Py \gets a*f ?  c*e
+	        \mathrm{d}Z \gets 1 ? \mathrm{d}Px ? \mathrm{d}Py
+		\mathrm{d}X \gets \mathrm{d}Px/d
+		\mathrm{d}Y \gets \mathrm{d}Py/d}
+	\end{algorithmic}\\
 	\hline
 	Check the results and draw conclusion &
 	\begin{algorithmic}                        
