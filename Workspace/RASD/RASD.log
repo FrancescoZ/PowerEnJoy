@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  1 DEC 2016 10:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**PowerEnJoy.tex
-(./PowerEnJoy.tex
+**RASD.tex
+(./RASD.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (../Common/Structure/doc_pdf.cls
@@ -391,15 +391,96 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 100.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen131
 )
-(./alloy.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count139
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count140
+\leftroot@=\count141
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count142
+\DOTSCASE@=\count143
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen133
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count144
+\c@MaxMatrixCols=\count145
+\dotsspace@=\muskip11
+\c@parentequation=\count146
+\dspbrk@lvl=\count147
+\tag@help=\toks30
+\row@=\count148
+\column@=\count149
+\maxfields@=\count150
+\andhelp@=\toks31
+\eqnshift@=\dimen134
+\alignsep@=\dimen135
+\tagshift@=\dimen136
+\tagwidth@=\dimen137
+\totwidth@=\dimen138
+\lineht@=\dimen139
+\@envbody=\toks32
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks34
+\c@algorithm=\count151
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count152
+\c@ALG@rem=\count153
+\c@ALG@nested=\count154
+\ALG@tlm=\skip63
+\ALG@thistlm=\skip64
+\c@ALG@Lnr=\count155
+\c@ALG@blocknr=\count156
+\c@ALG@storecount=\count157
+\c@ALG@tmpcounter=\count158
+\ALG@tmplength=\skip65
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 113.
+) (./alloy.sty)
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 6.
 
-(./PowerEnJoy.aux)
-\openout1 = `PowerEnJoy.aux'.
+(./RASD.aux)
+\openout1 = `RASD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -418,17 +499,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen131
-\scratchbox=\box31
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen132
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count159
+\scratchdimen=\dimen140
+\scratchbox=\box33
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen141
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -449,7 +530,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box32
+\AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 8.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -458,17 +539,17 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count145
+\c@section@level=\count165
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-(./PowerEnJoy.out) (./PowerEnJoy.out)
+(./RASD.out) (./RASD.out)
 \@outlinefile=\write3
-\openout3 = `PowerEnJoy.out'.
+\openout3 = `RASD.out'.
 
-\c@lstlisting=\count146
+\c@lstlisting=\count166
 
 <../Common/Resources/PoliLogo.png, id=301, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
@@ -477,23 +558,12 @@ File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 9.
 
 (pdftex.def)             Requested size: 170.71652pt x 171.47127pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
 on/Resources/PoliLogo.png>]
-(./PowerEnJoy.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+(./RASD.tocpdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.34 ...2.2.0.1}Use Case}{21}{paragraph.3.2.2.0.1}
@@ -501,11 +571,11 @@ l.34 ...2.2.0.1}Use Case}{21}{paragraph.3.2.2.0.1}
 
 ])
 \tf@toc=\write4
-\openout4 = `PowerEnJoy.toc'.
+\openout4 = `RASD.toc'.
 
- [2] (./PowerEnJoy.lof)
+ [2] (./RASD.lof)
 \tf@lof=\write5
-\openout5 = `PowerEnJoy.lof'.
+\openout5 = `RASD.lof'.
 
 
 [3
@@ -541,17 +611,12 @@ hnology-System
 
 ) (./introduction/overview.tex [6]) [7]
 Chapter 2.
-(./Overall/product_prespective.tex) (./Overall/product_functions.tex
+(./Overall/product_prespective.tex) (./Overall/product_functions.tex [8
 
-LaTeX Warning: Reference `fig:UseCasesDiagram' on page 8 undefined on input lin
-e 6.
-
-[8
-
-] <Resources/UML.png, id=543, 1204.5pt x 1463.4675pt>
+]
+<Resources/UML.png, id=543, 1204.5pt x 1463.4675pt>
 File: Resources/UML.png Graphic file (type png)
-
-<use Resources/UML.png>
+ <use Resources/UML.png>
 Package pdftex.def Info: Resources/UML.png used on input line 25.
 (pdftex.def)             Requested size: 345.0pt x 419.16933pt.
 
@@ -889,22 +954,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
 [35]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 272.
+nput line 271.
  (./Alloy/PowerEnJoy.als [36] [37] [38] [39] [40]) [41]
 <Resources/alloyConsole.png, id=1014, 588.1975pt x 670.505pt>
 File: Resources/alloyConsole.png Graphic file (type png)
 
 <use Resources/alloyConsole.png>
-Package pdftex.def Info: Resources/alloyConsole.png used on input line 278.
+Package pdftex.def Info: Resources/alloyConsole.png used on input line 277.
 (pdftex.def)             Requested size: 319.99997pt x 364.77855pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 278.
+(caption)                particular \caption on input line 277.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
@@ -913,16 +978,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 File: Resources/SimpleWorld.pdf Graphic file (type pdf)
 
 <use Resources/SimpleWorld.pdf>
-Package pdftex.def Info: Resources/SimpleWorld.pdf used on input line 280.
+Package pdftex.def Info: Resources/SimpleWorld.pdf used on input line 279.
 (pdftex.def)             Requested size: 287.99802pt x 433.29803pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 280.
+(caption)                particular \caption on input line 279.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
@@ -931,16 +996,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
 File: Resources/RealWorld.pdf Graphic file (type pdf)
 
 <use Resources/RealWorld.pdf>
-Package pdftex.def Info: Resources/RealWorld.pdf used on input line 282.
+Package pdftex.def Info: Resources/RealWorld.pdf used on input line 281.
 (pdftex.def)             Requested size: 159.99998pt x 488.87277pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 282.
+(caption)                particular \caption on input line 281.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
@@ -962,25 +1027,21 @@ Appendix A.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
  [48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
- (./PowerEnJoy.aux)
+ (./RASD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
-Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
+Package rerunfilecheck Info: File `RASD.out' has not changed.
 (rerunfilecheck)             Checksum: 467F85286CEB2131849E2C9CF3DD8A4B;5350.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 10852 strings out of 493014
- 162374 string characters out of 6133350
- 530416 words of memory out of 5000000
- 13760 multiletter control sequences out of 15000+600000
- 10747 words of font info for 38 fonts, out of 8000000 for 9000
+ 11924 strings out of 493014
+ 176254 string characters out of 6133350
+ 548303 words of memory out of 5000000
+ 14803 multiletter control sequences out of 15000+600000
+ 11875 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,12n,86p,1012b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,86p,1006b,1885s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -992,7 +1053,7 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on PowerEnJoy.pdf (49 pages, 999385 bytes).
+Output written on RASD.pdf (49 pages, 999093 bytes).
 PDF statistics:
  1193 PDF objects out of 1200 (max. 8388607)
  1088 compressed objects within 11 object streams

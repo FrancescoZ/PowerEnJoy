@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**PowerEnJoy.tex
-(./PowerEnJoy.tex
+**DD.tex
+(./DD.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (../Common/Structure/doc_pdf.cls
@@ -479,8 +479,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 113.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 22.
 
-(./PowerEnJoy.aux)
-\openout1 = `PowerEnJoy.aux'.
+(./DD.aux)
+\openout1 = `DD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -545,9 +545,9 @@ LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
 
-(./PowerEnJoy.out) (./PowerEnJoy.out)
+(./DD.out) (./DD.out)
 \@outlinefile=\write3
-\openout3 = `PowerEnJoy.out'.
+\openout3 = `DD.out'.
 
 \c@lstlisting=\count166
 
@@ -561,24 +561,22 @@ Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 25
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
-on/Resources/PoliLogo.png>]
-(./PowerEnJoy.tocpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
+on/Resources/PoliLogo.png>] (./DD.tocpdfTeX warning (ext4): destination with th
+e same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ... Manager Interface}{26}{subsection.2.8.10}
+l.35 ... Manager Interface}{25}{subsection.2.8.10}
                                                    [1
 
 ])
 \tf@toc=\write4
-\openout4 = `PowerEnJoy.toc'.
+\openout4 = `DD.toc'.
 
- [2] (./PowerEnJoy.lof)
+ [2] (./DD.lof)
 \tf@lof=\write5
-\openout5 = `PowerEnJoy.lof'.
+\openout5 = `DD.lof'.
 
-
-[3
+ [3
 
 ]
 Chapter 1.
@@ -1278,21 +1276,25 @@ Appendix A.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
  [46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
- (./PowerEnJoy.aux)
+ (./DD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
-Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
+Package rerunfilecheck Info: File `DD.out' has not changed.
 (rerunfilecheck)             Checksum: 8CE9CEDBD67D3E81560689413A2E7923;3561.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
  11500 strings out of 493014
- 170517 string characters out of 6133350
+ 170381 string characters out of 6133350
  392183 words of memory out of 5000000
  14690 multiletter control sequences out of 15000+600000
  11600 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,86p,1012b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,86p,1004b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -1304,7 +1306,7 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PowerEnJoy.pdf (47 pages, 1045173 bytes).
+Output written on DD.pdf (47 pages, 1045173 bytes).
 PDF statistics:
  713 PDF objects out of 1000 (max. 8388607)
  608 compressed objects within 7 object streams
