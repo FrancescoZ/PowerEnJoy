@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -953,25 +953,67 @@ l.64 ...the \textbf{Reservation & Rent' algorithm}
                                                   . The algorithm starts whe...
 
 ? 
+./algorithm/algo.tex:66: Missing number, treated as zero.
+<to be read again> 
+                   L
+l.66 [Legend]
+             
+? 
+./algorithm/algo.tex:66: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.66 [Legend]
+             
+? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
 
-Package tabulary Warning: No suitable columns! on input line 107.
+Package tabulary Warning: No suitable columns! on input line 106.
 
 
-Overfull \hbox (28.71986pt too wide) in paragraph at lines 107--108
+Overfull \hbox (28.71986pt too wide) in paragraph at lines 106--107
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 [30]
+
+./algorithm/algo.tex:112: LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 	\item P = \mathrm
+                        {d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. **
+? 
+
+./algorithm/algo.tex:112: LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 	\item P = \mathrm{d}x * P1 + \mathrm
+                                           {d}y * P2 + \mathrm{d}z * P3. **
+? 
+
+./algorithm/algo.tex:112: LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...hrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm
+                                                  {d}z * P3. **
+? 
 
 ./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
@@ -980,258 +1022,82 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.113 	\item P = \mathrm
-                        {d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. **
-? 
-
-./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 	\item P = \mathrm{d}x * P1 + \mathrm
-                                           {d}y * P2 + \mathrm{d}z * P3. **
-? 
-
-./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 ...hrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm
-                                                  {d}z * P3. **
-? 
-
-./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 	\item P = \mathrm
                         {d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm{d...
 
 ? 
 
-./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 	\item P = \mathrm{d}x*P1+ \mathrm
+l.113 	\item P = \mathrm{d}x*P1+ \mathrm
                                         {d}y*P2+(1 - \mathrm{d}x - \mathrm{d...
 
 ? 
 
-./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...athrm{d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm
+l.113 ...athrm{d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm
                                                   {d}x - \mathrm{d}y )*P3.
 ? 
 
+./algorithm/algo.tex:113: LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...\mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm
+                                                  {d}y )*P3.
+? 
+
 ./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...\mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm
-                                                  {d}y )*P3.
-? 
-
-./algorithm/algo.tex:115: LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 	\item P - P3 = \mathrm
+l.114 	\item P - P3 = \mathrm
                              {d}x*(P1 - P3)+\mathrm{d}y*(P2 - P3).
 ? 
 
-./algorithm/algo.tex:115: LaTeX Error: \mathrm allowed only in math mode.
+./algorithm/algo.tex:114: LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...em P - P3 = \mathrm{d}x*(P1 - P3)+\mathrm
+l.114 ...em P - P3 = \mathrm{d}x*(P1 - P3)+\mathrm
                                                   {d}y*(P2 - P3).
 ? 
-./algorithm/algo.tex:183: Undefined control sequence.
-<argument> $d\eq 
-                 0$
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@b@2@EndFor@0 
-l.183 }
-       
-? 
 
-./algorithm/algo.tex:183: Package algorithmicx Error: Some blocks are not close
-d!!!.
+Package tabulary Warning: No suitable columns! on input line 184.
 
-See the algorithmicx package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 }
-       
-? 
 
-Package tabulary Warning: No suitable columns! on input line 183.
-
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing = inserted for \ifnum.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Undefined control sequence.
-<argument> $d\eq 
-                 0$
-l.183 }
-       
-? 
-./algorithm/algo.tex:183: Missing number, treated as zero.
-<to be read again> 
-                   \ALG@b@2@EndFor@0 
-l.183 }
-       
-? 
-
-./algorithm/algo.tex:183: Package algorithmicx Error: Some blocks are not close
-d!!!.
-
-See the algorithmicx package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 }
-       
-? 
-
-Overfull \hbox (28.71986pt too wide) in paragraph at lines 183--184
+Overfull \hbox (28.71986pt too wide) in paragraph at lines 184--185
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[31]
-./algorithm/algo.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 **with P, P1, P2, P3 in R^
-                                2;  with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d...
+[31])
+Underfull \hbox (badness 10000) in paragraph at lines 186--57
 
-? 
-)
-./PowerEnJoy.tex:57: Missing $ inserted.
-<inserted text> 
-                $
-l.57 \chapter
-             {User Interface Design}
-? 
+ []
+
 [32] [33]
 Chapter 4.
 (./ud/interface.tex
-<Resources/LoginMockup.pdf, id=554, 202.7575pt x 403.5075pt>
+<Resources/LoginMockup.pdf, id=553, 202.7575pt x 403.5075pt>
 File: Resources/LoginMockup.pdf Graphic file (type pdf)
 
 <use Resources/LoginMockup.pdf>
@@ -1251,7 +1117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [34
 
  <./Resources/LoginMockup.pdf>]
-<Resources/Registration.png, id=566, 211.79124pt x 404.51125pt>
+<Resources/Registration.png, id=565, 211.79124pt x 404.51125pt>
 File: Resources/Registration.png Graphic file (type png)
 
 <use Resources/Registration.png>
@@ -1268,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
  []
 
-<Resources/Registration-part-2.png, id=567, 211.79124pt x 404.51125pt>
+<Resources/Registration-part-2.png, id=566, 211.79124pt x 404.51125pt>
 File: Resources/Registration-part-2.png Graphic file (type png)
 
 <use Resources/Registration-part-2.png>
@@ -1291,7 +1157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
  []
 
-<Resources/MapMockup.pdf, id=568, 202.7575pt x 403.5075pt>
+<Resources/MapMockup.pdf, id=567, 202.7575pt x 403.5075pt>
 File: Resources/MapMockup.pdf Graphic file (type pdf)
 
 <use Resources/MapMockup.pdf>
@@ -1308,7 +1174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
-<Resources/CarInfo.png, id=569, 202.7575pt x 403.5075pt>
+<Resources/CarInfo.png, id=568, 202.7575pt x 403.5075pt>
 File: Resources/CarInfo.png Graphic file (type png)
 
 <use Resources/CarInfo.png>
@@ -1325,7 +1191,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-<Resources/Reservation.png, id=570, 211.79124pt x 404.51125pt>
+<Resources/Reservation.png, id=569, 211.79124pt x 404.51125pt>
 File: Resources/Reservation.png Graphic file (type png)
 
 <use Resources/Reservation.png>
@@ -1342,7 +1208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-<Resources/EditProfile.png, id=571, 211.79124pt x 404.51125pt>
+<Resources/EditProfile.png, id=570, 211.79124pt x 404.51125pt>
 File: Resources/EditProfile.png Graphic file (type png)
 
 <use Resources/EditProfile.png>
@@ -1359,7 +1225,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  []
 
-<Resources/EndRent.png, id=572, 231.86626pt x 404.51125pt>
+<Resources/EndRent.png, id=571, 231.86626pt x 404.51125pt>
 File: Resources/EndRent.png Graphic file (type png)
 
 <use Resources/EndRent.png>
@@ -1467,10 +1333,10 @@ Package rerunfilecheck Info: File `PowerEnJoy.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 11503 strings out of 493014
- 170550 string characters out of 6133350
+ 11500 strings out of 493014
+ 170517 string characters out of 6133350
  392183 words of memory out of 5000000
- 14693 multiletter control sequences out of 15000+600000
+ 14690 multiletter control sequences out of 15000+600000
  11600 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,86p,1012b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1485,7 +1351,7 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PowerEnJoy.pdf (47 pages, 1038433 bytes).
+Output written on PowerEnJoy.pdf (47 pages, 1037857 bytes).
 PDF statistics:
  713 PDF objects out of 1000 (max. 8388607)
  608 compressed objects within 7 object streams

@@ -126,7 +126,7 @@ This equation can then be split into two scalar linear equations in the x and y 
 \end{itemize}
 
 \algoTab{
-	 Declare variables that will allow to solve the linear equation system thanks to Cramer?s method &
+	 Declare variables that will allow to solve the linear equation system thanks to Cramer's method &
 	\begin{algorithmic}
 		\State $a\gets p1.getX()-p3.getX()$
                  \State $b\gets p2.getX()-p3.getX()$
@@ -140,7 +140,7 @@ This equation can then be split into two scalar linear equations in the x and y 
 	\begin{algorithmic}
 		\State $tContains()*$
              	\State $d\gets a*d-b*c$
-		\If {$d\eq 0$}
+		\If {$d == 0$}
 			\State \Return $false$
 		\EndIf
 	        \State $\mathrm{d}Px \gets e*d-f*b$
@@ -164,8 +164,9 @@ This equation can then be split into two scalar linear equations in the x and y 
                \ForAll {Triangle t : triangles}
                	\If {t.tContains(p)}
               		\State \Return $true$
-	               \State \Return $false$
 		\EndIf
+	        \State \Return $false$
+		
 		\EndFor
 	\end{algorithmic}\\
 	\hline
@@ -175,6 +176,7 @@ This equation can then be split into two scalar linear equations in the x and y 
               	\ForAll { Zone z : zones}
 	              \If {z.zContains(p)}
               \State \Return $z$
+              \EndIf
              \State \Return $null$
 		\EndFor
 	\end{algorithmic}\\
@@ -182,4 +184,4 @@ This equation can then be split into two scalar linear equations in the x and y 
 }
 
 *the method tContains() should be defined in the Triangle Class as with for zContains() method that will be inside the Zone class \\
-**with P, P1, P2, P3 in R^2;  with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d}y in R; \mathrm{d}x >= 0, \mathrm{d}y >= 0, \mathrm{d}z >= 0 and  \mathrm{d}x+\mathrm{d}y+\mathrm{d}z = 1
+%**with P, P1, P2, P3 in R^2;  with \mathrm{d}x ,\mathrm{d}z ,\mathrm{d}y in R; \mathrm{d}x >= 0, \mathrm{d}y >= 0, \mathrm{d}z >= 0 and  \mathrm{d}x+\mathrm{d}y+\mathrm{d}z = 1
