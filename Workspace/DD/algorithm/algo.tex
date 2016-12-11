@@ -1,7 +1,7 @@
 \subsection{Bill' Algorithm}
-Below is represented the \textbf{Bill' algorithm}. Before the driver ends the ride and exits the car, the system starts checking the state of sensors, the position of the car towards the position of the nearest safe area and last but not least the state of the battery ( the driver has 5 minutes to eventually charge the battery and receive the discount).The events generated and their consequences are discussed in the following table.
-\ \\ 
-[Legend]
+Below is represented the \textbf{Bill' algorithm}. Once the driver has stopped the car and exits the car, the system starts checking the state of sensors, the position of the car towards the position of the nearest safe area and last but not least the state of the battery ( the driver has 5 minutes to eventually charge the battery and receive the discount).The events generated and their consequences are discussed in the following table.
+
+\textbf{[Legend]}
 \begin{itemize}
 	\item D: Driver;
 	\item S: System;
@@ -60,10 +60,9 @@ Below is represented the \textbf{Bill' algorithm}. Before the driver ends the ri
 	\end{algorithmic}\\
 }	
 \newpage
-\subsection{Reservation & Rent' Algorithm}
-Below is represented the \textbf{Reservation & Rent' algorithm}. The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin)
-\ \\
-[Legend]
+\subsection{Reservation and Rent' Algorithm}
+Below is represented the \textbf{Reservation and Rent' algorithm}. The algorithm starts when a user clicks on the map provided by the system; immediately the controller of the system hides the selected car and starts the time of an hour (maximum amount of time that the user can wait before starting the rent). If the time exceeds the fixed constraint, the car returns available on the map, otherwise the status is "rented" (because it means that the user has pressed the start button and the ride can begin) \\
+\textbf{[Legend]}
 \begin{itemize}
 	\item U: User;
 	\item R: Reservation;
@@ -80,10 +79,10 @@ Below is represented the \textbf{Reservation & Rent' algorithm}. The algorithm s
 		\State $S.hideCar()$
 	\end{algorithmic}\\
 	\hline
-	Check the reservation?s time and compare it with the current time &
+	Check the reservation's time and compare it with the current time &
 	\begin{algorithmic}
 		\If {$S.getCurrTime()-R.time()\geq 1$}
-			\State $C. status\gets Reserved$
+			\State $C.status\gets Free$
 			\State $U.applyTax()$
 			\State $S.showCar()$
 		\Else
@@ -106,17 +105,17 @@ Below is represented the \textbf{Reservation & Rent' algorithm}. The algorithm s
 }
 \newpage
 \subsection{Geolocation' Algorithm}
-Below is represented the \textbf{Geolocation? algorithm}. Let?s begin with the premise that we are imagine to build the algorithm with an object oriented Language and we?re providing a pseudo-code. This algorithm checks if the given point is inside this Triangle. Infact thanks to a theorem about convex polygons, we can check if a point P is inside a given convex polygon (i.e. if the given vector associated to the point P is a convex combination of the polygon vertices). We can calculate if such coefficients exists solving a vector equation:
+Below is represented the \textbf{Geolocation' algorithm}. Let's begin with the premise that we are imagine to build the algorithm with an object oriented Language and we're providing a pseudo-code. This algorithm checks if the given point is inside this Triangle. Infact thanks to a theorem about convex polygons, we can check if a point P is inside a given convex polygon (i.e. if the given vector associated to the point P is a convex combination of the polygon vertices). We can calculate if such coefficients exists solving a vector equation:
 
 \begin{itemize}
-	\item P = \mathrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. **
+	\item P = \mathrm{d}x * P1 + \mathrm{d}y * P2 + \mathrm{d}z * P3. 
 	\item P = \mathrm{d}x*P1+ \mathrm{d}y*P2+(1 - \mathrm{d}x - \mathrm{d}y )*P3.
 	\item P - P3 = \mathrm{d}x*(P1 - P3)+\mathrm{d}y*(P2 - P3).
 \end{itemize}
 
 This equation can then be split into two scalar linear equations in the x and y components. The system is solved using Cramer's rule and then it is checked that alpha1 and alpha2 (and alpha3) found by solving the system satisfy the constraints.
 
-[Legend]
+\textbf{[Legend]}
 \begin{itemize}
 	\item P: class Point;
 	\item T: class Triangle;

@@ -1,7 +1,7 @@
-This section contains all the architectural software specification. In particular it explains all the different parts displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some is Point-to-Point, in plus the system is composed by different tiers:
+This section contains all the architectural software specification. In particular it explains all the different parts displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some are Point-to-Point, in plus the system is composed by different tiers:
 \begin{itemize}
 	\itemBold{Client} This is the mobile application used by the users. All the communications done by the client to the server are using the pattern Client-Server
-	\itemBold{Application Server} This is the core of the system.It is responsible to manage all the user's interaction with the car and the customer service. It is composed by different par as explain bellow
+	\itemBold{Application Server} This is the core of the system.It is responsible to manage all the user's interaction with the car and the customer service. It is composed by different parties as explain bellow
 	\itemBold{Database Server} This is the memory of the system, all the interactions with this tier are made by the application server with a Point-to-Point communication
 	\itemBold{External Services} To simplify the complexity of the system without deleting some functionality external services are connected with our Application Server
 \end{itemize}
@@ -36,7 +36,7 @@ In particular the application server is composed by different components that ar
 			\item Data presentation
 			\item Security management
 			\item Multiuser access control
-			\item Backup and recovery management ? Data integrity management
+			\item Backup and recovery management and Data integrity management
 			\item Data transaction management	
 		\end{itemize}
 \end{description}
@@ -61,7 +61,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Car System
 	\item[Node] Car
-	\item[Description] This is the board computer in the car that allow the system to retriever all the needed data. This computer is also able to open and close and to do a fast check of the car condition in order to directly send a maintenance request to the system. Its main feature is the car position in order to let the system localise the car. The communication between this computer and the system is done by an internet connection of 10 MB for month because it does not require an intense communication.
+	\item[Description] This is the board computer in the car that allow the system to retriever all the needed data. This computer is also able to open and close the car and to do a fast check of the car condition in order to directly send a maintenance request to the system. Its main feature is to detect the car position in order to let the system localise the car. The communication between this computer and the system is done by an internet connection of 10 MB for month because it does not require an intense communication.
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Passenger counting.
@@ -95,7 +95,7 @@ In particular the application server is composed by different components that ar
 	\item[Node] PowerEnJoy Server
 	\item[Description] This component manages users connected to the service. It manages sign-up, sign-in and login functionalities, profile editing. All data are stored on the database through Data API.
 	\item[Dependencies] Data Manager
-	\item[Operations] 
+	\item[Operations] \ \\
 		\begin{itemize}
 			\item Account API
 			\item Sign-up, Sign-in
