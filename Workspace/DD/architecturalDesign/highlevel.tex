@@ -1,6 +1,6 @@
-This section contains all the architectural software specification. In particular it explains all the different part displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some is Point-to-Point, in plus the system is composed by different tiers:
+This section contains all the architectural software specification. In particular it explains all the different parts displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some is Point-to-Point, in plus the system is composed by different tiers:
 \begin{itemize}
-	\itemBold{Client} This is the mobile application used by the users. All the communication done by the client to the server are using the pattern Client-Server
+	\itemBold{Client} This is the mobile application used by the users. All the communications done by the client to the server are using the pattern Client-Server
 	\itemBold{Application Server} This is the core of the system.It is responsible to manage all the user's interaction with the car and the customer service. It is composed by different par as explain bellow
 	\itemBold{Database Server} This is the memory of the system, all the interactions with this tier are made by the application server with a Point-to-Point communication
 	\itemBold{External Services} To simplify the complexity of the system without deleting some functionality external services are connected with our Application Server
@@ -12,7 +12,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] System
 	\item[Node] PowerEnJoy
-	\item[Description] This is the core of the system and contains all the functionality provided to the user, in plus it provided API for the maintenance and the interoperability with other system and it is the main entry for every request coming from the mobile application
+	\item[Description] This is the core of the system and contains all the functionality provided to the user, in plus it provides API for the maintenance and the interoperability with other system and it is the main entry for every request coming from the mobile application
 	\item[Dependencies] Google APIs, PayPal API, Maintenance API, PowerEnJoy Database
 	\item[Operations] \ \\
 		\begin{itemize}
@@ -78,7 +78,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Subsystem of PowerEnJoy
 	\item[Node] PowerEnJoy Server
-	\item[Description] This component provide all the data to calculate the total bill and all the information about the rent as the path followed, the time spent on the car and the number of passenger
+	\item[Description] This component provides all the data to calculate the total bill and all the information about the rent as the path followed, the time spent on the car and the number of passenger
 	\item[Dependencies] Account Manager,Data Manager, Car Manager API
 	\item[Operations] \ \\
 		\begin{itemize}
@@ -108,7 +108,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Subsystem of PowerEnJoy
 	\item[Node] PowerEnJoy Server
-	\item[Description] This component manages all the information and the interaction with the cars, and communicate with the other service letting they storing all the information they need. Especially  with the Ride Manager who is in charge of obtaining all the information about the number of passenger, the state of the battery and the position of the car.
+	\item[Description] This component manages all the information and the interaction with the cars, and communicate with the other services letting they storing all the information they need. Especially  with the Ride Manager who is in charge of obtaining all the informations about the number of passenger, the state of the battery and the position of the car.
 	\item[Dependencies] Map Service
 	\item[Operations] \ \\
 		\begin{itemize}
@@ -135,7 +135,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Subsystem of PowerEnJoy
 	\item[Node] PowerEnJoy Server
-	\item[Description] This part of the system is dedicated to manager all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course. 
+	\item[Description] This part of the system is dedicated to manage all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course. 
 	\item[Dependencies] Database API
 	\item[Operations] \ \\
 		\begin{itemize}
