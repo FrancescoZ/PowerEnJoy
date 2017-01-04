@@ -1,0 +1,5 @@
+cap 2.2
+
+- Car System (????)
+- Dimenticato data manager e notification manager ??? Oppure, perchè abbiamo deciso di non inserire?
+
