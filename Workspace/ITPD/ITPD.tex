@@ -1,0 +1,68 @@
+\documentclass{../Common/Structure/doc_pdf}
+
+\titleSubtitle{{\Huge\textit{Power EnJoy}}\\{\LARGE Integration Test Plan Document}}{Version 1.0.0}
+\pageHeader{Integration Test Plan Document}
+
+\begin{document}
+\titleToc
+
+\chapter{Introduction}
+\input{Introduction/purpose.tex}
+\section{List of definitions and abbreviations}
+\input{Introduction/abbreviations.tex}
+\section{List of reference documents}
+\input{introduction/references.tex}
+\newpage
+
+\chapter{Integration Strategy}
+\section{Entry Criteria}
+\input{Strategy/criteria.tex}
+\section{Integration testing strategy}
+\input{Strategy/testing.tex}
+%probably the component view needs to be changed in DD
+\section{Sequence of component/function integration}
+\input{Strategy/integration.tex}
+
+
+\section{Component View}
+\showRotateImage{Resources/ComponentDiagram.png}{Component diagram of the entire system}{1.4}{fig:Component}{0em}
+\section{Deployment view}
+\showPercentImage{Resources/DeploymentDiagram.png}{deployment diagram for PowerEnJoy}{1}{fig:Deploy}{0.5em}
+\section{Runtime view}
+\input{architecturalDesign/runtimeview.tex}
+\section{Component interfaces}
+\input{architecturalDesign/component.tex}
+\section{Selected architectural styles and patterns}
+\input{architecturalDesign/patterns.tex}
+
+\chapter{Algorithm Design}
+\input{algorithm/algo.tex}
+\chapter{User Interface Design}
+\input{ud/interface.tex}
+\chapter{Requirements Traceability}
+\input{traceability/requirements.tex}
+
+\appendix
+\chapter{Appendix}
+
+\section{Tools}
+\begin{itemize}
+	\itemBold{TeXstudio} \LaTeX{} editor used to write the document.
+	\itemBold{StarUML} Used to build UML Class Diagram and UML Use Case Diagrams.
+	\itemBold{draw.io WebSite} Used to design the UML Sequence Diagram and the Mockup (wep portal and smartphone app).
+\end{itemize}
+\newpage
+\section{Hours of work}
+In the following are listed the hours of work that each member of the group did:
+\begin{enumerate}
+	\item Marco Redaelli: 41 \emph{hours}
+	\item Francesco Zanoli: 41 \emph{hours}
+\end{enumerate}
+\newpage
+\section{Version History}
+In the following are listed the differences between versions:
+\begin{enumerate}
+	\itemBold{ 11/12/2016} First version
+\end{enumerate}
+
+\end{document}

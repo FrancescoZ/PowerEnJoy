@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.0.1}{Architectural Design}{}% 1
+\BOOKMARK [2][-]{subsection.0.1.1}{Overview Diagram}{section.0.1}% 2
+\BOOKMARK [2][-]{subsection.0.1.2}{High level components and their interaction}{section.0.1}% 3
+\BOOKMARK [2][-]{subsection.0.1.3}{Component View}{section.0.1}% 4
+\BOOKMARK [2][-]{subsection.0.1.4}{Deployment View}{section.0.1}% 5
+\BOOKMARK [2][-]{subsection.0.1.5}{Runtime View}{section.0.1}% 6
+\BOOKMARK [2][-]{subsection.0.1.6}{Selected architectural styles and patterns}{section.0.1}% 7
+\BOOKMARK [2][-]{subsection.0.1.7}{Other design decisions}{section.0.1}% 8
+\BOOKMARK [1][-]{section.0.2}{Algorithm Design}{}% 9
+\BOOKMARK [2][-]{subsection.0.2.1}{Queue Management}{section.0.2}% 10
+\BOOKMARK [2][-]{subsection.0.2.2}{Geolocation}{section.0.2}% 11
+\BOOKMARK [1][-]{section.0.3}{User Interface Design}{}% 12
+\BOOKMARK [2][-]{subsection.0.3.1}{GUI Design}{section.0.3}% 13
+\BOOKMARK [2][-]{subsection.0.3.2}{Passenger Mockups}{section.0.3}% 14
+\BOOKMARK [2][-]{subsection.0.3.3}{Taxi Driver Mockups}{section.0.3}% 15
+\BOOKMARK [2][-]{subsection.0.3.4}{Administrator Mockups}{section.0.3}% 16
