@@ -20,6 +20,22 @@
 		\vspace{0.5em}%	
 	}%
 }
+
+\newcommand{\testCaseSub}[7]{%
+	\unbreakableBlock{%
+		\vspace{0.5em}
+		\paragraphnewline{Test Case T#1}
+		\newline
+		\begin{tabulary}{\linewidth}{Y{3cm}|X{8.25cm}}
+			\textbf{Test Item(s)} & #2 $\longleftrightarrow$ #3 \\ \hline
+			\textbf{Input Specification} & #4 \\ \hline
+			\textbf{Output Specification} & #5 \\ \hline
+			\textbf{Environmental Needs} & #6 \\ \hline
+			\textbf{Target} & #7 \\
+		\end{tabulary}
+		\vspace{0.5em}%	
+	}%
+}
 \chapter{Introduction}
 \input{Introduction/purpose.tex}
 \section{List of definitions and abbreviations}
