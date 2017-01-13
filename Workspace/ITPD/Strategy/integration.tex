@@ -1,13 +1,13 @@
 \subsection{Software integration sequence}
-The following diagram illustrates the integration sequence of the various components, following the integration testing strategy described above. This means that in each subsystem, components are integrated starting from the most independent to the less independent, in order to prompt the chosen approach and improving modularity. The colors chosen for the block are standardise and refer to the legend bellow:
-\begin{itemize}
-	\itemBold{Green}
-	\itemBold{Yellow}
-	\itemBold{Orange}
-	\itemBold{Red}
-\end{itemize}
+The following diagram illustrates the integration sequence of the various components, following the integration testing strategy described above. This means that in each subsystem, components are integrated starting from the most independent to the less independent, in order to prompt the chosen approach and improving modularity. 
 % Image
+\begin{center}
+	\includegraphics[width=\textwidth]{Diagrams/SoftwareIntegrationDiagram.png}
+\end{center}
 
 \subsection{Subsystem integration sequence}
 The following diagram illustrates the integration sequence of the various subsystems, following the integration testing strategy described above. In particular, the Server Database is integrated before the Client, because the former does not need an actual functioning system in order to be tested efficiently, contrary to the latter.
 %Image
+\begin{center}
+	\includegraphics[width=\textwidth]{Diagrams/SubsystemsIntegrationDiagram.png}
+\end{center}
