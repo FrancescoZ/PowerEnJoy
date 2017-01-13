@@ -1,0 +1,162 @@
+\subsection{Model Integration Test Cases}
+\testCase
+	{1}
+	{Data Manager}
+	{Account Manager}
+	{A set of methods calls on Data Manager to retrieve user information}
+	{Check if the user's information are correct}
+	{Glassfish Server, a test Database, I1 successful}
+	{Verify that the user information are retrieved from the Data Manager}
+
+\testCase
+	{2}
+	{Data Manager}
+	{Ride Manager}
+	{A set of methods calls on Data Manager to retrieve reserved ride information}
+	{Check if the user's information are correct}
+	{Glassfish Server, a test Database, I1 successful}
+	{Verify that the reserved ride info are retrieved from the Data Manager}
+	
+\testCase
+	{3}
+	{Data Manager}
+	{Map Service}
+	{A set of methods calls on Data Manager to retrieve informations about coordinates}
+	{Check if the user's information are correct}
+	{Glassfish Server, a test Database, I1 successful}
+	{Verify that the info of coordinates are retrieved from the Data Manager}
+
+\testCase
+	{4}
+	{Ride Manager}
+	{Car Manager}
+	{A set of methods calls on Car Manager}
+	{Check if an available Car is returned}
+	{Ride/Notification and Data/Account satisfied}
+	{Retrieve an available Car}
+
+\testCase
+	{5}
+	{Ride Manager}
+	{Zone Manager}
+	{A set of methods calls on Zone Manager}
+	{Verify that the returned zone is the correct one}
+	{Map Service/EXTApi and Car mng/Ride satisfied}
+	{Find the position in a certain zone}
+
+\testCase
+	{6}
+	{Ride Manager}
+	{Bill Manager}
+	{A set of methods calls on Bill Manager}
+	{Verify that the total amount is correct}
+	{Map/EXTApi, CarManager/System and Data/Account satisfied}
+	{Verify that the Bill Manager calculate the correct amount of the ride}
+
+\testCase
+	{7}
+	{Ride Manager}
+	{Notification}
+	{A set of methods calls in order to create a Notification}
+	{Check if the correct notification is created}
+	{Data/Account and Ride/Car satisfied}
+	{Verify that the Notification Manager creates the notification from the Ride Manager}
+	
+\testCase
+	{8}
+	{Ride Manager}
+	{Problem Manager}
+	{A set of methods calls on Problem Manager}
+	{Verify that the problem belong to the provided list}
+	{Data/Account and Notification/Mobile satisfied}
+	{Check if Problem Manager can handle correctly the calls, returning an element belong to the provided listbox}
+	
+\testCase
+	{9}
+	{Map Service}
+	{External API}
+	{Create a typical set of methods calls by Map Service on External API}
+	{Check if all the methods of External  APIs Manager produce the expected results}
+	{N/A}
+	{Verify that the External APIs Manager works  with the Map Services Manager}
+	
+\testCase
+	{10}
+	{Bill Manager}
+	{External API}
+	{Create a typical set of methods calls by Bill Manager on External API}
+	{Check if all the methods of External   APIs Manager produce the expected results}
+	{N/A}
+	{Verify that the External APIs Manager works  with the Bill Manager}
+
+\testCase
+	{11}
+	{Problem Manager}
+	{External API}
+	{Create a typical set of methods calls by Problem Manager on External API}
+	{Check that all the methods of External   APIs Manager produce the expected results}
+	{N/A}
+	{Verify that the External APIs Manager works  with the Problem Manager}
+
+\testCase
+	{12}
+	{Car Manager}
+	{Map Service}
+	{A set of methods calls on Map Services Manager}
+	{Verify that the position of the car is correct}
+	{Map/EXT and Data/Account succesful}
+	{Retrieve the position of a car in a certain position on the map}
+
+\testCase
+	{13}
+	{Car Manager}
+	{Car System}
+	{A set of methods calls Car Manager}
+	{Verify if the state of the car is correct}
+	{Car with GPS and Data Connection enabled}
+	{Verify that the information exchanged between car and system works}
+
+\testCase
+	{14}
+	{Database Server}
+	{Application Server}
+	{Queries on the DBMS for the table Driver, Car, Ride and Zone}
+	{The queries return the expected results}
+	{Glassfish Server, a test Database}
+	{Verify that the typical queries to the DBMS  works}
+
+\testCase
+	{15}
+	{Application Server}
+	{Mobile App}
+	{A set of methods calls on both Server Application and Mobile App }
+	{Check if methods calls mentioned in Input Specification produce the expected results}
+	{Glassfish, a test Database}
+	{Verify the interaction between Server Application and Mobile App works}
+
+\testCase
+	{16}
+	{Mobile App}
+	{Account Manager}
+	{Create a typical set of methods calls performed by Mobile App on Account Manager}
+	{Check if methods calls mentioned in Input Specification produce the expected results}
+	{A device that can run Mobile App}
+	{Verify  if Account Manager can handle correctly Mobile App methods calls}
+	
+\testCase
+	{17}
+	{Mobile App}
+	{Ride Manager}
+	{Create a typical set of methods calls performed by Mobile App on Ride Manager}
+	{Check if methods calls mentioned in Input Specification produce the expected results}
+	{A device that can run Mobile App}
+	{Verify  if Ride Manager can handle correctly Mobile App methods calls}
+
+\testCase
+	{19}
+	{Mobile App}
+	{Notification}
+	{Create a typical set of methods calls performed by Mobile App on Notification}
+	{Check that methods calls mentioned in Input Specification produce the expected results}
+	{A device that can run Mobile App}
+	{Verify  if Notification can handle correctly Mobile App methods calls}

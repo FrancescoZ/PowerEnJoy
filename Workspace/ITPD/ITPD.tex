@@ -5,7 +5,21 @@
 
 \begin{document}
 \titleToc
-
+\newcommand{\testCase}[7]{%
+	\unbreakableBlock{%
+		\vspace{0.5em}
+		\paragraphnewline{Test Case I#1}
+		\newline
+		\begin{tabulary}{\linewidth}{Y{3cm}|X{8.25cm}}
+			\textbf{Test Item(s)} & #2 $\rightarrow$ #3 \\ \hline
+			\textbf{Input Specification} & #4 \\ \hline
+			\textbf{Output Specification} & #5 \\ \hline
+			\textbf{Environmental Needs} & #6 \\ \hline
+			\textbf{Target} & #7 \\
+		\end{tabulary}
+		\vspace{0.5em}%	
+	}%
+}
 \chapter{Introduction}
 \input{Introduction/purpose.tex}
 \section{List of definitions and abbreviations}
@@ -38,21 +52,17 @@
 \section{Tools}
 \begin{itemize}
 	\itemBold{TeXstudio} \LaTeX{} editor used to write the document.
-	\itemBold{StarUML} Used to build UML Class Diagram and UML Use Case Diagrams.
-	\itemBold{draw.io WebSite} Used to design the UML Sequence Diagram and the Mockup (wep portal and smartphone app).
-\end{itemize}
-\newpage
+	\itemBold{StarUML} To draw diagram.\end{itemize}
 \section{Hours of work}
 In the following are listed the hours of work that each member of the group did:
 \begin{enumerate}
-	\item Marco Redaelli: 41 \emph{hours}
-	\item Francesco Zanoli: 41 \emph{hours}
+	\item Marco Redaelli: 19 \emph{hours}
+	\item Francesco Zanoli: 19 \emph{hours}
 \end{enumerate}
-\newpage
 \section{Version History}
 In the following are listed the differences between versions:
 \begin{enumerate}
-	\itemBold{ 11/12/2016} First version
+	\itemBold{ 15/01/2017} First version
 \end{enumerate}
 
 \end{document}
