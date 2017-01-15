@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  13 JAN 2017 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  15 JAN 2017 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,15 +604,15 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [4
 
-]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 16.
+(hyperref)                than one, level fixed on input line 15.
 
+[4
 
-Overfull \hbox (3.52574pt too wide) in paragraph at lines 25--26
+]
+Overfull \hbox (3.52574pt too wide) in paragraph at lines 24--25
 []\OT1/cmr/m/n/10 See the cor-re-spon-dent sec-tion in the \OT1/cmr/bx/n/10 RAS
 D \OT1/cmr/m/n/10 and the \OT1/cmr/bx/n/10 DD \OT1/cmr/m/n/10 for more acronyms
 
@@ -1110,17 +1110,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []
  []
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 197--198
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 197--58
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 197--58
 
  []
 
-) [15]
+[15]
 Chapter 4.
 (./Equipment/eq.tex
 Overfull \hbox (47.72302pt too wide) in paragraph at lines 22--23
@@ -1151,18 +1151,18 @@ Package rerunfilecheck Warning: File `ITPD.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ITPD.out':
-(rerunfilecheck)             Before: D6FF6C548A8454852595A6EDF43CAC31;3315
-(rerunfilecheck)             After:  B84F9F19618F2495A1AA9DB90A764953;3317.
+(rerunfilecheck)             Before: B84F9F19618F2495A1AA9DB90A764953;3317
+(rerunfilecheck)             After:  47FDCCA0B6F2D7F170C6E3C852C464D7;3317.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
  11323 strings out of 493014
  167072 string characters out of 6133350
- 392391 words of memory out of 5000000
+ 391391 words of memory out of 5000000
  14582 multiletter control sequences out of 15000+600000
  11241 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,77p,1006b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,77p,1006b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1172,7 +1172,7 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ITPD.pdf (19 pages, 294001 bytes).
+Output written on ITPD.pdf (19 pages, 293959 bytes).
 PDF statistics:
  447 PDF objects out of 1000 (max. 8388607)
  406 compressed objects within 5 object streams

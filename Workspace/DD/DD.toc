@@ -1,24 +1,24 @@
-\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Scope}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Definitions, acronyms and abbreviations}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}References}{5}{section.1.3}
-\contentsline {section}{\numberline {1.4}Document Structure}{6}{section.1.4}
-\contentsline {chapter}{\numberline {2}Architectural Design}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overview}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}High level components and their interaction}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Tiers}{8}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}PowerEnJoy}{8}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}PowerEnJoy Database}{8}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Mobile App}{9}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Car System}{9}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}System Part}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Ride Manager}{10}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Account Manager}{10}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Car Manager}{11}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Bill Manager}{11}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Scope}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Definitions, acronyms and abbreviations}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}References}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Document Structure}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Architectural Design}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}High level components and their interaction}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Tiers}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}PowerEnJoy}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}PowerEnJoy Database}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Mobile App}{8}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Car System}{8}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}System Part}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Ride Manager}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Account Manager}{9}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Car Manager}{10}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Bill Manager}{10}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Zone Manager}{11}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}Problem Manager}{12}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Data Manager}{12}{subsection.2.4.7}
+\contentsline {subsection}{\numberline {2.4.6}Problem Manager}{11}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Data Manager}{11}{subsection.2.4.7}
 \contentsline {section}{\numberline {2.5}Component View}{13}{section.2.5}
 \contentsline {section}{\numberline {2.6}Deployment view}{14}{section.2.6}
 \contentsline {section}{\numberline {2.7}Runtime view}{15}{section.2.7}

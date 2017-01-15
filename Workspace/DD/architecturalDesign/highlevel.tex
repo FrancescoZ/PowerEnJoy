@@ -1,6 +1,6 @@
 This section contains all the architectural software specification. In particular it explains all the different parts displayed in the UML Component View (\ref{fig:Component}) and link them with their dependencies. Before starting analyse all the component of the structure is important to know that the most part of the communications are made with a Client-Server style and only some are Point-to-Point, in plus the system is composed by different tiers:
 \begin{itemize}
-	\itemBold{Client} This is the mobile application used by the users. All the communications done by the client to the server are using the pattern Client-Server
+	\itemBold{Client} This is the mobile application used by the users and the Computer board integrated in the car, as we consider it as another instrument for the user to communicate with the System. All the communications done by the client to the server are using the pattern Client-Server
 	\itemBold{Application Server} This is the core of the system.It is responsible to manage all the user's interaction with the car and the customer service. It is composed by different parties as explain bellow
 	\itemBold{Database Server} This is the memory of the system, all the interactions with this tier are made by the application server with a Point-to-Point communication
 	\itemBold{External Services} To simplify the complexity of the system without deleting some functionality external services are connected with our Application Server
@@ -28,7 +28,7 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Database
 	\item[Node] PowerEnJoy Database
-	\item[Description] This is the part of the system devoted to store the data 
+	\item[Description] This is the part of the system devoted to store the data
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Database API
@@ -37,7 +37,7 @@ In particular the application server is composed by different components that ar
 			\item Security management
 			\item Multiuser access control
 			\item Backup and recovery management and Data integrity management
-			\item Data transaction management	
+			\item Data transaction management
 		\end{itemize}
 \end{description}
 
@@ -60,7 +60,7 @@ In particular the application server is composed by different components that ar
 \subsection{Car System}
 \begin{description}
 	\item[Type] Car System
-	\item[Node] Car
+	\item[Node] Client
 	\item[Description] This is the board computer in the car that allow the system to retriever all the needed data. This computer is also able to open and close the car and to do a fast check of the car condition in order to directly send a maintenance request to the system. Its main feature is to detect the car position in order to let the system localise the car. The communication between this computer and the system is done by an internet connection of 10 MB for month because it does not require an intense communication.
 	\item[Operations] \ \\
 		\begin{itemize}
@@ -68,7 +68,7 @@ In particular the application server is composed by different components that ar
 			\item Open and close the car.
 			\item Check the car condition and send notification to the central system
 			\item Relieve the position of the car.
-			\item Relieve the state of the battery even if it is plugged-in or not. 
+			\item Relieve the state of the battery even if it is plugged-in or not.
 		\end{itemize}
 \end{description}
 
@@ -83,7 +83,7 @@ In particular the application server is composed by different components that ar
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Rent API
-			\item Reservation and Rent 
+			\item Reservation and Rent
 			\item Data of the rent to calculate the bill
 			\item Assistance request
 	\end{itemize}
@@ -99,8 +99,8 @@ In particular the application server is composed by different components that ar
 		\begin{itemize}
 			\item Account API
 			\item Sign-up, Sign-in
-			\item Login  
-			\item Personal Information editing 
+			\item Login
+			\item Personal Information editing
 	\end{itemize}
 \end{description}
 
@@ -114,7 +114,7 @@ In particular the application server is composed by different components that ar
 		\begin{itemize}
 			\item Reservation API
 			\item Data of the car
-			\item Status of the car   
+			\item Status of the car
 	\end{itemize}
 \end{description}
 
@@ -126,8 +126,8 @@ In particular the application server is composed by different components that ar
 	\item[Dependencies] PayPal API, Ride Manager.
 	\item[Operations] \ \\
 		\begin{itemize}
-			\item Calculate total cost, apply discount and overtaxes 
-			\item Request the amount of the rent to the external payment method 
+			\item Calculate total cost, apply discount and overtaxes
+			\item Request the amount of the rent to the external payment method
 		\end{itemize}
 \end{description}
 
@@ -135,12 +135,12 @@ In particular the application server is composed by different components that ar
 \begin{description}
 	\item[Type] Subsystem of PowerEnJoy
 	\item[Node] PowerEnJoy Server
-	\item[Description] This part of the system is dedicated to manage all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course. 
+	\item[Description] This part of the system is dedicated to manage all the parking/safe area in the system. It is in charge of counting the disposable place for each area based on the rent ended and the rent in course.
 	\item[Dependencies] Database API
 	\item[Operations] \ \\
 		\begin{itemize}
 			\item Retrieve the information about the parking and safe area
-			\item Calculate the free area where an user can end the rent 
+			\item Calculate the free area where an user can end the rent
 			\item Communicate with the Ride Manager to avoid end of rent that are not correct
 	\end{itemize}
 \end{description}
@@ -169,7 +169,7 @@ In particular the application server is composed by different components that ar
 		\begin{itemize}
 			\item Data API
 			\item Data access
-			\item Data presentation 
+			\item Data presentation
 			\item Data organisation
 		\end{itemize}
 \end{description}
