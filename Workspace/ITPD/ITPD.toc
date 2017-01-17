@@ -34,9 +34,9 @@
 \contentsline {paragraph}{\numberline {3.1.1.0.18}Test Case I18}{14}{paragraph.3.1.1.0.18}
 \contentsline {paragraph}{\numberline {3.1.1.0.19}Test Case I19}{14}{paragraph.3.1.1.0.19}
 \contentsline {subsection}{\numberline {3.1.2}Subsystem Integration Test Cases}{15}{subsection.3.1.2}
-\contentsline {paragraph}{\numberline {3.1.2.0.1}Test Case T1}{15}{paragraph.3.1.2.0.1}
-\contentsline {paragraph}{\numberline {3.1.2.0.2}Test Case T2}{15}{paragraph.3.1.2.0.2}
-\contentsline {paragraph}{\numberline {3.1.2.0.3}Test Case T3}{15}{paragraph.3.1.2.0.3}
+\contentsline {paragraph}{\numberline {3.1.2.0.1}Test Case S1}{15}{paragraph.3.1.2.0.1}
+\contentsline {paragraph}{\numberline {3.1.2.0.2}Test Case S2}{15}{paragraph.3.1.2.0.2}
+\contentsline {paragraph}{\numberline {3.1.2.0.3}Test Case S3}{15}{paragraph.3.1.2.0.3}
 \contentsline {chapter}{\numberline {4}Tools and test equipment required}{16}{chapter.4}
 \contentsline {chapter}{\numberline {5}Program stubs and test data required}{17}{chapter.5}
 \contentsline {chapter}{\numberline {A}Appendix}{18}{appendix.A}

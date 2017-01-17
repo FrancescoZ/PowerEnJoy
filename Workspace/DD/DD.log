@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  11 DEC 2016 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  15 JAN 2017 23:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -551,7 +551,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 \c@lstlisting=\count166
 
-<../Common/Resources/PoliLogo.png, id=221, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=4, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
@@ -561,22 +561,22 @@ Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 25
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
-on/Resources/PoliLogo.png>] (./DD.tocpdfTeX warning (ext4): destination with th
-e same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 ... Manager Interface}{25}{subsection.2.8.10}
-                                                   [1
-
-])
+on/Resources/PoliLogo.png>] (./DD.toc)
 \tf@toc=\write4
 \openout4 = `DD.toc'.
 
- [2] (./DD.lof)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \titleToc
+               [1
+
+] (./DD.lof)
 \tf@lof=\write5
 \openout5 = `DD.lof'.
 
- [3
+ [2
 
 ]
 Chapter 1.
@@ -589,13 +589,13 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 )
-(./Introduction/definitions_acronyms_abbreviations.tex [4
+(./Introduction/definitions_acronyms_abbreviations.tex [3
 
 ])
-(./introduction/references.tex) (./introduction/overview.tex [5]) [6]
+(./introduction/references.tex) (./introduction/overview.tex [4]) [5]
 Chapter 2.
 (./architecturalDesign/Overview.tex) (./architecturalDesign/highlevel.tex
-[7
+[6
 
 ]
 Overfull \hbox (21.68904pt too wide) in paragraph at lines 16--17
@@ -613,7 +613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[8]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -623,7 +623,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-[9]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
@@ -633,7 +633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-[10]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
@@ -643,12 +643,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
@@ -658,7 +658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
-[12]) <Resources/ComponentDiagram.png, id=448, 981.6675pt x 359.84438pt>
+[11] [12]) <Resources/ComponentDiagram.png, id=95, 981.6675pt x 359.84438pt>
 File: Resources/ComponentDiagram.png Graphic file (type png)
 
 <use Resources/ComponentDiagram.png>
@@ -675,7 +675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<Resources/DeploymentDiagram.png, id=449, 765.86125pt x 750.805pt>
+<Resources/DeploymentDiagram.png, id=96, 765.86125pt x 750.805pt>
 File: Resources/DeploymentDiagram.png Graphic file (type png)
 
 <use Resources/DeploymentDiagram.png>
@@ -694,7 +694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 [13 <./Resources/ComponentDiagram.png>] (./architecturalDesign/runtimeview.tex
-<Resources/LoginSequence.png, id=455, 1728.4575pt x 1616.0375pt>
+<Resources/LoginSequence.png, id=103, 1728.4575pt x 1616.0375pt>
 File: Resources/LoginSequence.png Graphic file (type png)
 
 <use Resources/LoginSequence.png>
@@ -712,7 +712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 [14 <./Resources/DeploymentDiagram.png>] [15 <./Resources/LoginSequence.png>]
-<Resources/RegistrationSequence.png, id=466, 1830.84pt x 2236.355pt>
+<Resources/RegistrationSequence.png, id=118, 1830.84pt x 2236.355pt>
 File: Resources/RegistrationSequence.png Graphic file (type png)
 
 <use Resources/RegistrationSequence.png>
@@ -735,7 +735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Resources/FindFreeCarSequence.png, id=467, 1726.45pt x 1256.695pt>
+<Resources/FindFreeCarSequence.png, id=119, 1726.45pt x 1256.695pt>
 File: Resources/FindFreeCarSequence.png Graphic file (type png)
 
 <use Resources/FindFreeCarSequence.png>
@@ -759,7 +759,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 [16 <./Resources/RegistrationSequence.png>]
-<Resources/ReserveSequence.png, id=473, 2172.115pt x 1850.915pt>
+<Resources/ReserveSequence.png, id=126, 2172.115pt x 1850.915pt>
 File: Resources/ReserveSequence.png Graphic file (type png)
 
 <use Resources/ReserveSequence.png>
@@ -782,7 +782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 [17 <./Resources/FindFreeCarSequence.png>]
-<Resources/RentSequence.png, id=479, 1086.0575pt x 614.295pt>
+<Resources/RentSequence.png, id=133, 1086.0575pt x 614.295pt>
 File: Resources/RentSequence.png Graphic file (type png)
 
 <use Resources/RentSequence.png>
@@ -805,7 +805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 [18 <./Resources/ReserveSequence.png>]
-<Resources/EndRentSequence.png, id=486, 1995.455pt x 1862.96pt>
+<Resources/EndRentSequence.png, id=141, 1995.455pt x 1862.96pt>
 File: Resources/EndRentSequence.png Graphic file (type png)
 
 <use Resources/EndRentSequence.png>
@@ -1048,7 +1048,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--57
 [32] [33]
 Chapter 4.
 (./ud/interface.tex
-<Resources/LoginMockup.pdf, id=553, 202.7575pt x 403.5075pt>
+<Resources/LoginMockup.pdf, id=228, 202.7575pt x 403.5075pt>
 File: Resources/LoginMockup.pdf Graphic file (type pdf)
 
 <use Resources/LoginMockup.pdf>
@@ -1068,7 +1068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [34
 
  <./Resources/LoginMockup.pdf>]
-<Resources/Registration.png, id=565, 211.79124pt x 404.51125pt>
+<Resources/Registration.png, id=242, 211.79124pt x 404.51125pt>
 File: Resources/Registration.png Graphic file (type png)
 
 <use Resources/Registration.png>
@@ -1085,7 +1085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
  []
 
-<Resources/Registration-part-2.png, id=566, 211.79124pt x 404.51125pt>
+<Resources/Registration-part-2.png, id=243, 211.79124pt x 404.51125pt>
 File: Resources/Registration-part-2.png Graphic file (type png)
 
 <use Resources/Registration-part-2.png>
@@ -1108,7 +1108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
  []
 
-<Resources/MapMockup.pdf, id=567, 202.7575pt x 403.5075pt>
+<Resources/MapMockup.pdf, id=244, 202.7575pt x 403.5075pt>
 File: Resources/MapMockup.pdf Graphic file (type pdf)
 
 <use Resources/MapMockup.pdf>
@@ -1125,7 +1125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
-<Resources/CarInfo.png, id=568, 202.7575pt x 403.5075pt>
+<Resources/CarInfo.png, id=245, 202.7575pt x 403.5075pt>
 File: Resources/CarInfo.png Graphic file (type png)
 
 <use Resources/CarInfo.png>
@@ -1142,7 +1142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-<Resources/Reservation.png, id=569, 211.79124pt x 404.51125pt>
+<Resources/Reservation.png, id=246, 211.79124pt x 404.51125pt>
 File: Resources/Reservation.png Graphic file (type png)
 
 <use Resources/Reservation.png>
@@ -1159,7 +1159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-<Resources/EditProfile.png, id=570, 211.79124pt x 404.51125pt>
+<Resources/EditProfile.png, id=247, 211.79124pt x 404.51125pt>
 File: Resources/EditProfile.png Graphic file (type png)
 
 <use Resources/EditProfile.png>
@@ -1176,7 +1176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  []
 
-<Resources/EndRent.png, id=571, 231.86626pt x 404.51125pt>
+<Resources/EndRent.png, id=248, 231.86626pt x 404.51125pt>
 File: Resources/EndRent.png Graphic file (type png)
 
 <use Resources/EndRent.png>
@@ -1273,25 +1273,31 @@ Appendix A.
 [44
 
 ] [45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
  [46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./DD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
-Package rerunfilecheck Info: File `DD.out' has not changed.
-(rerunfilecheck)             Checksum: 8CE9CEDBD67D3E81560689413A2E7923;3561.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 
+
+Package rerunfilecheck Warning: File `DD.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `DD.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  8CE9CEDBD67D3E81560689413A2E7923;3561.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 11500 strings out of 493014
- 170381 string characters out of 6133350
+ 11446 strings out of 493014
+ 169541 string characters out of 6133350
  392183 words of memory out of 5000000
- 14690 multiletter control sequences out of 15000+600000
+ 14635 multiletter control sequences out of 15000+600000
  11600 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,86p,1004b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1306,10 +1312,10 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DD.pdf (47 pages, 1045173 bytes).
+Output written on DD.pdf (47 pages, 1037963 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 608 compressed objects within 7 object streams
- 122 named destinations out of 1000 (max. 500000)
- 518 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
