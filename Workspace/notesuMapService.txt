@@ -1,0 +1,5 @@
+Map service è stato fatto per questioni di MODULARITA'.
+Siccome l'interfaccia con Google è fissa/standardizzata ma potrebbe
+cambiare a seconda delle giornate di Larry Paige, noi creiamo
+questo manager per non dover cambiare il codice in tutti i 
+moduli (in caso di cambiamenti)
