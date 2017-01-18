@@ -1,54 +1,54 @@
-\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Scope}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Definitions, acronyms and abbreviations}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}References}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}Document Structure}{5}{section.1.4}
-\contentsline {chapter}{\numberline {2}Architectural Design}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overview}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}High level components and their interaction}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Tiers}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}PowerEnJoy}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}PowerEnJoy Database}{7}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Mobile App}{8}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Car System}{8}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}System Part}{9}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Ride Manager}{9}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Account Manager}{9}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Car Manager}{10}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Bill Manager}{10}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Zone Manager}{11}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}Problem Manager}{11}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Data Manager}{11}{subsection.2.4.7}
-\contentsline {section}{\numberline {2.5}Component View}{13}{section.2.5}
-\contentsline {section}{\numberline {2.6}Deployment view}{14}{section.2.6}
-\contentsline {section}{\numberline {2.7}Runtime view}{15}{section.2.7}
-\contentsline {section}{\numberline {2.8}Component interfaces}{21}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Application$\leftrightarrow $Client Interface}{21}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Application$\leftrightarrow $Database Interface}{21}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Map services}{21}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Account manager}{22}{subsection.2.8.4}
-\contentsline {subsection}{\numberline {2.8.5}Notification}{23}{subsection.2.8.5}
-\contentsline {subsection}{\numberline {2.8.6}Ride manager}{24}{subsection.2.8.6}
-\contentsline {subsection}{\numberline {2.8.7}Zone manager}{24}{subsection.2.8.7}
-\contentsline {subsection}{\numberline {2.8.8}Bill manager}{25}{subsection.2.8.8}
-\contentsline {subsection}{\numberline {2.8.9}Car manager}{25}{subsection.2.8.9}
-\contentsline {subsection}{\numberline {2.8.10}Application$\leftrightarrow $Problem Manager Interface}{26}{subsection.2.8.10}
-\contentsline {subsection}{\numberline {2.8.11}Data manager}{26}{subsection.2.8.11}
-\contentsline {section}{\numberline {2.9}Selected architectural styles and patterns}{26}{section.2.9}
-\contentsline {section}{\numberline {2.10}Other Design Decision}{27}{section.2.10}
-\contentsline {chapter}{\numberline {3}Algorithm Design}{28}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Bill' Algorithm}{28}{subsection.3.0.1}
-\contentsline {subsection}{\numberline {3.0.2}Reservation and Rent' Algorithm}{30}{subsection.3.0.2}
-\contentsline {subsection}{\numberline {3.0.3}Geolocation' Algorithm}{31}{subsection.3.0.3}
-\contentsline {chapter}{\numberline {4}User Interface Design}{34}{chapter.4}
-\contentsline {chapter}{\numberline {5}Requirements Traceability}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}Requirements Traceability}{39}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Registration}{39}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Login}{40}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Reserve a Car}{41}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}End a Rent}{42}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Report Problem}{43}{subsection.5.1.5}
-\contentsline {chapter}{\numberline {A}Appendix}{44}{appendix.A}
-\contentsline {section}{\numberline {A.1}Tools}{44}{section.A.1}
-\contentsline {section}{\numberline {A.2}Hours of work}{45}{section.A.2}
-\contentsline {section}{\numberline {A.3}Version History}{46}{section.A.3}
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Scope}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Definitions, acronyms and abbreviations}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}References}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Document Structure}{6}{section.1.4}
+\contentsline {chapter}{\numberline {2}Architectural Design}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}High level components and their interaction}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Tiers}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}PowerEnJoy}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}PowerEnJoy Database}{8}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Mobile App}{9}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Car System}{9}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}System Part}{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Ride Manager}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Account Manager}{10}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Car Manager}{11}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Bill Manager}{11}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Zone Manager}{12}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Problem Manager}{12}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Data Manager}{12}{subsection.2.4.7}
+\contentsline {section}{\numberline {2.5}Component View}{14}{section.2.5}
+\contentsline {section}{\numberline {2.6}Deployment view}{15}{section.2.6}
+\contentsline {section}{\numberline {2.7}Runtime view}{16}{section.2.7}
+\contentsline {section}{\numberline {2.8}Component interfaces}{22}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Application$\leftrightarrow $Client Interface}{22}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Application$\leftrightarrow $Database Interface}{22}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Map services}{22}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Account manager}{23}{subsection.2.8.4}
+\contentsline {subsection}{\numberline {2.8.5}Notification}{24}{subsection.2.8.5}
+\contentsline {subsection}{\numberline {2.8.6}Ride manager}{25}{subsection.2.8.6}
+\contentsline {subsection}{\numberline {2.8.7}Zone manager}{25}{subsection.2.8.7}
+\contentsline {subsection}{\numberline {2.8.8}Bill manager}{26}{subsection.2.8.8}
+\contentsline {subsection}{\numberline {2.8.9}Car manager}{26}{subsection.2.8.9}
+\contentsline {subsection}{\numberline {2.8.10}Application$\leftrightarrow $Problem Manager Interface}{27}{subsection.2.8.10}
+\contentsline {subsection}{\numberline {2.8.11}Data manager}{27}{subsection.2.8.11}
+\contentsline {section}{\numberline {2.9}Selected architectural styles and patterns}{27}{section.2.9}
+\contentsline {section}{\numberline {2.10}Other Design Decision}{28}{section.2.10}
+\contentsline {chapter}{\numberline {3}Algorithm Design}{29}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Bill' Algorithm}{29}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Reservation and Rent' Algorithm}{31}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}Geolocation' Algorithm}{32}{subsection.3.0.3}
+\contentsline {chapter}{\numberline {4}User Interface Design}{35}{chapter.4}
+\contentsline {chapter}{\numberline {5}Requirements Traceability}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Requirements Traceability}{40}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Registration}{40}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Login}{41}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Reserve a Car}{42}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}End a Rent}{43}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Report Problem}{44}{subsection.5.1.5}
+\contentsline {chapter}{\numberline {A}Appendix}{45}{appendix.A}
+\contentsline {section}{\numberline {A.1}Tools}{45}{section.A.1}
+\contentsline {section}{\numberline {A.2}Hours of work}{46}{section.A.2}
+\contentsline {section}{\numberline {A.3}Version History}{47}{section.A.3}
