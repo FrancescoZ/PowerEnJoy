@@ -1,0 +1,58 @@
+\documentclass{../Common/Structure/doc_pdf}
+%
+\usepackage{pgfgantt}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+
+
+\titleSubtitle{{\Huge\textit{Power EnJoy}}\\{\LARGE Project Plan Document}}{Version 1.0.0}
+\pageHeader{Project Plan Document}
+
+\newcommand{\fp}[4]{\itemBold{#1}\par#2\begin{center}$#3 \cdot #4$\end{center}}
+
+
+\begin{document}
+	\titleToc{}
+  \chapter{Introduction}
+  \input{Introduction/introduction.tex}
+  \newpage
+
+  \chapter{Function Points}
+  \input{FP/fp.tex}
+
+	\chapter{COCOMO}
+	\input{Cocomo/cocomo.tex}
+  \newpage
+
+	\chapter{Task and Schedule}
+	\input{Task/task.tex}
+
+	\chapter{Resources Allocation}
+	\input{Res/resources.tex}
+
+	\chapter{Risk}
+	\input{Risk/risk.tex}
+
+  \appendix
+  \chapter{Appendix}
+
+  \section{Tools}
+  \begin{itemize}
+  	\itemBold{TeXstudio} \LaTeX{} editor used to write the document.
+		\itemBold{COCOMO Tool II} at \url{http://csse.usc.edu/tools/COCOMOII.php} to estimate the project dimension.
+  	\itemBold{StarUML} To draw Gant diagram and Resources allocation.\end{itemize}
+  \section{Hours of work}
+  In the following are listed the hours of work that each member of the group did:
+  \begin{enumerate}
+  	\item Marco Redaelli: 16 \emph{hours}
+  	\item Francesco Zanoli: 16 \emph{hours}
+  \end{enumerate}
+  \section{Version History}
+  In the following are listed the differences between versions:
+  \begin{enumerate}
+  	\itemBold{ 15/01/2017} First version
+  \end{enumerate}
+
+  \end{document}

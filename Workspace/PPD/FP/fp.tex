@@ -1,0 +1,164 @@
+The Functional Point approach is a technique that allows to evaluate the effort
+needed for the design and implementation of a project. We have used this technique
+to evaluate the application dimension basing on the functionalities of the
+application itself. The functionalities list has been obtained from the RASD document
+and for each one of them the realization complexity has been evaluated.
+The functionalities has been groped in:
+\begin{itemize}
+\item Internal Logic File: it represents a set of homogeneous data handled by the system
+\item External Interface File: it represents a set of homogeneous data used
+by the application but handled by external application
+\item External Input: elementary operation that allows input of data in the system
+\item External Output: elementary operation that creates a bit stream towards
+the outside of the application
+\item External Inquiry: elementary operation that involves input and output operations
+\end{itemize}
+
+\newpage
+
+The following table outline the number of Functional Point based on functionality
+and relative complexity:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		\multirow{2}{*}{\textbf{Function Type}} & \multicolumn{3}{c|}{\textbf{Complexity}} \\
+		\cline{2-4}
+		& Simple & Medium & Complex  \\
+		\hline
+		Internal Logic File & 7 & 10 & 15 \\ \hline
+		External Interface File & 5 & 7 & 10 \\ \hline
+		External Input & 3 & 4 & 6 \\ \hline
+		External Output & 4 & 5 & 7 \\ \hline
+		External Inquiry & 3 & 4 & 6 \\ \hline
+
+	\end{tabular}
+\end{table}
+
+
+\section{Internal Logic File}
+Internal Logic Files are homogeneous sets of data used and managed by the application.\\
+Summary of the calculated weights:
+\begin{equation*}
+	\begin{aligned}
+		&	FP_{ILF}
+		& & = 5 \cdot w_{Simple,ILF} + 3 \cdot w_{Medium,ILF} + 1 \cdot w_{Complex,ILF}\\
+		&&& = 5 \cdot 7 + 3 \cdot 10 + 1 \cdot 15\\
+		&&& = 80\\
+	\end{aligned}
+\end{equation*}
+In details:
+\begin{itemize}
+	\fp{Ride}{Ride data. Frequent modifications, frequent insertions, frequent readings.}{1}{w_{Medium,ILF}}
+  \fp{User}{Personal Registered Passenger data. Infrequent modifications, but frequent insertions and readings.}{1}{w_{Medium,ILF}}
+  \fp{Car}{Car information. Infrequent insertion and modification, frequent reading}{1}{w_{Medium,ILF}}
+	\fp{Customer Service}{Customer help request. Very infrequent modifications, insertions and readings.}{1}{w_{Simple,ILF}}
+	\fp{Payment}{Data of the ended rent. Infrequent modification and reading, very frequent insertion}{1}{w_{Complex,ILF}}
+	\fp{Payment Method}{User's payment data, Frequent readings, infrequent modification and insertion}{1}{w_{Simple,ILF}}
+	\fp{Parking}{Parking data, frequent reading, infrequent insertion and modifications}{1}{w_{Simple,ILF}}
+	\fp{Service Station}{Service station data. frequent reading, infrequent insertion and modifications}{1}{w_{Simple,ILF}}
+	\fp{GPS Data}{GPS Data, Database Server side. Very frequent insertions and readings, but very infrequent modifications.}{1}{w_{Simple,ILF}}
+\end{itemize}
+%
+\section{External Interface File}
+External Interface Files are homogeneous sets of data used by the application but generated and maintained by other applications.\\
+Summary of the calculated weights:
+\begin{equation*}
+	\begin{aligned}
+		&	FP_{ELF}
+		& & = 2 \cdot w_{Simple,ELF}\\
+		&&& = 2 \cdot 5\\
+		&&& = 10\\
+	\end{aligned}
+\end{equation*}
+\newpage{}
+In details:
+\begin{itemize}
+\fp{Google Maps API}{Google Maps API related data about Travel Time and Addresses. Very frequent readings.}{1}{w_{Simple,ELF}}
+\fp{Paypal API}{Paypal API request related to user's payement. Frequent insertion}{1}{w_{Simple,ELF}}
+\end{itemize}
+%
+\section{External Input}
+External Inputs are elementary operations to elaborate data coming from the external environment.\\
+Summary of the calculated weights:
+\begin{equation*}
+	\begin{aligned}
+		&	FP_{EI}
+		& & = 5 \cdot w_{Simple,EI} + 2 \cdot w_{Medium,EI} + 2 \cdot w_{Complex,EI}\\
+		&&& = 5 \cdot 3 + 2 \cdot 4 + 2 \cdot 6\\
+		&&& = 35\\
+	\end{aligned}
+\end{equation*}
+In details:
+\begin{itemize}
+	\fp{Login}{This operation requires a simple effort. In fact it has to perform few steps in order to conclude the procedure.}{1}{w_{Simple,EI}}
+	\fp{Logout}{This operation requires a simple effort. In fact it has to perform few steps in order to conclude the procedure.}{1}{w_{Simple,EI}}
+	\fp{Registration}{This operation requires a simple effort. In fact it has to perform few steps in order to conclude the procedure.}{1}{w_{Simple,EI}}
+	\fp{Handle Personal Profile}{This operation requires a simple effort. In fact it has to perform few steps in order to conclude the procedure.}{1}{w_{Simple,EI}}
+	\fp{Car Interaction}{This operation requires a medium effort. In fact it is very frequent.}{1}{w_{Medium,EI}}
+	\fp{Car Reservation}{This operation requires a complex effort. In fact it has to perform many elementary steps in order to handle it}{1}{w_{Complex,EI}}
+	\fp{Problem}{This operation requires a medium effort. In fact it has to perform many elementary steps in order to handle the problem.}{1}{w_{Medium,EI}}
+  \fp{Rent}{This operation requires a simple effort.}{1}{w_{Simple,EI}}
+  \fp{End of Rent}{This operation requires a complex effort. In fact it has to perform many elementary steps in order to handle it}{1}{w_{Complex,EI}}
+\end{itemize}
+%
+\section{External Output}
+External Outputs are elementary operations that generate data for the external environment, and they usually include the elaboration of data from logic files.\\
+Summary of the calculated weights:
+	\begin{equation*}
+		\begin{aligned}
+		&	FP_{EO}
+		& & = 4 \cdot w_{Simple,EO}\\
+		&&& = 4 \cdot 4\\
+		&&& = 16\\
+	\end{aligned}
+\end{equation*}
+In details:
+\begin{itemize}
+	\fp{User Notification}{The result of the end of the rent must be send to the user who handle it}{1}{w_{Simple,EO}}
+	\fp{Email Confirmation}{The result of this operation must be sent to the user that registers}{1}{w_{Simple,EO}}
+	\fp{Maintenance Notification}{The result of the maintenance call must be sent to the specific user.}{1}{w_{Simple,EO}}
+	\fp{Reservation}{Informations about the reservation must be sent to the related user}{1}{w_{Simple,EO}}
+\end{itemize}
+%
+\section{External Inquiry}
+External Inquiries are elementary operations that involve input and output, without significant elaboration of data from logic files.\\
+Summary of the calculated weights:
+\begin{equation*}
+	\begin{aligned}
+		&	FP_{EIQ}
+		& & = 2 \cdot w_{Simple,EIQ}\\
+		&&& = 2 \cdot 3\\
+		&&& = 6\\
+	\end{aligned}
+\end{equation*}
+In details:
+\begin{itemize}
+	\fp{Manager car status}{In order to perform these operations the system has only to retrieve, send and render simple data.}{1}{w_{Simple,EIQ}}
+	\fp{Manager user status}{In order to perform these operations the system has only to retrieve, send and render simple data.}{1}{w_{Simple,EIQ}}
+\end{itemize}
+%
+\section{Summary}
+All the calculated $FP_{i}$ sums up to $FP$, which is the total Function Points value:
+\begin{equation*}
+	\begin{aligned}
+		&	FP
+		& & = FP_{ILF} + FP_{ELF} + FP_{EI} + FP_{EO} + FP_{EIQ}\\
+		&&& = 80 + 10 + 35 + 16 + 6\\
+		&&& = 147\\
+	\end{aligned}
+\end{equation*}
+The total $FP$ value is then multiplied by a constant factor $k_{i,j}$ that depends on the programming language $i$ used to develop the software and the company gearing ratio $j$.\par
+The gearing ratio is the level of a company's debt related to its equity capital, usually expressed in percentage form.
+Gearing is a measure of a company's financial leverage and shows the extent to which its operations are funded by lenders versus shareholders.\par
+This final calculation gives us the number of SLOC $n_{SLOC}$ estimated for \PowerEnJoy{}:
+\begin{equation*}
+	\begin{aligned}
+		&   n_{SLOC}
+		& & = FP \cdot k_{Java, Avg}\\
+		&&& = 147 \cdot 53\\
+		&&& = 7791 \text{ SLOC}
+	\end{aligned}
+\end{equation*}
+%
