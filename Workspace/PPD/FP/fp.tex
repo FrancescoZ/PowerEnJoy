@@ -98,7 +98,7 @@ In details:
 	\fp{Handle Personal Profile}{This operation requires a simple effort. In fact it has to perform few steps in order to conclude the procedure.}{1}{w_{Simple,EI}}
 	\fp{Car Interaction}{This operation requires a medium effort. In fact it is very frequent.}{1}{w_{Medium,EI}}
 	\fp{Car Reservation}{This operation requires a complex effort. In fact it has to perform many elementary steps in order to handle it}{1}{w_{Complex,EI}}
-	\fp{Problem}{This operation requires a medium effort. In fact it has to perform many elementary steps in order to handle the problem.}{1}{w_{Medium,EI}}
+	\fp{Problem}{This operation requires a medium effort}{1}{w_{Medium,EI}}
   \fp{Rent}{This operation requires a simple effort.}{1}{w_{Simple,EI}}
   \fp{End of Rent}{This operation requires a complex effort. In fact it has to perform many elementary steps in order to handle it}{1}{w_{Complex,EI}}
 \end{itemize}
@@ -128,15 +128,15 @@ Summary of the calculated weights:
 \begin{equation*}
 	\begin{aligned}
 		&	FP_{EIQ}
-		& & = 2 \cdot w_{Simple,EIQ}\\
-		&&& = 2 \cdot 3\\
-		&&& = 6\\
+		& & = 2 \cdot w_{Medium,EIQ}\\
+		&&& = 2 \cdot 4\\
+		&&& = 8\\
 	\end{aligned}
 \end{equation*}
 In details:
 \begin{itemize}
-	\fp{Manager car status}{In order to perform these operations the system has only to retrieve, send and render simple data.}{1}{w_{Simple,EIQ}}
-	\fp{Manager user status}{In order to perform these operations the system has only to retrieve, send and render simple data.}{1}{w_{Simple,EIQ}}
+	\fp{Manager car status}{In order to perform these operations the system has to retrieve, send and render simple data.}{1}{w_{Medium,EIQ}}
+	\fp{Manager user status}{In order to perform these operations the system has to retrieve, send and render simple data.}{1}{w_{Medium,EIQ}}
 \end{itemize}
 %
 \section{Summary}
@@ -145,8 +145,8 @@ All the calculated $FP_{i}$ sums up to $FP$, which is the total Function Points 
 	\begin{aligned}
 		&	FP
 		& & = FP_{ILF} + FP_{ELF} + FP_{EI} + FP_{EO} + FP_{EIQ}\\
-		&&& = 80 + 10 + 35 + 16 + 6\\
-		&&& = 147\\
+		&&& = 80 + 10 + 35 + 16 + 8\\
+		&&& = 149\
 	\end{aligned}
 \end{equation*}
 The total $FP$ value is then multiplied by a constant factor $k_{i,j}$ that depends on the programming language $i$ used to develop the software and the company gearing ratio $j$.\par
@@ -157,8 +157,8 @@ This final calculation gives us the number of SLOC $n_{SLOC}$ estimated for \Pow
 	\begin{aligned}
 		&   n_{SLOC}
 		& & = FP \cdot k_{Java, Avg}\\
-		&&& = 147 \cdot 53\\
-		&&& = 7791 \text{ SLOC}
+		&&& = 149 \cdot 53\\
+		&&& = 7897 \text{ SLOC}
 	\end{aligned}
 \end{equation*}
 %
