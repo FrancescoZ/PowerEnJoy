@@ -1,0 +1,16 @@
+This OFBiz component offers a fully utilised component for request, quote, order and requirements management.
+This class in particular is charged to retrieval the product that can be then payed and managed by the other class in the
+package.
+In particular we have three main methods:
+\begin{itemize}
+  \itemBold{getRandomCartProductAssoc}
+  Although its name, this method categories the product in order to
+  apply a sort of \texlf{Recommened System Algorithm}. This is done by adding the product for
+  each category and then delete all the surplus element on the list including the product into the cart.
+  \itemBold{getQuickReorderProducts}
+  This method reorder the the product in a list contained in the request basing its computation
+  on the category, if specified, and on the number on element present in the database.
+  \itemBold{productOrderByMap}
+  This method order a list of item using a comparator \textbf{ProductByMapComparator} that implements the comparable interface
+  in order to decide how to order the component in the map structure. 
+\end{itemize}

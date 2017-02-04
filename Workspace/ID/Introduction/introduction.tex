@@ -1,0 +1,24 @@
+The class inspected is \textbf{ProductDisplayWorker}.\\
+It belongs to the package \textit{org.apache.ofbiz.shoppingcart.production}\\
+The class inheritance is the following:
+\begin{verbatim}
+java.lang.Object
+  org.apache.ofbiz.order.shoppingcart.product.ProductDisplayWorker
+  org.apache.ofbiz.order.shoppingcart.product.ProductPromoWorker
+  org.apache.ofbiz.order.shoppingcart.product.ProductPromoWorker.ActionResultInfo
+  org.apache.ofbiz.order.shoppingcart.product.ProductStoreCartAwareEvents
+\end{verbatim}
+
+This class is a part of the usage of a \textbf{Worker pattern}.
+It consist in the creation of a \textit{Worker object} that perform operation on a
+specific type, or different type, of object.
+This patters is really helpfull in the maintenance and the writing of the code
+because permit to split the object we want to manage and the operation on this
+object in order to maintain a well-posed structure a smaller class in term of line of code.
+In plus this class contains a private static class used into the method of \textbf{ProductDisplayWorker}.
+Usually this pattern is used with another pattern called \textbf{Manager pattern}, in fact also in the this case, Apache OFBIZ, we find an Order Manager that
+is charged all the payments.
+
+\section{Class code}
+For reader's convenience, the whole content of the \textbf{ProductDisplayWorker} Java class source file is reported below.
+\lstinputlisting{./ProductDisplayWorker.java}
