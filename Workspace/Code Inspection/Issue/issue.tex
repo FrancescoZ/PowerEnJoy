@@ -166,7 +166,8 @@ In this section are reported all the coding choices that do not meet the \textbf
       \item The first method of the class
         \renderPartialCode{61}{63}
         is particularly long. Especially because it could be reduce in different sub-methods in order to make the class
-        easier to debug and maintain.
+        easier to debug and maintain. In plus, both method have the same start to take data, this usage makes the code
+        really un-maintainable, a common private method should be used.
     \end{itemize}
 \end{itemize}
 \section{Initialization and Declarations}
@@ -231,3 +232,10 @@ In this section are reported all the coding choices that do not meet the \textbf
       documentation.
     \end{itemize}
 \end{itemize}
+
+\section{Other Problem}
+The class doesn't present any big problem or bug related to the code, anyway there is an enormous connection between the
+class and the external environment. This connection could carry into some bug if an incorrect test phase is applied.
+Furthermore the exception caught in the methods are not really managed, in fact only a console log is done. It is suggested
+to avoid this type of debug especially if the exception message is not explicative.
+\renderPartialCode{281}{283}

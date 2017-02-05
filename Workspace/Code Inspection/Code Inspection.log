@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  5 FEB 2017 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  5 FEB 2017 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,27 +939,28 @@ l.45 \end{itemize}
 [20] (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java
 ) (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
 (./ProductDisplayWorkerNoIndent.java)
-Overfull \hbox (13.22171pt too wide) in paragraph at lines 268--198
+Overfull \hbox (13.22171pt too wide) in paragraph at lines 268--199
 [][][][][][][][][][][][][][][][][]  
  []
 
 (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java
+[21]) (./ProductDisplayWorkerNoIndent.java)
 (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
-(./ProductDisplayWorkerNoIndent.java) [21] (./ProductDisplayWorkerNoIndent.java
-) (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
 (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
 (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
-(./ProductDisplayWorkerNoIndent.java)) [22]
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+[22] (./ProductDisplayWorkerNoIndent.java)) [23]
 Appendix A.
-(./Appendix/checklist.tex [23
+(./Appendix/checklist.tex [24
 
-] [24]
+] [25]
 Overfull \hbox (2.16724pt too wide) in paragraph at lines 64--65
 []\OT1/cmr/m/n/10 If any pack-age state-ments are needed, they should be the fi
 rst non-comment
  []
 
-[25]
+[26]
 LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 100
 .
 LaTeX Font Info:    No file OMScmtt.fd. on input line 100.
@@ -975,7 +976,7 @@ Overfull \hbox (6.91393pt too wide) in paragraph at lines 126--127
  / bonehead . html$[][]\OT1/cmr/m/n/10 ). 
  []
 
-[26]) [27]
+[27]) [28]
 
 ./Code Inspection.tex:46: LaTeX Error: \begin{itemize} on input line 32 ended b
 y \end{document}.
@@ -988,14 +989,20 @@ l.46 \end{document}
                    
 ? 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-[28]
+[29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./Code Inspection.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
-Package rerunfilecheck Info: File `"Code Inspection".out' has not changed.
-(rerunfilecheck)             Checksum: 24EA189189FD04DF2A9E6D407F6813DB;1123.
 
+
+Package rerunfilecheck Warning: File `"Code Inspection".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Code Inspection".out':
+(rerunfilecheck)             Before: 24EA189189FD04DF2A9E6D407F6813DB;1123
+(rerunfilecheck)             After:  DB5359E978B644F478A9AF85B250F539;1184.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1006,13 +1013,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12234 strings out of 493014
- 182219 string characters out of 6133350
+ 12242 strings out of 493014
+ 182375 string characters out of 6133350
  454661 words of memory out of 5000000
  14813 multiletter control sequences out of 15000+600000
  11568 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,72p,1019b,1903s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,72p,1019b,1934s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1025,10 +1032,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "Code Inspection.pdf" (29 pages, 344764 bytes).
+Output written on "Code Inspection.pdf" (30 pages, 346221 bytes).
 PDF statistics:
- 1046 PDF objects out of 1200 (max. 8388607)
- 991 compressed objects within 10 object streams
- 655 named destinations out of 1000 (max. 500000)
+ 1056 PDF objects out of 1200 (max. 8388607)
+ 1000 compressed objects within 10 object streams
+ 661 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

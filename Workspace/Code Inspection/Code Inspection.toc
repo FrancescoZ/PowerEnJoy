@@ -12,8 +12,9 @@
 \contentsline {section}{\numberline {3.8}Initialization and Declarations}{20}{section.3.8}
 \contentsline {section}{\numberline {3.9}Object Comparison}{21}{section.3.9}
 \contentsline {section}{\numberline {3.10}Exceptions}{22}{section.3.10}
-\contentsline {chapter}{\numberline {A}Appendix}{23}{appendix.A}
-\contentsline {section}{\numberline {A.1}Checklist}{23}{section.A.1}
-\contentsline {section}{\numberline {A.2}Tools}{27}{section.A.2}
-\contentsline {section}{\numberline {A.3}Hours of work}{28}{section.A.3}
-\contentsline {section}{\numberline {A.4}Version History}{28}{section.A.4}
+\contentsline {section}{\numberline {3.11}Other Problem}{23}{section.3.11}
+\contentsline {chapter}{\numberline {A}Appendix}{24}{appendix.A}
+\contentsline {section}{\numberline {A.1}Checklist}{24}{section.A.1}
+\contentsline {section}{\numberline {A.2}Tools}{28}{section.A.2}
+\contentsline {section}{\numberline {A.3}Hours of work}{29}{section.A.3}
+\contentsline {section}{\numberline {A.4}Version History}{29}{section.A.4}
