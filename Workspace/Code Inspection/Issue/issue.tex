@@ -1,0 +1,233 @@
+In this section are reported all the coding choices that do not meet the \textbf{Code Inspection Checklist} given.
+
+\section{Naming Conventions}
+\begin{itemize}
+  \itemBold{Checklist[1]}
+    \begin{itemize}
+      \item The method
+        \renderPartialCode{61}{61}
+        has a name that is not really meaningful. In fact, the method
+        do a search for the product and find the ones the user can be interested about.
+        The random contained in the name is misleading and  it refer to the random delete that it is done
+        if the algorithm find more than three elements.
+      \item the variable' name
+        \renderPartialCode{160}{160}
+        contain a grammar error, it should be \textbf{Occurrences}
+      \item The variables' name
+        \renderPartialCode{187}{187}
+        \renderPartialCode{195}{195}
+        \renderPartialCode{208}{208}
+        \renderPartialCode{268}{268}
+        is not really clear and should be more specified with a comment or with a more meaningful name.
+      \item The variables
+        \renderPartialCode{258}{259}
+        are probably swapped and the name result so misleading. In fact, the value of quantities is stocked into
+        the variable \textbf{occs} and vice-versa with the Occurrences.
+      \item The method as the class name
+        \renderPartialCode{288}{288}
+        \renderPartialCode{299}{299}
+        should be renamed respectively in \textbf{productOrderInMap} and \textbf{ProductInMapComparator} because nothing
+        in the code suggest the the ordering method is based on a map but it is instead apply on a map structure.
+    \end{itemize}
+  \itemBold{Checklist[5]}
+    \begin{itemize}
+      \item The variable' name, even if it is not a method, should be written with some separator or upper cases for
+        a more clear writing.
+        \renderPartialCode{72}{72}
+    \end{itemize}
+  \itemBold{Checklist[6]}
+    \begin{itemize}
+      \item The variables' name
+        \renderPartialCode{300}{301}
+        should contain an under-score because it is a class' attribute.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\section{Indentation}
+  \begin{itemize}
+    \itemBold{Checklist[8]}
+      \begin{itemize}
+        \item The series of if are not only without parenthesis but are also not correctly indented
+          \renderPartialCode{66}{66}
+          \renderPartialCode{154}{155}
+          \renderPartialCode{189}{189}
+          \renderPartialCode{192}{192}
+          \renderPartialCode{197}{197}
+          \renderPartialCode{210}{210}
+          \renderPartialCode{289}{290}
+          \renderPartialCode{323}{323}
+      \end{itemize}
+  \end{itemize}
+\section{Braces}
+\begin{itemize}
+  \itemBold{Checklist[10]}
+    \begin{itemize}
+      \item A consistence braces is used, in particular the \textbf{Kernighan and Ritchie} style is used.
+    \end{itemize}
+  \itemBold{Checklist[11]}
+    \begin{itemize}
+      \item The series of if not correctly branched
+        \renderPartialCode{66}{66}
+        \renderPartialCode{154}{155}
+        \renderPartialCode{189}{189}
+        \renderPartialCode{192}{192}
+        \renderPartialCode{197}{197}
+        \renderPartialCode{210}{210}
+        \renderPartialCode{289}{290}
+        \renderPartialCode{323}{323}
+    \end{itemize}
+\end{itemize}
+\section{File Organization}
+\begin{itemize}
+  \itemBold{Checklist[12]}
+    \begin{itemize}
+      \item There are blank line that are not expected or even worthless as:
+        \begin{itemize}
+          \itemBold{@71}
+          \itemBold{@78}
+          \itemBold{@184}
+          \itemBold{@188}
+          \itemBold{@196}
+          \itemBold{@269}
+          \itemBold{@331}
+        \end{itemize}
+        The partial code is not showed but the reader can use the class furnished bellow as reference, one example is
+        reported above.
+        \renderPartialCode{70}{74}
+    \end{itemize}
+    \itemBold{Checklist[13]-Checklist[14]}
+      \begin{itemize}
+        \item A lot of line passed the 80 characters, here are reported only the line that pass the 120 character
+        and that make the reading difficult
+          \begin{itemize}
+            \itemBold{@76}
+            \itemBold{@77}
+            \itemBold{@79}
+            \itemBold{@84}
+            \itemBold{@121}
+            \itemBold{@158}
+            \itemBold{@159}
+            \itemBold{@160}
+            \itemBold{@169}
+            \itemBold{@214}
+            \itemBold{@215}
+            \itemBold{@216}
+            \itemBold{@260}
+            \itemBold{@265}
+            \itemBold{@268}
+            \itemBold{@288}
+          \end{itemize}
+          The partial code is not showed but the reader can use the class furnished bellow as reference, one example is
+          reported above.
+          \renderPartialCode{70}{74}
+      \end{itemize}
+\end{itemize}
+\section{Comments}
+\begin{itemize}
+  \itemBold{Checklist[18]}
+    \begin{itemize}
+      \item The comment
+        \renderPartialCode{56}{68}
+      is supposed to precede documentation or method comment but in fact it does nothing.
+      \item The comment
+        \renderPartialCode{76}{76}
+        is not clear and does not explain anything about the code above.
+      \item The comment
+        \renderPartialCode{174}{174}
+        has to be placed before the start of the while to be more helpful.
+    \end{itemize}
+\end{itemize}
+\section{Java Source File}
+\begin{itemize}
+  \itemBold{Cheklist[23]}
+    \begin{itemize}
+      \item The \textbf{Javadoc} is implemented for the assigned class but it is not really helpful because
+        it contains only the definitio of the method without additional comment to the functionalities of the class itself.
+    \end{itemize}
+\end{itemize}
+\section{Class and Interface Declarations}
+\begin{itemize}
+  \itemBold{Checklist[25a]}
+    \begin{itemize}
+      \item There are not comments about the class or the class' methods.
+    \end{itemize}
+  \itemBold{Checklist[25b]}
+    \begin{itemize}
+      \item The interface' method
+      \renderPartialCode{327}{337}
+      must be written before the class' variables and the class' methods
+    \end{itemize}
+  \itemBold{Checklist[26]}
+    \begin{itemize}
+      \item The methods are not grouped in any class or sub-class.
+    \end{itemize}
+  \itemBold{Checklist[27]}
+    \begin{itemize}
+      \item The first method of the class
+        \renderPartialCode{61}{63}
+        is particularly long. Especially because it could be reduce in different sub-methods in order to make the class
+        easier to debug and maintain.
+    \end{itemize}
+\end{itemize}
+\section{Initialization and Declarations}
+\begin{itemize}
+  \itemBold{Checklist[28]}
+    \begin{itemize}
+      \item The methods
+        \renderPartialCode{288}{288}
+        \renderPartialCode{328}{328}
+        cannot be public as the class is private
+    \end{itemize}
+  \itemBold{Checklist[33]}
+    In this section we speak about declaration, not the initialisation.
+    \begin{itemize}
+      \item The declaration
+        \renderPartialCode{68}{68}
+        has to be moved before the first if.
+      \item The declarations
+        \renderPartialCode{174}{175}
+        have to be moved before the if, according to the checklist.
+      \item The declarations in this code
+        \renderPartialCode{187}{196}
+        have to be move together at the start of the block even if the reading is easier.
+      \item The declarations
+        \renderPartialCode{225}{225}
+        \renderPartialCode{236}{237}
+        \renderPartialCode{249}{249}
+        \renderPartialCode{253}{255}
+        \renderPartialCode{268}{268}
+        \renderPartialCode{292}{292}
+        have to be moved at the start of the method;
+    \end{itemize}
+\end{itemize}
+\section{Object Comparison}
+\begin{itemize}
+  \itemBold{Checklist[40]}
+    \begin{itemize}
+      \item The comparison between element must be done with the method \textbf{equal()}
+        \renderPartialCode{66}{66}
+        \renderPartialCode{127}{127}
+        \renderPartialCode{154}{155}
+        \renderPartialCode{162}{162}
+        \renderPartialCode{189}{189}
+        \renderPartialCode{192}{192}
+        \renderPartialCode{197}{197}
+        \renderPartialCode{289}{290}
+        \renderPartialCode{323}{323}
+        \renderPartialCode{332}{332}
+    \end{itemize}
+\end{itemize}
+\section{Exceptions}
+\begin{itemize}
+  \itemBold{Checklist[52]}
+    \begin{itemize}
+      \item Also the interaction with the object \textbf{Request} should be put into the try catch
+        \renderPartialCode{62}{64}
+        \renderPartialCode{149}{152}
+    \end{itemize}
+  \itemBold{Checklist[53]}
+    \begin{itemize}
+      \item The exception are threaded only generally so it is not possible to evaluate this point without a proprerly
+      documentation.
+    \end{itemize}
+\end{itemize}

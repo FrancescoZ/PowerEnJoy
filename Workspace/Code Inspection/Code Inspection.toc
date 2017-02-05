@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class code}{2}{section.1.1}
+\contentsline {chapter}{\numberline {2}Functional role of Assigned Class}{12}{chapter.2}
+\contentsline {chapter}{\numberline {3}Issues}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Naming Conventions}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Indentation}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Braces}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}File Organization}{16}{section.3.4}
+\contentsline {section}{\numberline {3.5}Comments}{18}{section.3.5}
+\contentsline {section}{\numberline {3.6}Java Source File}{18}{section.3.6}
+\contentsline {section}{\numberline {3.7}Class and Interface Declarations}{19}{section.3.7}
+\contentsline {section}{\numberline {3.8}Initialization and Declarations}{20}{section.3.8}
+\contentsline {section}{\numberline {3.9}Object Comparison}{21}{section.3.9}
+\contentsline {section}{\numberline {3.10}Exceptions}{22}{section.3.10}
+\contentsline {chapter}{\numberline {A}Appendix}{23}{appendix.A}
+\contentsline {section}{\numberline {A.1}Checklist}{23}{section.A.1}
+\contentsline {section}{\numberline {A.2}Tools}{27}{section.A.2}
+\contentsline {section}{\numberline {A.3}Hours of work}{28}{section.A.3}
+\contentsline {section}{\numberline {A.4}Version History}{28}{section.A.4}

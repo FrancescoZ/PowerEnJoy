@@ -4,7 +4,7 @@
 \pageHeader{Code Inspection}
 
 
-\newcommand{\renderPartialCode}[2]{\lstinputlisting[firstnumber=#1,firstline=#1,lastline=#2]{./ProductDisplayWorker.java}}
+\newcommand{\renderPartialCode}[2]{\lstinputlisting[firstnumber=#1,firstline=#1,lastline=#2]{./ProductDisplayWorkerNoIndent.java}}
 \newcommand{\checklist}[1]{\itemBold{Checklist[#1]}}
 
 \configureJava{}
@@ -12,7 +12,7 @@
 
 
 \begin{document}
-\titleToc
+\titleTocNoFig
 
 \chapter{Introduction}
 \input{Introduction/introduction.tex}
@@ -21,8 +21,12 @@
 \input{Functional/functional}
 
 \chapter{Issues}
+\input{Issue/issue.tex}
+
 \appendix
 \chapter{Appendix}
+\section{Checklist}
+\input{Appendix/checklist.tex}
 
 \section{Tools}
 \begin{itemize}

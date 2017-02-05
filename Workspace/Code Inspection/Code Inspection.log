@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  4 FEB 2017 01:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  5 FEB 2017 02:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**ID.tex
-(./ID.tex
+**"Code Inspection.tex"
+(./Code Inspection.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (../Common/Structure/doc_pdf.cls
@@ -481,8 +481,9 @@ less on input line 4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./ID.aux)
-\openout1 = `ID.aux'.
+)
+(./Code Inspection.aux)
+\openout1 = `"Code Inspection.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -498,6 +499,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count159
@@ -546,13 +548,13 @@ LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
 
-(./ID.out) (./ID.out)
+(./Code Inspection.out) (./Code Inspection.out)
 \@outlinefile=\write3
-\openout3 = `ID.out'.
+\openout3 = `"Code Inspection.out"'.
 
 \c@lstlisting=\count166
 
-<../Common/Resources/PoliLogo.png, id=36, 228.35312pt x 229.35687pt>
+<../Common/Resources/PoliLogo.png, id=80, 228.35312pt x 229.35687pt>
 File: ../Common/Resources/PoliLogo.png Graphic file (type png)
 
 <use ../Common/Resources/PoliLogo.png>
@@ -562,22 +564,17 @@ Package pdftex.def Info: ../Common/Resources/PoliLogo.png used on input line 15
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Comm
-on/Resources/PoliLogo.png>] (./ID.toc)
+on/Resources/PoliLogo.png>]
+(./Code Inspection.toc)
 \tf@toc=\write4
-\openout4 = `ID.toc'.
+\openout4 = `"Code Inspection.toc"'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \titleToc
-               [1
-
-] (./ID.lof)
-\tf@lof=\write5
-\openout5 = `ID.lof'.
-
- [2
+l.17 \chapter
+             {Introduction} [1
 
 ]
 Chapter 1.
@@ -602,118 +599,168 @@ rtAwareEvents[]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 24.
 (./ProductDisplayWorker.java
-Overfull \hbox (32.9956pt too wide) in paragraph at lines 3--4
+Overfull \hbox (32.9956pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][]  
  []
 
-[3
+[2
 
 ]
-Overfull \hbox (37.24802pt too wide) in paragraph at lines 20--21
+Overfull \hbox (37.24802pt too wide) in paragraph at lines 18--19
 [][][][][][][][][][][][]  
  []
 
-[4]
-Overfull \hbox (117.2547pt too wide) in paragraph at lines 59--61
+
+Overfull \hbox (117.2547pt too wide) in paragraph at lines 57--59
 [][][][][][][][]  
  []
 
-
-Overfull \hbox (34.09583pt too wide) in paragraph at lines 81--82
+[3]
+Overfull \hbox (59.6099pt too wide) in paragraph at lines 77--79
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (41.65479pt too wide) in paragraph at lines 84--85
+Overfull \hbox (31.26022pt too wide) in paragraph at lines 77--79
+[][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (102.1344pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (26.53528pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (41.65479pt too wide) in paragraph at lines 82--83
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (173.95325pt too wide) in paragraph at lines 85--86
+Overfull \hbox (173.95325pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[5]
-Overfull \hbox (87.95877pt too wide) in paragraph at lines 89--90
+
+Overfull \hbox (44.4896pt too wide) in paragraph at lines 84--85
+[][][][][][][][][][][][][][][][] 
+ []
+
+[4]
+Overfull \hbox (87.95877pt too wide) in paragraph at lines 87--88
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (37.71896pt too wide) in paragraph at lines 91--92
+Overfull \hbox (37.71896pt too wide) in paragraph at lines 89--90
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (74.7294pt too wide) in paragraph at lines 101--102
+Overfull \hbox (74.7294pt too wide) in paragraph at lines 99--100
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (2.91055pt too wide) in paragraph at lines 119--120
+Overfull \hbox (2.91055pt too wide) in paragraph at lines 117--118
 [][][][][][][][] 
+ []
+
+
+Overfull \hbox (1.02042pt too wide) in paragraph at lines 121--122
+[][][][][][][][] 
+ []
+
+[5]
+Overfull \hbox (146.54904pt too wide) in paragraph at lines 158--159
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (193.7985pt too wide) in paragraph at lines 159--160
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (193.7985pt too wide) in paragraph at lines 160--162
+[][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 [6]
-Overfull \hbox (95.52011pt too wide) in paragraph at lines 160--161
-[][][][][][][][][][][][][][][][][][][][][][][][]  
+Overfull \hbox (35.98517pt too wide) in paragraph at lines 169--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (142.76956pt too wide) in paragraph at lines 161--162
-[][][][][][][][][][][][][][][][][][][][][][][][]  
+Overfull \hbox (20.86487pt too wide) in paragraph at lines 187--189
+[][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (142.76956pt too wide) in paragraph at lines 162--164
-[][][][][][][][][][][][][][][][][][][][][][][][]  
+Overfull \hbox (29.21454pt too wide) in paragraph at lines 193--195
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [7]
-Overfull \hbox (20.86487pt too wide) in paragraph at lines 189--190
+Overfull \hbox (20.86487pt too wide) in paragraph at lines 195--197
 [][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (29.21454pt too wide) in paragraph at lines 198--199
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (34.88495pt too wide) in paragraph at lines 214--215
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (82.1344pt too wide) in paragraph at lines 215--216
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (82.1344pt too wide) in paragraph at lines 216--217
+[][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [8]
-Overfull \hbox (29.21454pt too wide) in paragraph at lines 195--197
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (20.86487pt too wide) in paragraph at lines 197--198
-[][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (29.21454pt too wide) in paragraph at lines 200--201
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.09583pt too wide) in paragraph at lines 217--218
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.09583pt too wide) in paragraph at lines 218--219
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-[9]
-Overfull \hbox (2.91055pt too wide) in paragraph at lines 239--240
+Overfull \hbox (2.91055pt too wide) in paragraph at lines 237--238
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (2.91055pt too wide) in paragraph at lines 263--264
+Overfull \hbox (2.91055pt too wide) in paragraph at lines 261--262
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (24.64514pt too wide) in paragraph at lines 264--265
+Overfull \hbox (24.64514pt too wide) in paragraph at lines 262--263
 [][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-[10] [11])) [12]
+
+Overfull \hbox (57.71976pt too wide) in paragraph at lines 265--266
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.64514pt too wide) in paragraph at lines 265--266
+[][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[9]
+Overfull \hbox (31.26022pt too wide) in paragraph at lines 268--270
+[][][][][][][][][][][][][][][][][]  
+ []
+
+[10])) [11]
 Chapter 2.
 (./Functional/functional.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
@@ -725,53 +772,247 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 
 ./Functional/functional.tex:8: Undefined control sequence.
-l.8   apply a sort of \texlf
-                            {Recommened System Algorithm}. This is done by a...
+l.8   apply a sort of \textlf
+                             {Recommened System Algorithm}. This is done by ...
 
 ? 
-) [13
+) [12
 
 ]
 Chapter 3.
-[14
+(./Issue/issue.tex (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java)
+Overfull \hbox (5.49673pt too wide) in paragraph at lines 160--14
+[][][][][][][][][][][][] 
+ []
 
-]
-Appendix A.
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+[13
 
-./ID.tex:42: LaTeX Error: \begin{itemize} on input line 28 ended by \end{docume
-nt}.
+] (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+Overfull \hbox (10.22168pt too wide) in paragraph at lines 268--20
+[][][][][][][][][][][][][][][][][]  
+ []
+
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) [14]
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.45 \end{itemize}
+                  
+? 
+
+./Issue/issue.tex:45: LaTeX Error: \begin{document} ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{document}
+l.45 \end{itemize}
+                  
+? 
+./Issue/issue.tex:45: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.45 \end{itemize}
+                  
+? 
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+[15] (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java
+) (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java [16]) (./ProductDisplayWorkerNoIndent.java
+) [17] (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+[18] (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java
+) [19] (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+[20] (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java
+) (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java)
+Overfull \hbox (13.22171pt too wide) in paragraph at lines 268--198
+[][][][][][][][][][][][][][][][][]  
+ []
+
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) [21] (./ProductDisplayWorkerNoIndent.java
+) (./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java) (./ProductDisplayWorkerNoIndent.java)
+(./ProductDisplayWorkerNoIndent.java)) [22]
+Appendix A.
+(./Appendix/checklist.tex [23
+
+] [24]
+Overfull \hbox (2.16724pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/10 If any pack-age state-ments are needed, they should be the fi
+rst non-comment
+ []
+
+[25]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 100
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 100.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 100.
+
+
+Overfull \hbox (6.91393pt too wide) in paragraph at lines 126--127
+\OT1/cmtt/m/n/10 / / users . csc . calpoly . edu / []jdalbey / SWE / CodeSmells
+ / bonehead . html$[][]\OT1/cmr/m/n/10 ). 
+ []
+
+[26]) [27]
+
+./Code Inspection.tex:46: LaTeX Error: \begin{itemize} on input line 32 ended b
+y \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \end{document}
                    
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-[15
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+ (./Code Inspection.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package rerunfilecheck Info: File `"Code Inspection".out' has not changed.
+(rerunfilecheck)             Checksum: 24EA189189FD04DF2A9E6D407F6813DB;1123.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
- (./ID.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `ID.out' has not changed.
-(rerunfilecheck)             Checksum: A9071817C5FE8EDD5B3217E943938F47;430.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 28 (\begingroup)
+### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11807 strings out of 493014
- 173873 string characters out of 6133350
- 458648 words of memory out of 5000000
- 14792 multiletter control sequences out of 15000+600000
+ 12234 strings out of 493014
+ 182219 string characters out of 6133350
+ 454661 words of memory out of 5000000
+ 14813 multiletter control sequences out of 15000+600000
  11568 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,72p,1004b,1805s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,72p,1019b,1903s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -784,10 +1025,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ID.pdf (16 pages, 300998 bytes).
+Output written on "Code Inspection.pdf" (29 pages, 344764 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 563 compressed objects within 6 object streams
- 370 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 991 compressed objects within 10 object streams
+ 655 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
