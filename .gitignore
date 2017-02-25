@@ -2,6 +2,8 @@
 .toc
 .log
 .lof
+.nav
+.out
+.snm
 .aux
 .gz
-
