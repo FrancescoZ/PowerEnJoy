@@ -50,8 +50,8 @@
 	\begin{frame}{Goals}
 		This new service pretends to achieve various goals, such as:
 		\begin{itemize}
-			\itemBold{G5} Allow user logged in to see the reservation's confirmation and the time of expiration
-			\itemBold{G6} A user who request a rent can abort the process when ever he/she wants
+			\itemBold{G4} Allow user logged in to book a car in a certain location.
+			\itemBold{G6} A user who request a rent can abort the process when ever he/she wants.
 			\itemBold{G9} A non registered users can only register once to the service.
 			\itemBold{G10} A user can get discount or overtaxes from his/her last rent.
 		\end{itemize}
@@ -122,11 +122,7 @@
 	\end{frame}
 	\begin{frame}{Layer}
 		\begin{itemize}
-			\item The \textbf{Controller}, split in two families of components with specialized functionalities:
-				\begin{itemize}
-					\item \textbf{Networking Components Family:} that is in charge of grouping the \textbf{Communication Components} and messages to the various Views, following the logic implements in the Business Components Family.
-					\item \textbf{Business Components Family:} In this family are included all Processing requests and either \textbf{synchronous responses} or \textbf{asynchronous events}.
-				\end{itemize}
+			\item The \textbf{Controller}, in charge of leading the communication between views and process either \textbf{synchronous responses} or \textbf{asynchronous events}.
 			\item The \textbf{Model} that guarantees a high level interface to store and manage all the \PowerEnJoy{} relevant data and an abstraction of \textbf{Relational Database} in a software component that is in direct connection with the \textbf{Controller}
 		\end{itemize}
 	\end{frame}
@@ -217,13 +213,7 @@
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{Integration Testing Strategy}
-		We have considered all the \textbf{Subsystems}. and we had divided into 3 different categories, in particular we divided the system based on the pattern used to code it.\\
-		\medskip
-		\begin{itemize}
-			\itemBold{Model} All the componente presented into the application server.
-			\itemBold{Controller} The only difference from a higher point of view, is that in this case the \textbf{Controller} is tested on the basis of the already tested Model using \textbf{Views} actions.
-			\itemBold{Views} The application is tested above the already tested \textbf{Controller} and \textbf{Model} using \textbf{UI} testing automators or manual testing.
-		\end{itemize}
+		We have considered all the \textbf{Subsystems}. and we had divided into 3 different categories, in particular we divided the system in part based on the drivers' number. Trying to minimize the number of drivers to use in a \textbf{bottom-up} strategy.\\
 	\end{frame}
 	\subsection{Integration Sequence Diagrams}
 	\begin{frame}{Convention adopted - Blocks}
