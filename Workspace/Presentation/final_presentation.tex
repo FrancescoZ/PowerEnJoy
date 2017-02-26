@@ -56,12 +56,12 @@
 			\itemBold{G10} A user can get discount or overtaxes from his/her last rent.
 		\end{itemize}
 	\end{frame}
-	\begin{frame}{Actors - TUsers, Cars and Customer Service}
-		Below are listed the three main actors that will interact with the application once deployed:
+	\begin{frame}{Actors - Users, Cars and Customer Service}
+		Below are listed the four main actors that will interact with the application once deployed:
 		\begin{itemize}
-			\itemBold{Registered User} A person who desires to subscribe to the system to benefit the full functionalities of the application.
+			\itemBold{Registered User} A person who subscribed to the system and can access to all functionalities of the application.
 			\itemBold{Visitors} A person that needs to move from a position	to another one among the city and wants to use \PowerEnJoy{} in order to do so, but has not registered yet to the service.
-			\itemBold{Car} The car reserved / rented from a User that communicates with the system.
+			\itemBold{Car} The car reserved / rented / Parked that communicates with the system.
 			\itemBold{External Customer Service} A team that provide technical support in case of problems related to the car.
 		\end{itemize}
 	\end{frame}
@@ -78,9 +78,9 @@
 	\begin{frame}{UML Diagrams}
 		We provided a variety of UML diagrams, each type having a different purpose.
 		\begin{itemize}
-			\item\textbf{UML Use Case:} Shows the identified \textbf{use cases} in relation with the \textbf{involved actors}.
-			\item\textbf{UML Sequence Diagram:} Indicates, for a given \textbf{use case}, the \textbf{interaction} between the \textbf{actors involved} and the \textbf{system}.
-			\item\textbf{UML Class diagram:} Points out the different \textbf{software entities} involved in the application and the \textbf{relationships} between them.
+			\item\textbf{UML Use Case} %Shows the identified \textbf{use cases} in relation with the \textbf{involved actors}.
+			\item\textbf{UML Sequence Diagram} %Indicates, for a given \textbf{use case}, the \textbf{interaction} between the \textbf{actors involved} and the \textbf{system}.
+			\item\textbf{UML Class diagram} %Points out the different \textbf{software entities} involved in the application and the \textbf{relationships} between them.
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{UML Use Case Diagram}
@@ -89,7 +89,7 @@
 	\end{frame}
 	\begin{frame}{UML Class Diagram}
 		Furthermore we designed a class diagram for an early evaluation of the basic software components that consists in a sort of \textbf{Model} for \PowerEnJoy{}.
-		\showPercentImageNoCaption{../RASD/Resources/UML.png}{0.7}
+		\showPercentImageNoCaption{../RASD/Resources/UML.png}{0.5}
 	\end{frame}
 	\subsection{Alloy}
 	\begin{frame}{Alloy}
@@ -145,8 +145,8 @@
 		Many subsystems have been identified:
 		\begin{itemize}
 			\item Ride Manager,Bill Manager,Zone Manager...
-			\item View
-			\item Controller
+			\item Database ...
+			\item External API ...
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{Component View - UML Component Diagram}
@@ -175,8 +175,15 @@
 	\begin{frame}{Make a Reservation}
 		\showPercentImageNoCaption{../DD/Resources/ReserveSequence.png}{0.6}
 	\end{frame}
-	\begin{frame}{Other design decisions - Internet and Firewalls}
-????????????????????????
+	\begin{frame}{Other design decisions - Car System}
+		We assumed to a Car system that can completly control any important aspect of the car as:
+		\begin{itemize}
+			\itemBold{Open the car}
+			\itemBold{Count the Passenger}
+			\itemBold{Display Message thought a navigator' LCD}
+			\itemBold{Check car' position}
+			\item ....
+		\end{itemize}
 	\end{frame}
 
 	\subsection{User Interface Design}
@@ -228,10 +235,10 @@
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{System Integration Sequence}
-		\showPercentImageNoCaption{../ITPD/Diagrams/SoftwareIntegrationDiagram.png}{0.75}
+		\showPercentImageNoCaption{../ITPD/Diagrams/SubsystemsIntegrationDiagram.png}{0.75}
 	\end{frame}
 	\begin{frame}{Subsytem Integration Sequence}
-		\showPercentImageNoCaption{../ITPD/Diagrams/SubsystemsIntegrationDiagram.png}{0.75}
+		\showPercentImageNoCaption{../ITPD/Diagrams/SoftwareIntegrationDiagram.png}{0.75}
 	\end{frame}
 	\begin{frame}{Program Stubs And Data Required}
 		In conclusion there is the need for some sample data to be in the \textbf{Database} and some sample \textbf{GPS data} are needed.
@@ -254,13 +261,11 @@
 	\begin{frame}{Function Points Approach}
 		This technique consists in combining the following program characteristics to obtain a final result:
 		\begin{itemize}
-			\itemBold{Internal Logic Files} Data used and managed by the application
-			\itemBold{External Logic Files} Data used by the application
-but generated and maintained by other applications.
-			\itemBold{External Input} Elementary operations to elaborate data coming from the
-external environment.
-			\itemBold{External Output} Elementary operations that generate data for the external environment, and they usually include the elaboration of data
-			\itemBold{External Inquiry} Elementary operations that involve input and output, without significant elaboration of data.
+			\item \textbf{Internal Logic Files}% Data used and managed by the application
+			\item \textbf{External Logic Files} %Data used by the application but generated and maintained by other applications.
+			\item \textbf{External Input} %Elementary operations to elaborate data coming from the external environment.
+			\item \textbf{External Output} %Elementary operations that generate data for the external environment, and they usually include the elaboration of data
+			\item \textbf{External Inquiry} %Elementary operations that involve input and output, without significant elaboration of data.
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{Function Points Summary}
@@ -275,10 +280,10 @@ external environment.
 		\end{equation*}
 	\end{frame}
 	\begin{frame}{COCOMO II - Parameters}
-		\showPercentImageNoCaption{../PPD/Resources/Cocomo_1.png}{0.9}
+		\showPercentImageNoCaption{../PPD/Resources/Cocomo_2.png}{0.9}
 	\end{frame}
 	\begin{frame}{COCOMO II - Results}
-		\showPercentImageNoCaption{../PPD/Resources/Cocomo_2.png}{0.75}
+		\showPercentImageNoCaption{../PPD/Resources/Cocomo_1.png}{0.75}
 	\end{frame}
 	\subsection{Tasks Scheduling}
 	\begin{frame}{Tasks}
