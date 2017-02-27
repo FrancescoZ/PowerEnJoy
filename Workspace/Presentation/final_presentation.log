@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  26 FEB 2017 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.22)  27 FEB 2017 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1185,13 +1185,13 @@ Package pdftex.def Info: ../RASD/Resources/UseCaseModel.png used on input line
 (pdftex.def)             Requested size: 203.51895pt x 117.0579pt.
  [15
 
- <../RASD/Resources/UseCaseModel.png>] <../RASD/Resources/UML.png, id=800, 1204
-.5pt x 1463.4675pt>
+ <../RASD/Resources/UseCaseModel.png>] <../RASD/Resources/UML.png, id=800, 1180
+.41pt x 1463.4675pt>
 File: ../RASD/Resources/UML.png Graphic file (type png)
 
 <use ../RASD/Resources/UML.png>
 Package pdftex.def Info: ../RASD/Resources/UML.png used on input line 93.
-(pdftex.def)             Requested size: 145.3713pt x 176.6134pt.
+(pdftex.def)             Requested size: 145.3713pt x 180.20865pt.
  [16
 
  <../RASD/Resources/UML.png>]
@@ -1232,19 +1232,19 @@ File: ../DD/Resources/ComponentDiagram.png Graphic file (type png)
 <use ../DD/Resources/ComponentDiagram.png>
 Package pdftex.def Info: ../DD/Resources/ComponentDiagram.png used on input lin
 e 150.
-(pdftex.def)             Requested size: 261.66658pt x 95.91835pt.
+(pdftex.def)             Requested size: 290.74263pt x 106.57596pt.
  [27
 
  <../DD/Resources/ComponentDiagram.png>] [28
 
 ]
-<../DD/Resources/DeploymentDiagram.png, id=1396, 765.86125pt x 750.805pt>
+<../DD/Resources/DeploymentDiagram.png, id=1396, 763.85374pt x 748.7975pt>
 File: ../DD/Resources/DeploymentDiagram.png Graphic file (type png)
 
 <use ../DD/Resources/DeploymentDiagram.png>
 Package pdftex.def Info: ../DD/Resources/DeploymentDiagram.png used on input li
 ne 158.
-(pdftex.def)             Requested size: 174.44734pt x 171.00888pt.
+(pdftex.def)             Requested size: 174.44734pt x 171.00867pt.
  [29
 
  <../DD/Resources/DeploymentDiagram.png>] [30
@@ -1440,7 +1440,7 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on final_presentation.pdf (60 pages, 1015133 bytes).
+Output written on final_presentation.pdf (60 pages, 1006155 bytes).
 PDF statistics:
  2922 PDF objects out of 2984 (max. 8388607)
  2787 compressed objects within 28 object streams
