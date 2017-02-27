@@ -1,5 +1,18 @@
-Map service è stato fatto per questioni di MODULARITA'.
+.Map service è stato fatto per questioni di MODULARITA'.
 Siccome l'interfaccia con Google è fissa/standardizzata ma potrebbe
 cambiare a seconda delle giornate di Larry Paige, noi creiamo
 questo manager per non dover cambiare il codice in tutti i 
 moduli (in caso di cambiamenti)
+
+
+.Il rent può terminare sia in un park sia in una safearea
+
+.End rent => currPassenger= 0? se si, check se safe area o parking area? se siamo qui chiudi, se si aspetta 5 minuti e guarda 
+se plugged in e parte bill manager
+
+.Parking Area / Safe Area = aree previste da noi! Possono essere o parcheggi normali o costruiti ad hoc ( a noi non interessa)
+						   questo permette scalabilità nel tempo. Abbiamo pensato cosi per permettere più elasticità
+						   per i contratti commerciali derivanti dai Parking/Safe Area (se volessi una partnership col Poli
+						   ed utilizzare le sue aree di ricarica è sufficiente inserire la posizione).
+						   
+.Use case: Car non considerato nel diagramma ma nella descrizione, perchè? Perchè è un "sottosistema"						   
